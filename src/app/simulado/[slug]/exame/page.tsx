@@ -208,7 +208,7 @@ function ExamPage() {
                   </>
                 )}
               </div>
-              <h3 className="text-sm leading-relaxed font-medium"><LatexRenderer text={q.enunciado} /></h3>
+              <h3 className="text-sm leading-relaxed font-medium text-justify"><LatexRenderer text={q.enunciado} /></h3>
             </CardContent>
           </Card>
 
@@ -281,7 +281,7 @@ function ExamPage() {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50" onClick={() => setShowApoio(false)}>
           <div className="bg-card border rounded-card p-6 max-w-lg w-full mx-4 max-h-[85vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between mb-3"><h3 className="font-bold text-sm">Texto de apoio — Questão {idx + 1}</h3><Button variant="ghost" size="sm" onClick={() => setShowApoio(false)}>✕</Button></div>
-            <div className="text-sm text-muted-foreground whitespace-pre-wrap border-l-2 border-muted pl-3 italic leading-relaxed">{q.texto_apoio}</div>
+            <div className="text-sm text-muted-foreground whitespace-pre-wrap border-l-2 border-muted pl-3 italic leading-relaxed text-justify">{q.texto_apoio}</div>
           </div>
         </div>
       )}

@@ -63,11 +63,12 @@ function UsersTab({ onMsg }: { onMsg: (m: string) => void }) {
 
 function ConcursosTab({ onMsg }: { onMsg: (m: string) => void }) {
   const [data, setData] = useState<any[]>([]);
-  const [f, setF] = useState({ nome:"", descricao:"", banca:"", data_prova:"", slug:"", ativo:true, tem_especificas:true });
+  const [f, setF] = useState({ nome:"", descricao:"", banca:"", data_prova:"", slug:"", ativo:true, tem_especificas:true, status:"pronto" });
   const [editId, setEditId] = useState<string|null>(null);
   useEffect(() => { s().from("concursos").select("*").order("created_at",{ascending:false}).then(({data:d}) => { if(d) setData(d); }); }, []);
-  async function save() { if(editId) await s().from("concursos").update(f).eq("id",editId); else await s().from("concursos").insert(f); onMsg(editId?"Atualizado":"Criado"); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true}); setEditId(null); }
-  function edit(c:any) { setEditId(c.id); setF({nome:c.nome,descricao:c.descricao||"",banca:c.banca||"",data_prova:c.data_prova||"",slug:c.slug||"",ativo:c.ativo,tem_especificas:c.tem_especificas!==false}); }
+  async function save() { const payload:any={...f,data_prova:f.data_prova||null,slug:f.slug||null};
+    if(editId) await s().from("concursos").update(payload).eq("id",editId); else await s().from("concursos").insert(payload); onMsg(editId?"Atualizado":"Criado"); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true,status:"pronto"}); setEditId(null); }
+  function edit(c:any) { setEditId(c.id); setF({nome:c.nome,descricao:c.descricao||"",banca:c.banca||"",data_prova:c.data_prova||"",slug:c.slug||"",ativo:c.ativo,tem_especificas:c.tem_especificas!==false,status:c.status||"pronto"}); }
   return (
     <div className="space-y-4">
       <div className="bg-card border rounded-card p-6">
@@ -79,8 +80,9 @@ function ConcursosTab({ onMsg }: { onMsg: (m: string) => void }) {
           <input placeholder="Descricao" value={f.descricao} onChange={e => setF({...f, descricao:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background" />
           <input type="date" value={f.data_prova} onChange={e => setF({...f, data_prova:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background" />
           <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={f.tem_especificas} onChange={e => setF({...f, tem_especificas:e.target.checked})} className="w-4 h-4" /> Possui conhecimentos especificos</label>
+          <select value={f.status} onChange={e => setF({...f, status:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background"><option value="pronto">Pronto</option><option value="manutenção">Em manutenção</option><option value="breve">Em breve</option></select>
         </div>
-        <div className="flex gap-2 mt-3"><Button size="sm" onClick={save} disabled={!f.nome}>Salvar</Button>{editId && <Button size="sm" variant="ghost" onClick={() => { setEditId(null); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true}); }}>Cancelar</Button>}</div>
+        <div className="flex gap-2 mt-3"><Button size="sm" onClick={save} disabled={!f.nome}>Salvar</Button>{editId && <Button size="sm" variant="ghost" onClick={() => { setEditId(null); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true,status:"pronto"}); }}>Cancelar</Button>}</div>
       </div>
       <div className="bg-card border rounded-card overflow-x-auto"><table className="w-full text-sm"><thead className="bg-muted/50 border-b"><tr><th className="text-left p-3">Nome</th><th className="text-left p-3">Slug</th><th className="text-left p-3">Banca</th><th className="text-left p-3">Ativo</th><th className="text-left p-3">Acoes</th></tr></thead>
         <tbody>{data.map((c:any) => (<tr key={c.id} className="border-b hover:bg-muted/30"><td className="p-3 text-xs font-medium">{c.nome}</td><td className="p-3 text-xs font-mono">{c.slug||"-"}</td><td className="p-3 text-xs">{c.banca||"-"}</td><td className="p-3"><span className={`px-2 py-0.5 rounded text-xs ${c.ativo?"bg-emerald-100 text-emerald-700":"bg-muted text-muted-foreground"}`}>{c.ativo?"Sim":"Nao"}</span></td><td className="p-3"><div className="flex gap-1"><Button size="sm" variant="outline" className="h-7 text-xs" onClick={() => edit(c)}>Editar</Button></div></td></tr>))}</tbody></table></div>
@@ -118,25 +120,52 @@ function DisciplinasTab({ onMsg }: { onMsg: (m: string) => void }) {
 function ConteudosTab({ onMsg }: { onMsg: (m: string) => void }) {
   const [disciplinas, setDisciplinas] = useState<any[]>([]);
   const [conteudos, setConteudos] = useState<any[]>([]);
-  const [f, setF] = useState({ disciplina_id:"", nome:"" });
+  const [pais, setPais] = useState<any[]>([]);
+  const [f, setF] = useState({ disciplina_id:"", nome:"", parent_id:"" });
   const [editId, setEditId] = useState<string|null>(null);
   useEffect(() => { s().from("disciplinas").select("id,nome,concursos(nome)").order("nome").then(({data})=>{if(data)setDisciplinas(data);}); loadCont(); }, []);
-  async function loadCont() { const {data}=await s().from("conteudos").select("*, disciplinas(nome,concursos(nome))").order("nome").limit(200); if(data) setConteudos(data); }
-  async function save() { if(editId) await s().from("conteudos").update({nome:f.nome}).eq("id",editId); else await s().from("conteudos").insert(f); onMsg("Salvo"); setF({...f,nome:""}); setEditId(null); loadCont(); }
-  function edit(c:any) { setEditId(c.id); setF({disciplina_id:c.disciplina_id,nome:c.nome}); }
+
+  async function loadCont() {
+    const {data}=await s().from("conteudos").select("*, disciplinas(nome,concursos(nome)), parent:parent_id(nome)").order("ordem").order("nome").limit(300);
+    if(data) setConteudos(data);
+  }
+  async function loadPais(did:string) {
+    const {data}=await s().from("conteudos").select("id,nome").eq("disciplina_id",did).is("parent_id",null).order("nome");
+    if(data) setPais(data);
+  }
+  async function save() {
+    const payload:any={ disciplina_id:f.disciplina_id, nome:f.nome, parent_id: f.parent_id || null };
+    if(editId) await s().from("conteudos").update(payload).eq("id",editId);
+    else await s().from("conteudos").insert(payload);
+    onMsg("Salvo"); setF({disciplina_id:"",nome:"",parent_id:""}); setEditId(null); setPais([]); loadCont();
+  }
+  function edit(c:any) {
+    setEditId(c.id); setF({disciplina_id:c.disciplina_id,nome:c.nome,parent_id:c.parent_id||""});
+    loadPais(c.disciplina_id);
+  }
   async function remove(id:string) { if(!confirm("Remover?"))return; await s().from("conteudos").delete().eq("id",id); onMsg("Removido"); loadCont(); }
+
   return (
     <div className="space-y-4">
       <div className="bg-card border rounded-card p-6">
         <h3 className="font-bold mb-4">{editId?"Editar":"Novo"} Conteudo</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <select value={f.disciplina_id} onChange={e=>setF({...f,disciplina_id:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background" disabled={!!editId}><option value="">Disciplina</option>{disciplinas.map((d:any)=><option key={d.id} value={d.id}>{d.concursos?.nome} &gt; {d.nome}</option>)}</select>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <select value={f.disciplina_id} onChange={e=>{setF({...f,disciplina_id:e.target.value,parent_id:""});loadPais(e.target.value);}} className="border rounded px-3 py-2 text-sm bg-background" disabled={!!editId}>
+            <option value="">Disciplina</option>{disciplinas.map((d:any)=><option key={d.id} value={d.id}>{d.concursos?.nome} &gt; {d.nome}</option>)}
+          </select>
           <input placeholder="Nome *" value={f.nome} onChange={e=>setF({...f,nome:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background" />
+          <select value={f.parent_id} onChange={e=>setF({...f,parent_id:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background">
+            <option value="">Sem pai (raiz)</option>{pais.filter(p=>p.id!==editId).map((p:any)=><option key={p.id} value={p.id}>{p.nome}</option>)}
+          </select>
         </div>
-        <div className="flex gap-2 mt-3"><Button size="sm" onClick={save} disabled={!f.nome}>Salvar</Button>{editId&&<Button size="sm" variant="ghost" onClick={()=>{setEditId(null);setF({...f,nome:""});}}>Cancelar</Button>}</div>
+        <div className="flex gap-2 mt-3"><Button size="sm" onClick={save} disabled={!f.nome}>Salvar</Button>{editId&&<Button size="sm" variant="ghost" onClick={()=>{setEditId(null);setF({...f,nome:"",parent_id:""});setPais([]);}}>Cancelar</Button>}</div>
       </div>
-      <div className="bg-card border rounded-card overflow-x-auto"><table className="w-full text-sm"><thead className="bg-muted/50 border-b"><tr><th className="text-left p-3">Disciplina</th><th className="text-left p-3">Conteudo</th><th className="text-left p-3">Acoes</th></tr></thead>
-        <tbody>{conteudos.map((c:any)=>(<tr key={c.id} className="border-b hover:bg-muted/30"><td className="p-3 text-xs">{c.disciplinas?.nome||"-"}</td><td className="p-3 text-xs">{c.nome}</td><td className="p-3"><div className="flex gap-1"><Button size="sm" variant="outline" className="h-7 text-xs" onClick={()=>edit(c)}>Editar</Button><Button size="sm" variant="destructive" className="h-7 text-xs" onClick={()=>remove(c.id)}>X</Button></div></td></tr>))}</tbody></table></div>
+      <div className="bg-card border rounded-card overflow-x-auto"><table className="w-full text-sm"><thead className="bg-muted/50 border-b"><tr><th className="text-left p-3">Disciplina</th><th className="text-left p-3">Conteudo</th><th className="text-left p-3 w-32">Acoes</th></tr></thead>
+        <tbody>{conteudos.map((c:any)=>(<tr key={c.id} className="border-b hover:bg-muted/30">
+          <td className="p-3 text-xs">{c.disciplinas?.nome||"-"}</td>
+          <td className="p-3 text-xs">{c.parent_id ? <span className="ml-3 text-muted-foreground">└ </span> : null}{c.nome}{c.parent?.nome ? <span className="text-[10px] text-muted-foreground ml-1">(filho de: {c.parent.nome})</span> : null}</td>
+          <td className="p-3"><div className="flex gap-1"><Button size="sm" variant="outline" className="h-7 text-xs" onClick={()=>edit(c)}>Editar</Button><Button size="sm" variant="destructive" className="h-7 text-xs" onClick={()=>remove(c.id)}>X</Button></div></td>
+        </tr>))}</tbody></table></div>
     </div>
   );
 }

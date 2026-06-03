@@ -56,7 +56,7 @@ export default function SimuladoFilterPage() {
       setEspecificas(d.filter((x: any) => x.tipo === "especifica"));
       const ids = d.map((x: any) => x.id);
       if (ids.length) {
-        const { data: cont } = await sup.from("conteudos").select("id, nome, disciplina_id").in("disciplina_id", ids).order("nome");
+        const { data: cont } = await sup.from("conteudos").select("id, nome, disciplina_id, parent_id").in("disciplina_id", ids).order("ordem").order("nome");
         if (cont) {
           const m: Record<string, any[]> = {};
           (cont as any[]).forEach((ct: any) => { if (!m[ct.disciplina_id]) m[ct.disciplina_id] = []; m[ct.disciplina_id].push(ct); });
@@ -78,9 +78,30 @@ export default function SimuladoFilterPage() {
     setLoading(false);
   }
 
-  const toggleExpand = (id: string) => { const y = window.scrollY; const s = new Set(expandedDisc); s.has(id) ? s.delete(id) : s.add(id); setExpandedDisc(s); requestAnimationFrame(() => window.scrollTo(0, y)); };
-  const toggleDisc = (id: string) => { const y = window.scrollY; setSelectedDisc(prev => { const n = prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]; if (!n.includes(id)) { const cids = (conteudos[id] || []).map((c: any) => c.id); setSelectedCont(p => p.filter(x => !cids.includes(x))); } return n; }); requestAnimationFrame(() => window.scrollTo(0, y)); };
-  const toggleCont = (id: string) => { const y = window.scrollY; setSelectedCont(prev => prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]); requestAnimationFrame(() => window.scrollTo(0, y)); };
+  const toggleExpand = (id: string) => { const container = document.getElementById("simulado-scroll"); const y = container?.scrollTop || window.scrollY; const s = new Set(expandedDisc); s.has(id) ? s.delete(id) : s.add(id); setExpandedDisc(s); requestAnimationFrame(() => { if (container) container.scrollTop = y; else window.scrollTo(0, y); }); };
+  const toggleDisc = (id: string) => { const container = document.getElementById("simulado-scroll"); const y = container?.scrollTop || window.scrollY; setSelectedDisc(prev => { const n = prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]; if (!n.includes(id)) { const cids = (conteudos[id] || []).map((c: any) => c.id); setSelectedCont(p => p.filter(x => !cids.includes(x))); } return n; }); requestAnimationFrame(() => { if (container) container.scrollTop = y; else window.scrollTo(0, y); }); };
+  const childrenMap = new Map<string, string[]>();
+  Object.values(conteudos).flat().filter((ct: any) => ct.parent_id).forEach((ct: any) => {
+    if (!childrenMap.has(ct.parent_id)) childrenMap.set(ct.parent_id, []);
+    childrenMap.get(ct.parent_id)!.push(ct.id);
+  });
+
+  const toggleCont = (id: string, isParent?: boolean) => {
+    const container = document.getElementById("simulado-scroll");
+    const y = container?.scrollTop || window.scrollY;
+    setSelectedCont(prev => {
+      const next = prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id];
+      if (isParent) {
+        const kids = childrenMap.get(id) || [];
+        return prev.includes(id) ? next.filter(x => !kids.includes(x)) : [...new Set([...next, ...kids])];
+      }
+      return next;
+    });
+    requestAnimationFrame(() => {
+      if (container) container.scrollTop = y;
+      else window.scrollTo(0, y);
+    });
+  };
   const start = () => {
     const f = new URLSearchParams(); f.set("qtd", String(qtd));
     if (selectedDisc.length) f.set("disc", selectedDisc.join(",")); if (selectedCont.length) f.set("cont", selectedCont.join(","));
@@ -118,8 +139,8 @@ export default function SimuladoFilterPage() {
                     <div className="max-h-52 overflow-y-auto grid gap-2">
                       {dConts.map((ct: any) => (
                         <label key={ct.id} className="flex items-start gap-2.5 cursor-pointer py-1">
-                          <Checkbox checked={selectedCont.includes(ct.id)} onCheckedChange={() => toggleCont(ct.id)} className="mt-0.5" />
-                          <span className="text-xs text-muted-foreground leading-relaxed">{ct.nome} {questCounts[ct.id] !== undefined ? <span className="text-[10px] font-medium ml-1 font-mono">({questCounts[ct.id]})</span> : null}</span>
+                          <Checkbox checked={selectedCont.includes(ct.id)} onCheckedChange={() => toggleCont(ct.id, !!(ct as any).isChild === false && childrenMap.has(ct.id))} className="mt-0.5" />
+                          {(ct as any).isChild ? <span className="text-xs text-muted-foreground leading-relaxed ml-3">└ {ct.nome} {questCounts[ct.id] !== undefined ? <span className="text-[10px] font-medium ml-1 font-mono">({questCounts[ct.id]})</span> : null}</span> : <span className="text-xs text-muted-foreground leading-relaxed">{ct.nome} {questCounts[ct.id] !== undefined ? <span className="text-[10px] font-medium ml-1 font-mono">({questCounts[ct.id]})</span> : null}</span>}
                         </label>
                       ))}
                     </div>
@@ -136,7 +157,7 @@ export default function SimuladoFilterPage() {
 
   return (
     <AppShell>
-      <div className="max-w-2xl mx-auto" style={{ scrollBehavior: "auto" }}>
+      <div id="simulado-scroll" className="max-w-2xl mx-auto" style={{ scrollBehavior: "auto" }}>
         <h1 className="text-xl font-bold mb-6">{nome}</h1>
         <DiscSection title="Conhecimentos Basicos" icon={BookOpen} data={basicas} color="text-blue-500" />
         {temEspecificas && <DiscSection title="Conhecimentos Especificos" icon={GraduationCap} data={especificas} color="text-purple-500" />}
