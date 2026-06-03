@@ -22,6 +22,7 @@ export default function SimuladoFilterPage() {
   const [basicas, setBasicas] = useState<any[]>([]);
   const [especificas, setEspecificas] = useState<any[]>([]);
   const [nome, setNome] = useState("");
+  const [temEspecificas, setTemEspecificas] = useState(true);
   const [selectedDisc, setSelectedDisc] = useState<string[]>([]);
   const [selectedCont, setSelectedCont] = useState<string[]>([]);
   const [conteudos, setConteudos] = useState<Record<string, any[]>>({});
@@ -38,15 +39,16 @@ export default function SimuladoFilterPage() {
   async function load(sup: any, slug: string) {
     let con = null;
     // Try slug first
-    let res = await sup.from("concursos").select("id, nome").eq("slug", slug).maybeSingle();
+    let res = await sup.from("concursos").select("id, nome, tem_especificas").eq("slug", slug).maybeSingle();
     if (!res.data) {
-      res = await sup.from("concursos").select("id, nome").eq("id", slug).maybeSingle();
+      res = await sup.from("concursos").select("id, nome, tem_especificas").eq("id", slug).maybeSingle();
     }
     con = res.data;
     if (!con) { setLoading(false); return; }
 
     setConcursoId(con.id);
     setNome(con.nome);
+    setTemEspecificas(con.tem_especificas !== false);
 
     const { data: d } = await sup.from("disciplinas").select("*").eq("concurso_id", con.id).order("tipo").order("nome");
     if (d) {
@@ -137,7 +139,7 @@ export default function SimuladoFilterPage() {
       <div className="max-w-2xl mx-auto" style={{ scrollBehavior: "auto" }}>
         <h1 className="text-xl font-bold mb-6">{nome}</h1>
         <DiscSection title="Conhecimentos Basicos" icon={BookOpen} data={basicas} color="text-blue-500" />
-        <DiscSection title="Conhecimentos Especificos" icon={GraduationCap} data={especificas} color="text-purple-500" />
+        {temEspecificas && <DiscSection title="Conhecimentos Especificos" icon={GraduationCap} data={especificas} color="text-purple-500" />}
 
         <Card className="sticky bottom-4">
           <CardContent className="p-4">
