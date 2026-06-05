@@ -63,12 +63,12 @@ function UsersTab({ onMsg }: { onMsg: (m: string) => void }) {
 
 function ConcursosTab({ onMsg }: { onMsg: (m: string) => void }) {
   const [data, setData] = useState<any[]>([]);
-  const [f, setF] = useState({ nome:"", descricao:"", banca:"", data_prova:"", slug:"", ativo:true, tem_especificas:true, status:"pronto" });
+  const [f, setF] = useState({ nome:"", descricao:"", banca:"", data_prova:"", slug:"", ativo:true, tem_especificas:true, status:"pronto", pontuacao_tipo:"tradicional" });
   const [editId, setEditId] = useState<string|null>(null);
   useEffect(() => { s().from("concursos").select("*").order("created_at",{ascending:false}).then(({data:d}) => { if(d) setData(d); }); }, []);
   async function save() { const payload:any={...f,data_prova:f.data_prova||null,slug:f.slug||null};
-    if(editId) await s().from("concursos").update(payload).eq("id",editId); else await s().from("concursos").insert(payload); onMsg(editId?"Atualizado":"Criado"); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true,status:"pronto"}); setEditId(null); }
-  function edit(c:any) { setEditId(c.id); setF({nome:c.nome,descricao:c.descricao||"",banca:c.banca||"",data_prova:c.data_prova||"",slug:c.slug||"",ativo:c.ativo,tem_especificas:c.tem_especificas!==false,status:c.status||"pronto"}); }
+    if(editId) await s().from("concursos").update(payload).eq("id",editId); else await s().from("concursos").insert(payload); onMsg(editId?"Atualizado":"Criado"); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true,status:"pronto",pontuacao_tipo:"tradicional"}); setEditId(null); }
+  function edit(c:any) { setEditId(c.id); setF({nome:c.nome,descricao:c.descricao||"",banca:c.banca||"",data_prova:c.data_prova||"",slug:c.slug||"",ativo:c.ativo,tem_especificas:c.tem_especificas!==false,status:c.status||"pronto",pontuacao_tipo:c.pontuacao_tipo||"tradicional"}); }
   return (
     <div className="space-y-4">
       <div className="bg-card border rounded-card p-6">
@@ -81,8 +81,9 @@ function ConcursosTab({ onMsg }: { onMsg: (m: string) => void }) {
           <input type="date" value={f.data_prova} onChange={e => setF({...f, data_prova:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background" />
           <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={f.tem_especificas} onChange={e => setF({...f, tem_especificas:e.target.checked})} className="w-4 h-4" /> Possui conhecimentos especificos</label>
           <select value={f.status} onChange={e => setF({...f, status:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background"><option value="pronto">Pronto</option><option value="manutenção">Em manutenção</option><option value="breve">Em breve</option></select>
+          <select value={f.pontuacao_tipo} onChange={e => setF({...f, pontuacao_tipo:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background"><option value="tradicional">Pontuação: Tradicional</option><option value="cebraspe">Pontuação: Cebraspe</option></select>
         </div>
-        <div className="flex gap-2 mt-3"><Button size="sm" onClick={save} disabled={!f.nome}>Salvar</Button>{editId && <Button size="sm" variant="ghost" onClick={() => { setEditId(null); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true,status:"pronto"}); }}>Cancelar</Button>}</div>
+        <div className="flex gap-2 mt-3"><Button size="sm" onClick={save} disabled={!f.nome}>Salvar</Button>{editId && <Button size="sm" variant="ghost" onClick={() => { setEditId(null); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true,status:"pronto",pontuacao_tipo:"tradicional"}); }}>Cancelar</Button>}</div>
       </div>
       <div className="bg-card border rounded-card overflow-x-auto"><table className="w-full text-sm"><thead className="bg-muted/50 border-b"><tr><th className="text-left p-3">Nome</th><th className="text-left p-3">Slug</th><th className="text-left p-3">Banca</th><th className="text-left p-3">Ativo</th><th className="text-left p-3">Acoes</th></tr></thead>
         <tbody>{data.map((c:any) => (<tr key={c.id} className="border-b hover:bg-muted/30"><td className="p-3 text-xs font-medium">{c.nome}</td><td className="p-3 text-xs font-mono">{c.slug||"-"}</td><td className="p-3 text-xs">{c.banca||"-"}</td><td className="p-3"><span className={`px-2 py-0.5 rounded text-xs ${c.ativo?"bg-emerald-100 text-emerald-700":"bg-muted text-muted-foreground"}`}>{c.ativo?"Sim":"Nao"}</span></td><td className="p-3"><div className="flex gap-1"><Button size="sm" variant="outline" className="h-7 text-xs" onClick={() => edit(c)}>Editar</Button></div></td></tr>))}</tbody></table></div>

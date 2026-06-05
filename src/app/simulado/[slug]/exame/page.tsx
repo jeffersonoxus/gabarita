@@ -43,6 +43,7 @@ function ExamPage() {
   const [showApoio, setShowApoio] = useState(false);
   const [showImagem, setShowImagem] = useState(false);
   const [concursoNome, setConcursoNome] = useState("");
+  const [pontuacaoTipo, setPontuacaoTipo] = useState("tradicional");
   const [discMap, setDiscMap] = useState<Record<string,string>>({});
   const [contMap, setContMap] = useState<Record<string,string>>({});
   const [comentarios, setComentarios] = useState<any[]>([]);
@@ -58,24 +59,54 @@ function ExamPage() {
 
   useEffect(() => {
     const sup = createBrowserClient(surl, skey);
-    sup.auth.getUser().then(({ data }) => { if (data.user) { setUserId(data.user.id); sup.from("profiles").select("nome, avatar_url, role").eq("id", data.user.id).maybeSingle().then(({ data: p }) => { if (p) setUserProfile(p); }); } });
-    sup.from("concursos").select("id, nome").eq("slug", slugParam).maybeSingle().then(async ({ data: con }) => { if (!con) { const res = await sup.from("concursos").select("id, nome").eq("id", slugParam).maybeSingle(); con = res.data; }
-      if (!con) return setLoading(false);
+    (async () => {
+      const { data: { user } } = await sup.auth.getUser();
+      if (user) { setUserId(user.id); const { data: p } = await sup.from("profiles").select("nome, avatar_url, role").eq("id", user.id).maybeSingle(); if (p) setUserProfile(p); }
+
+      let con = (await sup.from("concursos").select("id, nome, pontuacao_tipo").eq("slug", slugParam).maybeSingle()).data;
+      if (!con) con = (await sup.from("concursos").select("id, nome, pontuacao_tipo").eq("id", slugParam).maybeSingle()).data;
+      if (!con) { setLoading(false); return; }
       const concursoId = con.id;
-      setCid(concursoId);
-      setConcursoNome(con.nome);
+      setCid(concursoId); setConcursoNome(con.nome); setPontuacaoTipo(con.pontuacao_tipo || "tradicional");
+
       let q = sup.from("questoes").select("id, concurso_id, disciplina_id, conteudo_id, enunciado, alternativa_a, alternativa_b, alternativa_c, alternativa_d, alternativa_e, gabarito, tipo, texto_apoio, imagem_url, created_at").eq("concurso_id", concursoId);
-    if (disc?.length) q = q.in("disciplina_id", disc.split(","));
-    if (cont?.length) q = q.in("conteudo_id", cont.split(","));
-    q.limit(qtd).then(({ data }: any) => { if (data) { const sh = [...data].sort(() => Math.random() - 0.5); setQs(sh); setAns(sh.map((q: Questao) => ({ questao_id: q.id, resposta: "" }))); setTimer(qtd * 180);
-                // Fetch discipline and conteudo names
-                if(sh.length) {
-                  const discIds=[...new Set(sh.map((q:any)=>q.disciplina_id).filter(Boolean))];
-                  const contIds=[...new Set(sh.map((q:any)=>q.conteudo_id).filter(Boolean))];
-                  if(discIds.length) sup.from("disciplinas").select("id,nome").in("id",discIds).then(({data})=>{if(data){const m:Record<string,string>={};data.forEach((d:any)=>{m[d.id]=d.nome});setDiscMap(m);}});
-                  if(contIds.length) sup.from("conteudos").select("id,nome").in("id",contIds).then(({data})=>{if(data){const m:Record<string,string>={};data.forEach((d:any)=>{m[d.id]=d.nome});setContMap(m);}});
-                }
-              } setLoading(false); }); });
+      if (disc?.length) q = q.in("disciplina_id", disc.split(","));
+      if (cont?.length) q = q.in("conteudo_id", cont.split(","));
+      const { data, error } = await q;
+      if (error || !data || data.length === 0) { setQs([]); setLoading(false); return; }
+
+      // Group by content, shuffle, round-robin
+      const groups = new Map<string, any[]>();
+      data.forEach((q: any) => {
+        const key = q.conteudo_id || q.disciplina_id || "geral";
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key)!.push(q);
+      });
+      for (const g of groups.values()) {
+        for (let i = g.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [g[i], g[j]] = [g[j], g[i]]; }
+      }
+      const keys = Array.from(groups.keys());
+      const selected: any[] = []; let round = 0;
+      while (selected.length < qtd) {
+        let added = false;
+        for (const key of keys) {
+          if (selected.length >= qtd) break;
+          const g = groups.get(key)!;
+          if (round < g.length) { selected.push(g[round]); added = true; }
+        }
+        if (!added) break; round++;
+      }
+      const sh = selected.length > 0 ? [...selected].sort(() => Math.random() - 0.5) : [...data].sort(() => Math.random() - 0.5).slice(0, qtd);
+      setQs(sh); setAns(sh.map((q: Questao) => ({ questao_id: q.id, resposta: "" }))); setTimer(sh.length * 180);
+
+      if (sh.length) {
+        const discIds = [...new Set(sh.map((q: any) => q.disciplina_id).filter(Boolean))];
+        const contIds = [...new Set(sh.map((q: any) => q.conteudo_id).filter(Boolean))];
+        if (discIds.length) { const { data: dd } = await sup.from("disciplinas").select("id,nome").in("id", discIds); if (dd) { const m: Record<string, string> = {}; dd.forEach((d: any) => { m[d.id] = d.nome; }); setDiscMap(m); } }
+        if (contIds.length) { const { data: cc } = await sup.from("conteudos").select("id,nome").in("id", contIds); if (cc) { const m: Record<string, string> = {}; cc.forEach((d: any) => { m[d.id] = d.nome; }); setContMap(m); } }
+      }
+      setLoading(false);
+    })();
   }, [cid, qtd, disc, cont]);
 
   useEffect(() => { if (loading || done) return; tr.current = setInterval(() => setTimer((t: number) => t <= 1 ? (clearInterval(tr.current), finalizar(), 0) : t - 1), 1000); return () => clearInterval(tr.current); }, [loading, done]);
@@ -182,7 +213,7 @@ function ExamPage() {
 
       <main className="flex-1 flex flex-col max-w-2xl mx-auto w-full p-3 overflow-hidden">
         {/* Scrollable body */}
-        <div className="flex-1 overflow-y-auto">
+        <div className="flex-1 overflow-y-auto overscroll-contain">
           <Card>
             <CardContent className="p-5">
               <div className="flex items-center justify-between mb-3">
@@ -208,7 +239,7 @@ function ExamPage() {
                   </>
                 )}
               </div>
-              <h3 className="text-sm leading-relaxed font-medium text-justify"><LatexRenderer text={q.enunciado} /></h3>
+              <h3 className="text-base leading-relaxed font-medium text-justify"><LatexRenderer text={q.enunciado} /></h3>
             </CardContent>
           </Card>
 
@@ -222,7 +253,7 @@ function ExamPage() {
             {showComments && (
               <div className="mt-3 space-y-2 pb-2">
                 {comentarios.map((c: any) => (
-                  <div key={c.id} className="bg-muted/50 rounded-lg p-2.5 text-xs">
+                  <div key={c.id} className="bg-muted/50 rounded-lg p-2.5 text-sm">
                     <div className="flex items-center gap-2 mb-1">
                       <span className="font-medium flex items-center gap-1.5">
                         {c.user_avatar || userAvatars[c.user_id] || (c.user_id === userId && userProfile?.avatar_url) ? (
@@ -243,7 +274,7 @@ function ExamPage() {
                         )}
                       </div>
                     </div>
-                    <p className="text-muted-foreground">{c.texto}</p>
+                    <p className="text-muted-foreground text-sm">{c.texto}</p>
                   </div>
                 ))}
                 {userId && <div className="flex gap-2"><input value={novoTexto} onChange={e => setNovoTexto(e.target.value)} onKeyDown={e => e.key==="Enter"&&sendComment()} placeholder="Comentar..." className="flex-1 text-xs border rounded-lg px-3 py-2 bg-background focus:outline-none focus:ring-2 focus:ring-ring" /><Button size="sm" onClick={sendComment}>Enviar</Button></div>}
@@ -253,7 +284,7 @@ function ExamPage() {
         </div>
 
         {/* Sticky bottom: alternatives + nav */}
-        <div className="py-2 px-2 border-t bg-background space-y-2">
+        <div className="py-2 px-2 border-t bg-background space-y-2 pb-safe">
           <div className="flex gap-2">
             {["A","B"].map(alt => {
               const sel = r?.resposta === alt;
@@ -261,7 +292,7 @@ function ExamPage() {
               if (!txt) return null;
               return (
                 <button key={alt} onClick={() => respond(q.id, alt)}
-                  className={`flex-1 text-center p-3 rounded-lg border text-sm font-medium transition-all active:scale-[0.98] ${
+                  className={`flex-1 text-center p-3 rounded-lg border text-base font-medium transition-all active:scale-[0.98] ${
                     sel?"bg-primary text-primary-foreground border-primary":"hover:bg-muted border-border bg-card"}`}>
                   {alt === "A" ? "✓ Certo" : "✗ Errado"}
                 </button>
@@ -269,9 +300,9 @@ function ExamPage() {
             })}
           </div>
           <div className="flex justify-between pt-2">
-            <Button variant="outline" size="sm" onClick={() => setIdx(i => Math.max(0, i-1))} disabled={idx===0}><ChevronLeft className="w-4 h-4 mr-1" />Anterior</Button>
+            <Button variant="outline" size="sm" onClick={() => setIdx(i => Math.max(0, i-1))} disabled={idx===0}><ChevronLeft className="w-4 h-4 mr-1" /><span className="text-sm">Anterior</span></Button>
             <Button size="sm" onClick={() => idx===qs.length-1 ? (confirm("Finalizar?")?finalizar():null) : setIdx(i => i+1)}>
-              {idx===qs.length-1 ? <><Flag className="w-4 h-4 mr-1" />Finalizar</> : <>Próxima<ChevronRight className="w-4 h-4 ml-1" /></>}
+              {idx===qs.length-1 ? <><Flag className="w-4 h-4 mr-1" /><span className="text-sm">Finalizar</span></> : <><span className="text-sm">Próxima</span><ChevronRight className="w-4 h-4 ml-1" /></>}
             </Button>
           </div>
         </div>
@@ -281,7 +312,7 @@ function ExamPage() {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50" onClick={() => setShowApoio(false)}>
           <div className="bg-card border rounded-card p-6 max-w-lg w-full mx-4 max-h-[85vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between mb-3"><h3 className="font-bold text-sm">Texto de apoio — Questão {idx + 1}</h3><Button variant="ghost" size="sm" onClick={() => setShowApoio(false)}>✕</Button></div>
-            <div className="text-sm text-muted-foreground whitespace-pre-wrap border-l-2 border-muted pl-3 italic leading-relaxed text-justify">{q.texto_apoio}</div>
+            <div className="text-base text-muted-foreground whitespace-pre-wrap border-l-2 border-muted pl-3 italic leading-relaxed text-justify">{q.texto_apoio}</div>
           </div>
         </div>
       )}

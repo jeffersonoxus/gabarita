@@ -39,7 +39,7 @@ export default function QuestoesTab({ onMsg }: { onMsg: (m: string) => void }) {
 
   async function loadDisciplinas(cid:string){ const {data}=await s().from("disciplinas").select("id,nome,tipo").eq("concurso_id",cid).order("nome"); if(data)setDisciplinas(data); }
   async function loadConteudos(did:string){ const {data}=await s().from("conteudos").select("id,nome").eq("disciplina_id",did).order("nome"); if(data)setConteudos(data); }
-  async function loadQuestoes() { let q=s().from("questoes").select("*,disciplinas(nome)").order("created_at",{ascending:false}).limit(100); if(filterConcurso)q=q.eq("concurso_id",filterConcurso); if(filterDisciplina)q=q.eq("disciplina_id",filterDisciplina); if(search)q=q.ilike("enunciado",`%${search}%`); const {data}=await q; if(data)setQuestoes(data); }
+  async function loadQuestoes() { let q=s().from("questoes").select("*,disciplinas(nome),conteudos(nome)").order("created_at",{ascending:false}).limit(50); if(filterConcurso)q=q.eq("concurso_id",filterConcurso); if(filterDisciplina)q=q.eq("disciplina_id",filterDisciplina); if(search)q=q.ilike("enunciado",`%${search}%`); const {data}=await q; if(data)setQuestoes(data); }
 
   useEffect(() => { if(form.disciplina_id)loadConteudos(form.disciplina_id); }, [form.disciplina_id]);
   useEffect(() => { if(bulkDisc)loadConteudos(bulkDisc); }, [bulkDisc]);
@@ -146,8 +146,8 @@ export default function QuestoesTab({ onMsg }: { onMsg: (m: string) => void }) {
                     {form.imagem_url && <button onClick={() => setPrevImg(!prevImg)} className={`text-[7px] border rounded px-1 py-0.5 ${prevImg ? "bg-gray-800 text-white" : "border-gray-300 dark:border-gray-600 text-gray-500"}`}>👁 Imagem</button>}
                   </div>
                 </div>
-                <div className="text-[10px] leading-relaxed mb-2 text-justify"><LatexRenderer text={form.enunciado||"(enunciado)"}/></div>
                 {prevTexto && form.texto_apoio && <div className="text-[8px] text-gray-500 border-l-2 border-gray-300 pl-2 italic mb-2 leading-relaxed text-justify">{form.texto_apoio}</div>}
+                <div className="text-[10px] leading-relaxed mb-2 text-justify"><LatexRenderer text={form.enunciado||"(enunciado)"}/></div>
                 {prevImg && form.imagem_url && <img src={form.imagem_url} className="w-full rounded mb-2" alt="" />}
               </div>
               <div className="p-1.5 border-t border-gray-200 dark:border-gray-700 space-y-1 bg-gray-50 dark:bg-gray-900">
@@ -181,8 +181,8 @@ export default function QuestoesTab({ onMsg }: { onMsg: (m: string) => void }) {
 
       {/* List */}
       <Card><CardContent className="p-0 overflow-x-auto">
-        <table className="w-full text-sm"><thead className="border-b bg-muted/50"><tr><th className="text-left p-3 w-12">#</th><th className="text-left p-3">Enunciado</th><th className="text-left p-3 hidden sm:table-cell">Disciplina</th><th className="text-left p-3">Gab</th><th className="text-left p-3 w-24">Acoes</th></tr></thead>
-          <tbody>{questoes.map((q:any,i:number)=>(<tr key={q.id} className="border-b hover:bg-muted/30"><td className="p-3 text-xs text-muted-foreground">{i+1}</td><td className="p-3 text-xs max-w-xs truncate">{q.enunciado?.substring(0,80)}{q.enunciado?.length>80?"...":""}</td><td className="p-3 text-xs hidden sm:table-cell">{q.disciplinas?.nome||"-"}</td><td className="p-3 text-xs font-bold">{q.gabarito}</td><td className="p-3"><div className="flex gap-1"><Button size="sm" variant="outline" className="h-7 text-xs" onClick={()=>edit(q)}>Editar</Button><Button size="sm" variant="destructive" className="h-7 text-xs" onClick={()=>remove(q.id)}>X</Button></div></td></tr>))}</tbody></table>
+        <table className="w-full text-sm"><thead className="border-b bg-muted/50"><tr><th className="text-left p-3 w-12">#</th><th className="text-left p-3">Enunciado</th><th className="text-left p-3 hidden sm:table-cell">Disciplina</th><th className="text-left p-3 hidden md:table-cell">Conteudo</th><th className="text-left p-3">Gab</th><th className="text-left p-3 w-24">Acoes</th></tr></thead>
+          <tbody>{questoes.map((q:any,i:number)=>(<tr key={q.id} className="border-b hover:bg-muted/30"><td className="p-3 text-xs text-muted-foreground">{i+1}</td><td className="p-3 text-xs max-w-xs truncate">{q.enunciado?.substring(0,80)}{q.enunciado?.length>80?"...":""}</td><td className="p-3 text-xs hidden sm:table-cell">{q.disciplinas?.nome||"-"}</td><td className="p-3 text-xs hidden md:table-cell max-w-[120px] truncate">{q.conteudos?.nome||"-"}</td><td className="p-3 text-xs font-bold">{q.gabarito}</td><td className="p-3"><div className="flex gap-1"><Button size="sm" variant="outline" className="h-7 text-xs" onClick={()=>edit(q)}>Editar</Button><Button size="sm" variant="destructive" className="h-7 text-xs" onClick={()=>remove(q.id)}>X</Button></div></td></tr>))}</tbody></table>
       </CardContent></Card>
     </div>
   );
