@@ -1,0 +1,1217 @@
+891CG1_01N165698
+
+•
+•
+•
+
+CEBRASPE – PMC – Edital: 2023
+
+Nas questões a seguir, marque, para cada uma, a única opção correta, de acordo com o respectivo comando. Para as devidas
+marcações, use a Folha de Respostas, único documento válido para a correção das suas respostas.
+Nas questões que avaliarem conhecimentos de informática e(ou) tecnologia da informação, a menos que seja explicitamente
+informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de
+proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.
+Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de provas
+poderão ser utilizados para rascunho.
+
+-- PROVAS OBJETIVAS --- CONHECIMENTOS GERAIS -Texto CG3A1
+
+Questão 4
+
+Além de ser fonte de prazer, a ficção permite ao leitor
+aprender com a experiência ficcional. A simulação é usada, por
+exemplo, para se aprender a pilotar um avião, pois é útil passar
+um tempo em um simulador de voo. Apesar de ser essencial a
+prática em um avião real, na maior parte do tempo, não acontece
+muita coisa no ar. Já no ambiente seguro de um simulador, é
+possível enfrentar as mais diversas experiências e ensaiar como
+responder a situações críticas — e as habilidades aprendidas são
+transferidas ao pilotar um avião. Da mesma forma, quando nos
+envolvemos nas tramas da ficção, o que aprendemos é transferido
+para nossas interações cotidianas.
+Ao compartilhar indiretamente os acontecimentos da
+história e fazer inferências sobre o desenvolvimento da trama, o
+leitor expande sua empatia. Ou seja, alinha seus pensamentos e
+suas emoções com os das personagens. Imagens de ressonância
+magnética mostraram que, quando as pessoas leem a descrição
+de ações, como “subindo as escadas”, a leitura leva à simulação
+do conteúdo motor e emocional no cérebro, acompanhada por
+mudanças nas regiões cerebrais que provocam as ações, como se
+o leitor as estivesse realizando.
+Internet: <brasil.elpais.com> (com adaptações).
+
+Questão 1
+
+Entende-se do primeiro parágrafo do texto CG3A1 que tanto a
+ficção quanto a simulação
+A são apenas fontes de prazer.
+B possibilitam aprendizados aplicáveis na realidade.
+C garantem experiências seguras na realidade.
+D proporcionam experiências concretas.
+E dependem do interesse do indivíduo.
+
+Questão 2
+
+No segundo parágrafo do texto CG3A1, o vocábulo “as”, em
+“como se o leitor as estivesse realizando”, retoma
+A “Imagens de ressonância magnética”.
+B “simulação do conteúdo motor e emocional no cérebro”.
+C “subindo as escadas”.
+D “mudanças nas regiões cerebrais”.
+E “as ações”.
+
+Questão 5
+
+Cada uma das opções a seguir apresenta um trecho do texto
+CG3A1 seguido de uma proposta de reescrita que sugere o
+emprego do sinal indicativo de crase. Assinale a opção em que a
+reescrita apresentada é gramaticalmente correta e preserva a
+coerência das ideias do texto original.
+A “e as habilidades aprendidas” (penúltimo período do primeiro
+parágrafo): e às habilidades aprendidas
+B “responder a situações críticas” (penúltimo período do
+primeiro parágrafo): responder às situações críticas
+C “ser essencial a prática” (terceiro período do primeiro
+parágrafo): ser essencial à prática
+D “aprender a pilotar” (segundo período do primeiro parágrafo):
+aprender à pilotar
+
+De acordo com o texto CG3A1, para se aprender a pilotar um
+avião, a prática real é
+
+E “provocam as ações” (último período do texto): provocam às
+
+A dispensável.
+B suficiente.
+C necessária.
+D incomum.
+E imprevisível.
+
+Sem alteração das relações coesivas do último período do texto
+
+Questão 3
+
+descrição de ações, como ‘subindo as escadas’”, poderia ser
+
+De acordo com as relações de sentido estabelecidas no texto
+CG3A1, a oração “o leitor expande sua empatia” (primeiro
+período do segundo parágrafo) significa que o leitor
+A compartilha indiretamente os acontecimentos da história.
+B transfere para o seu cotidiano o que aprendeu com a ficção.
+C antevê o desenvolvimento da trama.
+D alinha seus pensamentos e suas emoções com os das
+personagens.
+E é cativado pela trama.
+
+ações
+
+Questão 6
+
+CG3A1, o vocábulo “como”, em “quando as pessoas leem a
+corretamente substituído pela expressão
+A por exemplo, seguida de vírgula.
+B assim, seguida de vírgula.
+C quando, seguida de vírgula.
+D conforme, seguida de vírgula.
+E tanto quanto, seguida de vírgula.
+
+891CG1_01N165698
+
+Questão 7
+
+Cada um dos próximos itens apresenta um trecho do primeiro
+parágrafo do texto CG3A1 seguido de uma proposta de reescrita.
+I
+
+“Apesar de ser essencial a prática em um avião real, na maior
+parte do tempo, não acontece muita coisa no ar”: Embora
+seja imprescindível praticar a pilotagem em um avião
+real, pouca coisa acontece no ar na maior parte do tempo.
+II “Já no ambiente seguro de um simulador, é possível enfrentar
+as mais diversas experiências”: Mas no ambiente seguro de
+um simulador, podemos enfrentarmos as experiências
+mais diversas.
+III “Além de ser uma fonte de prazer, a ficção permite ao leitor
+aprender com a experiência ficcional”: A ficção não somente
+é uma fonte de prazer, como também possibilita que o
+leitor aprenda com a experiência ficcional.
+A correção gramatical e a coerência das ideias do texto original
+estão preservadas na(s) proposta(s) de reescrita apresentada(s)
+A no item II, apenas.
+B no item III, apenas.
+C nos itens I e II, apenas.
+D nos itens I e III, apenas.
+E em todos os itens.
+
+Questão 8
+
+No que se refere à regência verbal, seriam preservados a correção
+gramatical e os sentidos do texto CG3A1 caso fosse substituída a
+forma verbal
+A “permite” (primeiro período do primeiro parágrafo) por
+deixa.
+B “leva” (último período do último parágrafo) por ocasiona.
+C “responder” (penúltimo período do primeiro parágrafo) por
+confrontar.
+D “expande” (primeiro período do último parágrafo) por
+amplia.
+E “alinha” (segundo período do último parágrafo) por equivale.
+
+Questão 9
+
+A respeito de tecnologias, ferramentas, aplicativos e
+procedimentos associados à Internet e à intranet, assinale a opção
+correta.
+A A intranet é uma rede global de computadores
+interconectados que permite a troca de informações e o
+compartilhamento de recursos entre usuários.
+B Browser é um aplicativo que permite aos usuários acessar e
+interagir com informações, conteúdo e serviços disponíveis
+na Internet.
+C O endereço destinatario@www.prefeitura.com é um
+endereço válido de e-mail cujo usuário é destinatario.
+D As ferramentas de busca permitem encontrar conteúdo na
+Internet, mas não permitem encontrar pessoas ou perfis em
+redes sociais.
+E Aplicativos comerciais de navegação são plataformas virtuais
+em que usuários com interesses semelhantes podem interagir,
+compartilhar informações, trocar opiniões e debater tópicos
+específicos.
+
+Questão 10
+
+No ambiente Windows, para evitar a perda de informações em
+casos de falhas de hardware, erros do sistema e exclusões
+acidentais, recomenda-se a criação de cópias de segurança de
+arquivos e dados. Tal procedimento consiste em
+A renomear arquivo.
+B realizar becape de arquivo.
+C criar atalho de arquivo.
+D reiniciar o sistema operacional.
+E compactar arquivo.
+
+CEBRASPE – PMC – Edital: 2023
+
+Questão 11
+
+O hardware que desempenha um papel central na interconexão
+de todos os componentes e dispositivos de um sistema
+computacional é
+A o modem.
+B a memória.
+C o processador.
+D a placa-mãe.
+E o disco rígido (HD).
+
+Questão 12
+
+Planilha eletrônica é um software que oferece recursos para criar,
+manipular e analisar dados em forma de tabelas e gráficos. Uma
+planilha eletrônica de código aberto e gratuito é o
+A LibreOffice Calc.
+B Microsoft Word.
+C LibreOffice Writer.
+D LibreOffice Plan.
+E Microsoft Excel.
+
+Questão 13
+
+No município de Camaçari, estão vagos os cargos
+públicos A, B, C, D e E, descritos a seguir.
+A – professor universitário municipal
+B – cargo técnico em secretaria municipal
+C – cargo científico em autarquia municipal
+D – cargo técnico em fundação pública municipal
+E – cargo científico em empresa pública municipal
+Nessa situação hipotética, havendo compatibilidade de horários,
+nos termos da Constituição Federal de 1988, observado o teto
+remuneratório previsto constitucionalmente, poderão ser
+cumulados os cargos
+A A e B.
+B C e E.
+C B e C.
+D C e D.
+E B e D.
+
+Questão 14
+
+De acordo com o Estatuto dos Servidores Públicos do Município
+de Camaçari, a posição hierarquizada de cargos da mesma
+denominação dentro da categoria funcional denomina-se
+A quadro.
+B classe.
+C referência.
+D carreira.
+E grau.
+
+Questão 15
+
+José, Cecília, Lucas e Patrícia são vereadores do
+município de Camaçari. José foi nomeado para o cargo de
+ministro de Estado; Cecília, para cargo de secretário de estado;
+Lucas, para cargo de secretário municipal; e Patrícia, para cargo
+de direção de autarquia municipal.
+Nessa situação hipotética, de acordo com a Lei Orgânica do
+Município de Camaçari, com a nomeação, devem ser
+considerados automaticamente licenciados
+A José e Cecília, somente.
+B José, Cecília, Lucas e Patrícia.
+C Lucas e Patrícia, somente.
+D José, Cecília e Lucas, somente.
+E Cecília, Lucas e Patrícia, somente.
+
+891CG1_01N165698
+
+CEBRASPE – PMC – Edital: 2023
+
+Questão 16
+
+Conforme dispõe o Estatuto dos Servidores Públicos do
+Município de Camaçari, ao servidor público municipal que esteja
+há um ano no cargo público poderão ser concedidas
+A licença para tratar de interesses particulares e licença pelo
+exercício de mandato eletivo.
+B licença para tratamento de saúde e licença para tratar de
+interesses particulares.
+C licença por motivo de doença em pessoa da família e
+licença-prêmio.
+D licença para cumprir serviços militares e licença pelo
+exercício de mandato eletivo.
+E licença para tratamento de saúde e licença por motivo de
+doença em pessoa da família.
+
+Questão 20
+
+A seguir, são apresentadas as duas primeiras colunas de uma
+tabela-verdade, em que P e Q representam proposições lógicas
+simples.
+P
+V
+V
+F
+F
+
+Q
+V
+F
+V
+F
+
+A última coluna dessa tabela-verdade é a seguinte.
+F
+F
+F
+V
+
+Questão 17
+
+Com base nas informações precedentes, e considerando os
+conectivos lógicos usuais de conjunção (˄), disjunção (˅),
+negação (¬) e condicional (→), assinale a opção que apresenta
+corretamente a proposição lógica que corresponde à última
+coluna da tabela-verdade.
+
+Na figura precedente, que representa quatro conjuntos
+identificados por A, B, C e D, a região destacada corresponde a
+A B ∩ D.
+B B ∩ C ∩ D.
+C (B − D) ∩ C.
+D B – D.
+E (B − C) ∩ D.
+
+Questão 18
+
+A tabela a seguir mostra dados relacionados à idade e ao sexo de
+pessoas que firmaram contratos de aluguel de jet-ski em um dos
+estabelecimentos da praia da Barra do Jacuípe, durante o período
+de um mês, totalizando 400 contratos.
+
+masculino
+feminino
+
+17 a 29 anos
+
+30 a 40 anos
+
+123
+116
+
+58
+66
+
+acima de 40
+anos
+23
+14
+
+Escolhendo-se ao acaso um dos contratos da tabela, a chance
+de esse contrato ter sido firmado por uma pessoa do sexo
+feminino com idade de até 40 anos
+A é inferior a 34%.
+B está entre 34% e 40%.
+C está entre 41% e 47%.
+D está entre 48% e 54%.
+E é superior a 54%.
+
+Questão 19
+
+Três amigas, Ana, Bruna e Camila, viajaram de três cidades
+diferentes, Brasília, Campinas e São Paulo, para visitar a cidade
+de Camaçari durante as férias. Elas atuam em áreas profissionais
+distintas: advocacia, medicina e psicologia. Camila não é
+psicóloga e veio de São Paulo, a advogada veio de Campinas e
+Bruna não é psicóloga.
+Com base nas informações precedentes, é correto afirmar que
+A Bruna veio de Brasília.
+B a médica veio de Brasília.
+C Camila é médica.
+D a psicóloga veio de Campinas.
+E Ana é advogada.
+
+A P ˅ (¬ Q)
+B P ˄ (¬ Q)
+C (¬ P) → Q
+D (¬ P) ˅ Q
+E (¬ P) ˄ (¬ Q)
+Espaço livre
+
+CEBRASPE – PMC – Edital: 2023
+
+-- CONHECIMENTOS ESPECÍFICOS -Questão 21
+
+Texto 42A1-I
+A sofisticação das línguas indígenas
+Você provavelmente já encontrou pelas redes sociais o
+famigerado #sqn, aquele jeito telegráfico de dizer que tal coisa é
+muito legal, “só que não”. Agora, imagine uma língua totalmente
+diferente do português que deu um jeito de incorporar um
+conceito parecido na própria estrutura das palavras, criando o que
+os linguistas apelidaram de “sufixo frustrativo” — um #sqn que
+faz parte da própria história do idioma.
+É exatamente assim que funciona no kotiria, um idioma
+da família linguística tukano que é falado por indígenas do Alto
+Rio Negro, na fronteira do Brasil com a Colômbia. Para exprimir
+a função “frustrativa”, o kotiria usa um sufixo com a forma -ma.
+Você quer dizer que foi até um lugar sem conseguir o que queria
+indo até lá? Basta pegar o verbo “ir”, que é wa’a em kotiria, e
+acrescentar o sufixo: wa’ama, “ir em vão”. Dá para encontrar
+detalhes surpreendentes como esse em todas as mais de 150
+línguas indígenas ainda faladas no território brasileiro. Elas são
+apenas a ponta do iceberg do que um dia existiu por aqui.
+Calcula-se que pelo menos 80% dos idiomas que
+eram falados no Brasil desapareceram de 1.500 para cá.
+Mesmo assim, o país continua abrigando uma das maiores
+diversidades linguísticas do planeta. A propósito, esqueça aquele
+negócio de “tupi-guarani”, expressão que é meio como dizer
+“português-espanhol”. O tupi é uma língua; o guarani é outra —
+e, aliás, existem diversas formas de guarani, nem sempre
+inteligíveis entre si.
+O único emprego correto do substantivo composto
+“tupi-guarani” é o que serve para designar uma subfamília
+linguística com esse nome, a qual engloba dezenas de idiomas.
+Entre seus membros ainda usados no cotidiano estão o
+nheengatu, os vários “guaranis”, o tapirapé e o guajá.
+Uma subfamília, como você pode imaginar, faz parte de
+uma família linguística mais ampla — nesse caso, a família
+tupi propriamente dita.
+Existem pelo menos outras três grandes famílias
+linguísticas no país, diversas outras famílias de porte mais
+modesto e, de quebra, várias línguas consideradas isoladas. É
+mais ou menos o mesmo caso do basco, falado na Espanha e na
+França — com a diferença de que o basco é um dos únicos casos
+desse tipo no território europeu.
+Essa comparação ajuda a entender o tamanho da riqueza
+linguística brasileira. Com raríssimas exceções (fora o basco,
+temos também o finlandês e o húngaro, por exemplo), todos os
+falares ainda utilizados hoje na Europa fazem parte de uma única
+família linguística, a do indo-europeu. Pode não parecer à
+primeira vista, mas é praticamente certo que o alemão, o russo, o
+grego, o português e o lituano descendem de um único idioma
+pré-histórico, que hoje chamamos de protoindo-europeu.
+Reinaldo José Lopes. Internet. <super.abril.com.br.> (com adaptações).
+FimDoTexto
+
+No que concerne aos aspectos linguísticos do texto 42A1-I,
+julgue os itens que se seguem.
+I
+
+No primeiro parágrafo, a forma verbal “imagine” (segundo
+período) está flexionada no modo imperativo e concorda com
+“Você” (primeiro período).
+II No segundo parágrafo, a expressão “a ponta do iceberg”
+(último período) foi usada em seu sentido denotativo, ou seja,
+faz referência a um grande bloco de gelo que flutua sobre a
+superfície dos oceanos.
+III No último parágrafo, os termos “o basco” (segundo período)
+e “o alemão, o russo, o grego, o português e o lituano”
+(terceiro período) desempenham a mesma função sintática
+nas orações em que ocorrem.
+Assinale a opção correta.
+A Apenas o item III está certo.
+B Apenas os itens I e II estão certos.
+C Apenas os itens I e III estão certos.
+D Apenas os itens II e III estão certos.
+E Todos os itens estão certos.
+
+Questão 22
+
+No segundo parágrafo do texto 42A1-I, a oração “Para exprimir a
+função ‘frustrativa’” exprime uma
+A causa.
+B finalidade.
+C consequência.
+D condição.
+E proporção.
+
+Questão 23
+
+No terceiro parágrafo do texto 42A1-I, a forma verbal
+“abrigando” (segundo período), gerúndio do verbo abrigar, foi
+usada com o mesmo sentido de
+A protegendo.
+B comportando.
+C deixando.
+D aquecendo.
+E recolhendo.
+
+Questão 24
+
+No segundo parágrafo do texto 42A1-I, o pronome
+demonstrativo “esse” (quinto período) foi empregado para
+A retomar o trecho “um idioma da família linguística tukano
+que é falado por indígenas do Alto Rio Negro” (primeiro
+período).
+B fazer referência à informação dada nos períodos anteriores
+em relação ao uso do sufixo frustrativo no idioma kotiria.
+C introduzir uma nova informação sobre as mais de 150 línguas
+indígenas ainda faladas no território brasileiro.
+D retomar a expressão “um lugar” (terceiro período).
+E fazer referência à expressão “território brasileiro”, também no
+quinto período.
+
+CEBRASPE – PMC – Edital: 2023
+
+Questão 25
+
+Figura 42A1-II
+
+Em relação à pontuação do texto 42A1-I, assinale a opção
+correta.
+A O travessão empregado após a expressão “sufixo frustrativo”
+(primeiro parágrafo) poderia ser substituído por ponto final
+sem prejudicar a correção gramatical e a coesão textual.
+B No segundo parágrafo, o emprego da vírgula após o vocábulo
+‘frustrativa’ (segundo período) é facultativo.
+C No quarto parágrafo, o ponto-final empregado após o
+vocábulo “guajá” (segundo período) poderia ser substituído
+por uma vírgula e manteria a correção gramatical e a coesão
+do texto.
+D O emprego das vírgulas após a expressão “#sqn” (primeiro
+parágrafo, primeiro período) e o vocábulo “kotiria” (segundo
+parágrafo, primeiro período) justifica-se pela mesma regra de
+pontuação.
+E No terceiro parágrafo, o ponto e vírgula empregado após o
+vocábulo “língua” (último período) poderia ser substituído
+por dois-pontos, uma vez que ele introduz uma explicação.
+
+Questão 26
+
+A palavra
+
+A húngaro tem 7 letras e 6 fonemas.
+B sufixo tem 6 letras e 6 fonemas.
+C história tem 8 letras e 9 fonemas.
+D riqueza tem 7 letras e 6 fonemas.
+E línguas tem 7 letras e 7 fonemas.
+
+Questão 27
+
+São acentuadas devido à mesma regra ortográfica as palavras
+A bebês e cães.
+B também e direções.
+C identificável e telegráfico.
+D propósito e inteligíveis.
+E linguística e indígena.
+Espaço livre
+
+Internet: <www.instagram.com/mineducacao/>.
+
+Questão 28
+
+Assinale a opção correta em relação ao uso da linguagem
+coloquial no texto da figura 42A1-II.
+A O emprego do vocábulo NORDESTE em caixa alta chama a
+atenção do leitor em relação ao ENEM.
+B O verbo “TÁ” (está) foi empregado com a intenção de
+aproximar o leitor jovem à publicação.
+C A sigla ENEM foi empregada para chamar a atenção do
+público que acompanha as redes sociais do MEC.
+D A linguagem empregada na postagem não condiz com a
+situação comunicativa.
+E A sigla ENEM deveria ter sido empregada por extenso:
+Exame Nacional do Ensino Médio.
+
+Questão 29
+
+No segundo período do texto da figura 42A1-II, a função de
+linguagem que predomina é a
+A referencial.
+B fática.
+C poética.
+D metalinguística.
+E conativa.
+
+Questão 30
+
+Assinale a opção correta em relação à análise da estrutura
+linguística do texto da figura 42A1-II.
+A O primeiro período é formado por duas orações com duas
+formas verbais.
+B A forma verbal do segundo período está empregada no modo
+imperativo.
+C No segundo período, os substantivos “perfil” e
+“participantes”
+desempenham
+a
+mesma
+função:
+complementos verbais.
+D A palavra “NORDESTE” é formada por derivação sufixal.
+E O substantivo “perfil” está flexionado no singular para
+concordar com o verbo “conheça”.
+
+CEBRASPE – PMC – Edital: 2023
+
+Questão 31
+
+O professor Adelino falou sobre o número de sílabas que
+“o Gonçalves” gostava de usar, das pausas, da rima consoante e
+da toante, ali havia o segredo da musicalidade de grandes poetas,
+nec pluribus impar*, falou da velha tradição da poesia
+portuguesa, dos árcades e que, embora o Gonçalves violasse as
+regras do verso e da gramática, era um poeta dos melhores. Que
+o Gonçalves tinha o direito de quebrar as regras do verso porque
+era verdadeiro poeta e o senso natural dos verdadeiros poetas
+vale mais que todas as regras, sejam da Versificação, sejam da
+gramática! Eu o ouvi, fiz-lhe perguntas e nossa conversa
+aconteceu. Claro, como poderia não acontecer? Ele falava do
+meu assunto predileto, o Gonçalves, e descobriu que quando
+falava no poeta, ou em poesia, eu me interessava, ele passou a
+levar o livro de Antonio para a minha casa, a fazer leituras em
+voz alta de poemas de Antonio. Embalde o professor Adelino
+tentava me conquistar com as poesias de Antonio que lia em voz
+alta, tão emocionado como se ele mesmo as houvesse escrito, ao
+final tecia comentários sobre a poesia, daí em diante nossos
+encontros eram para essas leituras, eu sentia algum pudor da
+situação, mas agradava-me fechar os olhos e imaginar que quem
+estava ali na minha frente lendo para mim era o autor das
+composições.
+Ana Miranda. Dias e dias: romance. São Paulo: Companhia das Letras, 2002. p. 143.
+
+*superior aos outros homens
+No fragmento de texto precedente, extraído da obra Dias e dias,
+uma biografia romanceada do escritor Antonio Gonçalves Dias,
+Feliciana, a narradora,
+A é também personagem e narra os fatos unicamente a partir do
+seu ponto de vista, como em um monólogo interior.
+B apresenta os fatos da narrativa predominantemente do ponto
+de vista dos demais personagens, embora seja ele também um
+personagem.
+C usa o foco narrativo exclusivamente na terceira pessoa para
+expor os fatos de um ponto de vista imparcial, ainda que seja
+protagonista.
+D é onisciente e utiliza o discurso indireto livre para revelar os
+pensamentos e as falas dos demais personagens.
+E é também personagem e apresenta a voz dos demais
+personagens por meio do discurso indireto, limitando-se a
+relatar o que estes fizeram e disseram.
+
+Questão 32
+
+Considerando aspectos estilísticos tanto da obra do poeta
+Antonio Gonçalves Dias quanto do movimento literário a que ele
+é historicamente vinculado, assinale a opção correta.
+A Gonçalves Dias é considerado um grande poeta porque,
+mesmo desconhecendo as regras de composição lírica,
+compôs poemas combinando a forma com a expressão do
+sentimentalismo espontâneo dos românticos.
+B Gonçalves Dias gostava de usar variados números de sílabas
+em seus versos e valorizou as redondilhas, maiores e
+menores, para compor poemas de apelo mais popular.
+C As pausas e a abolição das rimas deram aos poemas de
+Gonçalves Dias um caráter mais solene, menos popular.
+D Apesar de aderir ao Romantismo, o poeta em apreço ainda
+seguia a tradição dos árcades da poesia portuguesa, fazendo
+poemas nos moldes campestres, sem exageros sentimentais.
+E Gonçalves Dias violou as regras do verso e da gramática
+devido à sua pouca erudição e ao seu desconhecimento da
+norma culta da língua portuguesa.
+
+Questão 33
+
+Canção do Exílio
+
+Minha terra tem palmeiras,
+Onde canta o Sabiá;
+As aves, que aqui gorjeiam,
+Não gorjeiam como lá.
+Nosso céu tem mais estrelas,
+Nossas várzeas têm mais flores,
+Nossos bosques têm mais vida,
+Nossa vida mais amores.
+Em cismar, sozinho, à noite,
+Mais prazer encontro eu lá;
+Minha terra tem palmeiras,
+Onde canta o Sabiá.
+Minha terra tem primores,
+Que tais não encontro eu cá;
+Em cismar — sozinho, à noite —
+Mais prazer encontro eu lá;
+Minha terra tem palmeiras,
+Onde canta o Sabiá.
+Não permita Deus que eu morra,
+Sem que eu volte para lá;
+Sem que desfrute os primores
+Que não encontro por cá;
+Sem qu'inda aviste as palmeiras,
+Onde canta o Sabiá.
+Gonçalves Dias. Primeiros cantos.
+In: Gonçalves Dias: poesia completa. Rio de Janeiro: Nova Aguilar, 1972.
+
+Assinale a opção correta em relação ao poema precedente e à
+obra poética de Gonçalves Dias.
+A O poema em questão explora o sentimento de amor à pátria
+por meio da oposição espacial entre “cá” (a terra natal) e “lá”
+(a terra distante, do exílio) estabelecida pelo eu lírico.
+B A terra natal do eu lírico é idealizada pela exuberância da
+natureza, mostrada em “Nossas várzeas têm mais flores, /
+Nossos bosques têm mais vida”, e pela religiosidade do povo,
+como se percebe no apelo dos versos “Não permita Deus que
+eu morra, / Sem que eu volte para lá”.
+C A musicalidade do poema, que justifica o título, é acentuada
+pela repetição das rimas toantes ou assonantes entre as
+palavras “sabiá”, “cá” e “lá” ao longo de quase todo o poema.
+D Apesar da saudade da terra natal, o eu lírico reconhece a
+superioridade da terra estrangeira em relação à sua terra,
+conforme se pode ler nos versos “Em cismar — sozinho, à
+noite — / Mais prazer encontro eu lá”.
+E A escolha do “sabiá” e das “palmeiras”, elementos bastante
+comuns no Brasil, deve-se à intenção de Gonçalves Dias de
+dar à poesia brasileira uma identidade nacional, inteiramente
+de acordo com os pressupostos do nacionalismo romântico
+em voga na sua época.
+
+CEBRASPE – PMC – Edital: 2023
+
+Texto 42A2-I
+
+Questão 34
+
+A um poeta
+
+Com efeito, não se fala de outra coisa. Tudo quer,
+
+Longe do estéril turbilhão da rua,
+
+tudo pede, tudo deseja a saúde, ou pelo menos, a ausência
+
+Beneditino*, escreve! No aconchego
+
+da febre amarela. Esta velha dama, que estabeleceu aqui um
+
+Do claustro, na paciência e no sossego,
+
+pied-à-terre*, não se esquece de nós inteiramente; há anos
+
+Trabalha, e teima, e lima, e sofre, e sua!
+
+em que traz toda a criadagem, e estabelece-se por uma estação
+
+Mas que na forma se disfarce o emprego
+Do esforço; e a trama viva se construa
+
+e mais. Come que é o diabo, e dá muito de comer à empresa
+funerária, a qual, devendo detestá-la, pelo lado humano, não
+pode desadorá-la por outro lado, não menos humano.
+
+De tal modo, que a imagem fique nua,
+Rica mas sóbria, como um templo grego.
+
+Há dessas lutas terríveis na alma do homem. Não,
+ninguém sabe o que se passa no interior de um sobrinho, tendo
+
+Não se mostre na fábrica o suplício
+
+de chorar a morte de um tio e receber-lhe a herança. Oh!
+
+Do mestre. E, natural, o efeito agrade,
+
+Contraste maldito! Oh! dilaceração moral! Aparentemente, tudo
+
+Sem lembrar os andaimes do edifício:
+
+se recomporia, desistindo o sobrinho do dinheiro herdado; ah!!
+Mas então seria chorar duas coisas: o tio e o dinheiro.
+
+Porque a Beleza, gêmea da Verdade,
+Arte pura, inimiga do artifício,
+
+Machado de Assis. Bons dias! Campinas: Unicamp, 2008, p. 223-4.
+
+É a força e a graça na simplicidade.
+
+*moradia provisória ou habitada em temporadas
+
+Olavo Bilac. Tarde. In: Olavo Bilac: obra reunida (org. Alexei Bueno).
+Rio de Janeiro: Nova Aguilar, 1996. p. 268.
+
+*monge da ordem de S. Bento
+Considerando a leitura do poema apresentado e os aspectos da
+
+Questão 35
+
+Assinale a opção correta em relação aos recursos estilísticos
+explorados no texto precedente, extraído de uma das crônicas
+
+obra de Olavo Bilac, assinale a opção correta.
+
+jornalísticas escritas por Machado de Assis.
+
+A O poema ilustra o estilo parnasiano, contemporâneo ao
+
+A Ao personificar a febre amarela como uma “velha dama”
+
+Realismo/Naturalismo, e tematiza o árduo trabalho dos
+
+(terceiro período), visitante assídua da cidade, o cronista faz
+
+operários da época, conforme o emprego de palavras e
+
+uso de um recurso literário para recriar, na sua narrativa, o
+
+expressões como “Trabalha” (v. 4), “trama’ (v. 6), “construa”
+(v. 6), “templo grego” (v. 8), “fábrica” (v. 9), “andaimes do
+edifício” (v. 11).
+B O tema artístico do poema expõe a adesão do poeta ao estilo
+
+cotidiano de uma cidade ficcional.
+B Em “Tudo quer, tudo pede, tudo deseja a saúde, ou pelo
+menos, a ausência da febre amarela” (segundo período),
+
+parnasiano, cujo lema — “Arte pela arte” — é explorado por
+
+entende-se que a febre amarela, gradativamente, deixava de
+
+meio da metalinguagem, ou seja, o tema do poema é a
+
+ser um problema de saúde pública para se tornar um elemento
+
+construção de um poema segundo o ideal de perfeição
+
+do imaginário coletivo da época.
+
+estética da poesia parnasiana.
+C Na primeira estrofe, por meio do emprego do vocativo
+“Beneditino” (v. 2) e do polissíndeto (v.4), o poeta elege o
+interlocutor dos seus versos e valoriza o trabalho do monge,
+incansável, mas pouco valorizado, nas ruas da cidade.
+
+C No segundo parágrafo, o dilema do sobrinho que perde o tio
+para a morte flagra, por meio da ironia, as contradições da
+alma humana, um dos temas recorrentes da obra do autor.
+D O contraste entre fragmentos “devendo detestá-la” e “não
+
+D Na segunda estrofe, a construção do “templo grego”, rico
+
+pode desadorá-la” (ambos no quarto período) expõe as
+
+e sóbrio, ambienta o poema no cotidiano da Antiguidade
+
+reações contraditórias das funerárias em relação às mortes
+
+greco-romana para simbolizar o resgate dos valores clássicos
+
+provocadas pela febre amarela, que podem trazer tanto
+
+da arte defendida na poesia parnasiana.
+
+prejuízo quanto lucro.
+
+E Na última estrofe, a “simplicidade” (v.14), valorizada na
+antítese entre “Arte pura” e “artifício” (v.13), é defendida
+pelo poeta como a representação da realidade da vida na
+poesia, sem os sentimentalismos ou os exageros que
+marcaram o Romantismo.
+
+E O lado “não menos humano” (final do primeiro parágrafo) do
+comportamento das pessoas é exemplificado, no parágrafo
+seguinte, na frustração do sobrinho que perde o tio para a
+morte e descobre que ele não lhe deixou herança.
+
+CEBRASPE – PMC – Edital: 2023
+
+Questão 36
+
+Além de escrever crônicas para os jornais, Machado de Assis
+redigiu romances, contos, poesias e crítica literária.
+Considerando a obra e o estilo próprio desse autor, assinale a
+opção correta.
+A Nos romances da segunda fase de sua obra, Memórias
+póstumas de Brás Cubas, Quincas Borba e Esaú e Jacó,
+Machado de Assis antecipou aspectos da literatura moderna
+brasileira ao usar narradores protagonistas que, além de narrar
+os fatos, fazem comentários metalinguísticos sobre o relato.
+B A obra ficcional de Machado de Assis é tradicionalmente
+dividida em duas fases: a inicial, de influência romântica,
+com romances como Helena e Inocência; e a segunda,
+realista-naturalista, como Memórias póstumas de Brás
+Cubas e Casa de pensão.
+C Todos os romances de Machado de Assis apresentaram o Rio
+de Janeiro como espaço narrativo, ambientados tanto nos
+bairros mais nobres quanto nos bairros mais modestos desse
+centro urbano.
+D Adepto do realismo-naturalismo, Machado de Assis rejeitou a
+temática romântica e não abordou os temas do amor e do
+casamento em suas narrativas ficcionais, e os protagonistas de
+seus romances, divididos entre sentimentos e ascensão social,
+sempre optam pelos valores materiais.
+E A sondagem psicológica do homem foi aprofundada na ficção
+machadiana, trazendo à tona os desvios de caráter, as taras, as
+loucuras de personagens representantes da elite burguesa que,
+assim como os das classes operárias, eram oprimidos pelo
+determinismo social.
+Texto 42A2-II
+Cunhantã
+Vinha do Pará.
+Chamava Siquê.
+Quatro anos. Escurinha. O riso gutural da raça.
+Piá branca nenhuma corria mais do que ela.
+Tinha uma cicatriz no meio da testa:
+― Que foi isto, Siquê?
+Com voz de detrás da garganta, a boquinha tuíra:
+― Minha mãe (a madrasta) estava costurando
+Disse vai ver se tem fogo
+Eu soprei eu soprei eu soprei não vi fogo
+Aí ela se levantou e esfregou com minha cabeça na brasa
+Riu, riu, riu
+Uêrêquitáua.
+O ventilador era a coisa que roda.
+Quando se machucava, dizia: Ai Zizus!
+Manuel Bandeira. Libertinagem. In: Manuel Bandeira: poesia completa e prosa.
+Rio de Janeiro: Nova Aguilar, 1990, p. 216.
+
+Vocabulário:
+cunhantã – (tupi-guarani) menina, moça.
+piá – menino(a) mestiço(a) de indígena com branco.
+tuíra – de cor indefinida, preto desbotado, pardo.
+
+Questão 37
+
+Assinale a opção correta em relação ao texto 42A2-II.
+A A representação da cultura popular brasileira reside não
+somente no assunto, mas também na oralidade da linguagem
+do poema, a exemplo das repetições que dão ênfase a ações
+(v. 10 e 12), a ausência de pontuação (v. 9 e 10) e a imitação
+da variação fonética da pronúncia de palavras (v. 15) das
+falas da menina “Siquê”, que colaboram para a sua
+caracterização.
+B Os diminutivos, nas duas ocorrências (v. 3 e 7), além de
+caracterizarem uma menina pequena, ganham também
+tonalidades afetivas, pois refletem a ternura do eu lírico pela
+criança.
+C A partir do título, o poema se presta ao elogio do indígena
+brasileiro e de sua cultura, que se realiza no resgate da língua
+indígena (“Cunhantã”, “Siquê”, “Uêrêquitáua”), e na
+resistência física superior do nativo em comparação com a do
+homem branco, desde tenra idade: “Quatro anos. Escurinha.
+O riso gutural da raça. / Piá branca nenhuma corria mais do
+que ela” (v. 3 e 4).
+D A mistura de elementos narrativos ao discurso poético —
+como o diálogo (segunda estrofe) — e o registro de
+elementos do cotidiano, formando um cenário urbano — em
+trechos como “Minha mãe (...) estava costurando” (v. 8), “O
+ventilador era a coisa que roda” (v. 14) — atualizam a poesia
+indianista para a modernidade valorizada na segunda fase do
+movimento modernista.
+E O resgate da temática do regionalismo no poema modernista
+tem índices na localização geográfica do texto (v. 1) e na
+caracterização do povo da região Norte do Brasil, tanto pelos
+aspectos físicos (v. 3 e 4) quanto pela variante linguística
+regional, como em “tuíra” (v. 7), “não vi fogo” (v. 10), e “Ai
+Zizus” (v. 15).
+
+Questão 38
+
+Tendo em vista que os poetas do Modernismo brasileiro se
+encarregaram da desconstrução dos mitos do passado para a
+construção de um nacionalismo crítico, com uma visão
+consciente e aprofundada da realidade na poesia brasileira,
+assinale a opção correta relativamente à representação literária do
+indígena no texto 42A2-II.
+A A caracterização da menina indígena resulta do contraste
+entre a ingenuidade e a alegria espontânea da criança e sua
+condição de vítima do racismo e dos maus-tratos familiares.
+B O tema central do poema é a denúncia da violência praticada
+contra crianças indígenas na região Norte do país.
+C Por meio da ironia, o poema denuncia o preconceito racial
+contra os indígenas, uma vez que a menina é caracterizada
+pela inferioridade física e pela dificuldade de expressão no
+convívio social de um meio urbano.
+D Com um toque de humor, o poema faz a crítica dos indígenas
+que abandonam sua língua e seus costumes para se adaptarem
+à cultura dos brancos.
+E A condição do indígena na sociedade brasileira é retratada no
+poema de forma lírica, sendo demonstrada sua superioridade
+moral e cultural em relação aos brancos, representados pela
+referência a “piá branca” (v. 4).
+
+CEBRASPE – PMC – Edital: 2023
+
+Texto 42A2-III
+Sou só um sertanejo, nessas altas ideias navego mal. Sou
+muito pobre coitado. Inveja minha pura é de uns conforme o
+senhor, com toda leitura e suma doutoração. Não é que eu esteja
+analfabeto. Soletrei, anos e meio, meante cartilha, memória e
+palmatória. Tive mestre, Mestre Lucas, no Curralinho, decorei
+gramática, as operações, regra de três, até geografia e estudo
+pátrio. Em folhas grandes de papel, com capricho tracei bonitos
+mapas. Ah, não é por falar: mas, desde o começo, me achavam
+sofismado de ladino. E que eu merecia de ir para cursar latim, em
+Aula Régia – que também diziam. Tempo saudoso! Inda hoje,
+apreceio um bom livro, despaçado. Na fazenda O Limãozinho, de
+um meu amigo Vito Soziano, se assina desse almanaque grosso,
+de logogrifos e charadas e outras divididas matérias, todo ano
+vem. Em tanto, ponho primazia é na leitura proveitosa, vida de
+santo, virtudes e exemplos – missionário esperto engambelando
+os índios, ou São Francisco de Assis, Santo Antônio, São
+Geraldo... Eu gosto muito de moral. Raciocinar, exortar os outros
+para o bom caminho, aconselhar a justo. Minha mulher, que o
+senhor sabe, zela por mim: muito reza. Ela é uma abençoável.
+Compadre meu Quelemém sempre diz que eu posso aquietar meu
+temer de consciência, que sendo bem-assistido, terríveis
+bons-espíritos me protegem. Ipe! Com gosto... Como é de são
+efeito, ajudo com meu querer acreditar. Mas nem sempre posso.
+O senhor saiba: eu toda a minha vida pensei por mim, forro, sou
+nascido diferente. Eu sou é eu mesmo. Diverjo de todo o
+mundo... quase que nada não sei. Mas desconfio de muita coisa.
+Guimarães Rosa. Grande sertão: veredas. In: João Guimarães Rosa / Ficção completa, vol. II.
+Rio de Janeiro: Nova Aguilar, 1994. p. 12-4.
+
+Questão 39
+
+Acerca do romance de que se extraiu o texto 42A2-III, no qual os
+acontecimentos são apresentados a partir da perspectiva do
+sertanejo Riobaldo, e da obra de Guimarães Rosa, assinale a
+opção correta.
+A A narrativa tem um tempo psicológico, pois é conduzida
+pelas lembranças de Riobaldo, que surgem desordenadas e
+misturam fatos antigos a fatos recentes, a fim de recriar a
+confusão mental do personagem na velhice.
+B Riobaldo narra suas memórias em tom de conversa informal
+com um interlocutor culto, que é interpelado pelo vocativo
+“Mestre Lucas” (quinto período) e tratado com respeito de
+“o/O senhor” (terceiro e vigésimo terceiro períodos), mas que
+não tem falas no texto.
+C Além das referências espaciais, o caráter regionalista do texto
+reside no resgate do autêntico linguajar sertanejo da tradição
+literária brasileira, a exemplo das variações de pronúncia, em
+“apreceio” (décimo primeiro período) ou “Diverjo” (vigésimo
+quinto período) e os desvios na formação e no emprego de
+palavras, como em “sofismado de ladino” (oitavo período),
+“despaçado” (décimo primeiro período) e “uma abençoável”
+(décimo sétimo período).
+D No trecho “Como é de são efeito, ajudo com meu querer
+acreditar. Mas nem sempre posso.” (vigésimo primeiro e
+vigésimo segundo períodos), Riobaldo acaba confessando ser
+ateu, a despeito das leituras das vidas de santos e das
+influências religiosas da esposa e do compadre Quelemém.
+E Riobaldo afirma ser homem de pouca cultura, um sertanejo
+ignorante ou um "pobre coitado” (segundo período), mas, ao
+longo do texto, percebe-se nessa afirmação mais um disfarce
+de modéstia ou um recurso retórico para impressionar o
+ouvinte que propriamente um fato.
+
+Questão 40
+
+Na terceira fase do Modernismo brasileiro, Guimarães Rosa
+apontou novos rumos para a literatura brasileira, por meio de
+uma perspectiva renovada para o regionalismo. Considerando a
+leitura do texto 42A2-III e aspectos da literatura brasileira,
+assinale a opção correta a respeito dessa perspectiva.
+A Em oposição à proposta dos regionalistas da segunda fase
+modernista, os escritores da chamada “Geração de 45”
+passaram a se preocupar menos com as questões políticas,
+ideológicas e culturais e privilegiaram a questão estética, a
+exemplo da recriação poética da linguagem sertaneja na
+narrativa de Guimarães Rosa.
+B Guimarães Rosa renovou a linguagem da prosa regionalista
+ao explorar recursos da expressão poética na narrativa e ao
+aprofundar a caracterização do homem sertanejo, dando-lhe
+preocupações existenciais e metafísicas.
+C O sertanejo, na obra de Guimarães Rosa, é caracterizado
+como um ser que luta pela sobrevivência diante das forças da
+natureza árida do sertão e da violência de um meio que
+oprime o trabalhador rural pobre e inculto.
+D O espaço das narrativas de Guimarães Rosa sempre é rural e
+habitado por sertanejos pobres, mas dotados de elevada
+intelectualidade, que se revela por meio de uma linguagem
+literária elevada e abstrata, repleta de sugestões musicais.
+E O regionalismo em Guimarães Rosa tem como ponto de
+partida o contraste entre cidade e campo, ou entre homem
+culto da cidade e homem iletrado do campo; e tem como
+finalidade sondar a diversidade regional da realidade
+brasileira.
+
+Questão 41
+
+Planejar é uma atividade primordial na ação docente. Entre os
+diversos tipos de planejamentos, aquele que interfere diretamente
+na aula é o
+A plano de ensino.
+B plano de curso.
+C planejamento participativo.
+D plano de aula.
+E plano da escola.
+
+Questão 42
+
+No caso da educação especial inclusiva, a orientação é de que ela
+deve ser iniciada
+A nas instituições específicas que ofertam atendimento
+educacional especializado.
+B nas escolas regulares, durante o horário das aulas da classe
+comum, em turmas específicas para cada tipo de deficiência.
+C nos programas de enriquecimento curricular, ensino de
+linguagens e códigos específicos de comunicação e
+sinalização.
+D em centros de atendimento educacional especializados,
+públicos ou privados, de acordo com a necessidade da
+criança.
+E em salas de aulas comuns desde a educação infantil, onde há
+estímulos nos aspectos físicos, emocionais, cognitivos,
+psicomotores e sociais.
+
+CEBRASPE – PMC – Edital: 2023
+
+Questão 43
+
+Questão 47
+
+Acerca de práticas docentes, fundamentos teóricos e tendências
+pedagógicas, assinale a opção correta.
+
+Na visão histórico-cultural, a escola é concebida como espaço de
+
+A Postura libertadora é aquela em que o professor transmite a
+matéria conforme um sistema instrucional eficiente e efetivo
+em termos de resultados da aprendizagem, enquanto o aluno
+recebe, aprende e fixa as informações.
+B A postura tecnicista é pautada pelo diálogo como método
+básico, segundo o qual educador e educandos se posicionam
+como sujeitos do ato de conhecimento.
+C Na tendência crítico-social dos conteúdos, o professor se
+comporta como um especialista em relações humanas,
+aceitando o aluno como ele é, sem intervir no processo de
+aprendizagem.
+D Na postura tradicional, o professor transmite o conteúdo na
+forma de verdade a ser absorvida, e, em consequência, a
+disciplina imposta é o meio mais eficaz para assegurar a
+atenção e o silêncio.
+E A postura renovada não diretiva consiste no provimento de
+condições em que professores e alunos possam colaborar para
+fazer progredir as trocas de experiências e conteúdos.
+
+política e transformadora. Tal dimensão é manifestada quando
+
+Questão 44
+
+A didática na perspectiva histórico-cultural tem sido bastante
+utilizada na formação de professores no Brasil. Essa prática é
+fundamenta na teoria de
+A Piaget.
+B Pavlov.
+C Vygotsky.
+D Ausubel.
+E Skinner.
+
+Questão 45
+
+A pedagogia de projetos é uma estratégia pedagógica que
+incentiva a interdisciplinaridade e a transdisciplinaridade. A
+respeito desse tema, é correto afirmar que a
+A transdisciplinaridade ocorre quando as disciplinas deixam de
+trabalhar seus conteúdos isoladamente e focam no tema do
+projeto.
+B interdisciplinaridade acontece quando cada professor trabalha
+em sua disciplina isoladamente.
+C interdisciplinaridade e a transdisciplinaridade só podem
+existir dentro do ambiente escolar.
+D transdisciplinaridade é a valorização de cada disciplina em
+seus conteúdos particulares.
+E interdisciplinaridade é a extinção das disciplinas em função
+de temas gerais trabalhados.
+
+Questão 46
+
+As formas de avaliação escolar passaram por várias
+transformações ao longo da história da educação brasileira.
+Assinale a opção que apresenta uma característica de avaliação
+na perspectiva crítica.
+A Fundamenta-se no paradigma construtivista.
+B O avaliador exerce papel de juiz.
+C Enfatiza o resultado (produto).
+D O aluno é avaliado pelo seu comportamento em sala de aula.
+E Enfatiza a memorização.
+
+relações sociais e humanas, por isso traz em si uma dimensão
+
+A a escola se posiciona de forma neutra frente à sociedade.
+B a educação trata os alunos como sujeitos históricos.
+C a escola reproduz a ideologia dos grupos dominantes.
+D os docentes são antiéticos frente aos estudantes.
+E a instituição ignora a formação integral do ser humano.
+
+Questão 48
+
+O projeto político-pedagógico é um importante documento da
+escola porque
+A capacita seus membros a decidir livremente.
+B é elaborado pelos gestores da escola.
+C viabiliza a gestão democrática na escola.
+D limita a intervenção das políticas públicas na ação da escola.
+E define quais conteúdos devem ser trabalhados em sala de
+aula.
+
+Questão 49
+
+A Constituição Federal de 1988 é um importante marco
+referencial na elaboração de políticas públicas para a educação
+básica do Brasil. Nessa perspectiva, é correto afirmar que as
+políticas públicas para a educação básica
+A visam diminuir o fracasso escolar provocado pelas classes
+menos favorecidas.
+B devem ser construídas levando-se em consideração os
+interesses dos partidos políticos.
+C são direcionadas para apenas uma parcela da população.
+D dependem da vontade individual dos representantes públicos.
+E devem garantir o acesso à educação de qualidade.
+
+Questão 50
+
+A gestão democrática na escola tem como princípio
+A a centralização das decisões nas regras e nos procedimentos
+administrativos, dando mais ênfase às tarefas do que às
+pessoas.
+B o poder e a autoridade, exercidos unilateralmente, enfatizando
+as relações de subordinação, retirando das pessoas o direito
+de pensar e decidir sobre seu trabalho.
+C a percepção do diretor como único responsável pelo êxito das
+ações do grupo sob seu comando e do baixo grau de
+participação das pessoas.
+D a visão de que a escola é uma estrutura totalmente objetiva,
+neutra e independente das pessoas.
+E o pressuposto de que a escola é uma construção social
+composta pelas subjetividades dos professores, alunos, pais,
+funcionários e integrantes da comunidade.
+
+

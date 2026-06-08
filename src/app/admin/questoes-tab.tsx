@@ -138,25 +138,25 @@ export default function QuestoesTab({ onMsg }: { onMsg: (m: string) => void }) {
             <span className="text-[10px] text-muted-foreground">Preview 396×704</span>
             <div className="w-[280px] h-[520px] border-[5px] border-gray-800 dark:border-gray-500 rounded-[20px] overflow-hidden bg-white dark:bg-gray-950 shadow-xl flex flex-col relative">
               <div className="h-4 bg-gray-800 dark:bg-gray-500 flex items-center justify-center"><div className="w-12 h-1 bg-gray-600 dark:bg-gray-400 rounded-full" /></div>
-              <div className="flex-1 overflow-y-auto p-2" style={{fontSize:"9px"}}>
+              <div className="flex-1 overflow-y-auto p-2" style={{fontSize:"11px"}}>
                 <div className="flex items-center justify-between mb-1.5">
-                  <span className="text-[8px] font-bold text-gray-400 uppercase">Questao 1</span>
+                  <span className="text-[10px] font-bold text-gray-400 uppercase">Questao 1</span>
                   <div className="flex gap-0.5">
-                    {form.texto_apoio && <button onClick={() => setPrevTexto(!prevTexto)} className={`text-[7px] border rounded px-1 py-0.5 ${prevTexto ? "bg-gray-800 text-white" : "border-gray-300 dark:border-gray-600 text-gray-500"}`}>👁 Texto</button>}
-                    {form.imagem_url && <button onClick={() => setPrevImg(!prevImg)} className={`text-[7px] border rounded px-1 py-0.5 ${prevImg ? "bg-gray-800 text-white" : "border-gray-300 dark:border-gray-600 text-gray-500"}`}>👁 Imagem</button>}
+                    {form.texto_apoio && <button onClick={() => setPrevTexto(!prevTexto)} className={`text-[11px] border rounded px-1 py-0.5 ${prevTexto ? "bg-gray-800 text-white" : "border-gray-300 dark:border-gray-600 text-gray-500"}`}>👁 Texto</button>}
+                    {form.imagem_url && <button onClick={() => setPrevImg(!prevImg)} className={`text-[11px] border rounded px-1 py-0.5 ${prevImg ? "bg-gray-800 text-white" : "border-gray-300 dark:border-gray-600 text-gray-500"}`}>👁 Imagem</button>}
                   </div>
                 </div>
-                {prevTexto && form.texto_apoio && <div className="text-[8px] text-gray-500 border-l-2 border-gray-300 pl-2 italic mb-2 leading-relaxed text-justify">{form.texto_apoio}</div>}
-                <div className="text-[10px] leading-relaxed mb-2 text-justify"><LatexRenderer text={form.enunciado||"(enunciado)"}/></div>
+                {prevTexto && form.texto_apoio && <div className="text-[10px] text-gray-500 border-l-2 border-gray-300 pl-2 italic mb-2 leading-relaxed text-justify">{form.texto_apoio}</div>}
+                <div className="text-[13px] leading-relaxed mb-2 text-justify"><LatexRenderer text={form.enunciado||"(enunciado)"}/></div>
                 {prevImg && form.imagem_url && <img src={form.imagem_url} className="w-full rounded mb-2" alt="" />}
               </div>
               <div className="p-1.5 border-t border-gray-200 dark:border-gray-700 space-y-1 bg-gray-50 dark:bg-gray-900">
                 {form.tipo==="certo_errado"?(
-                  <div className="grid grid-cols-2 gap-1 text-[8px]"><div className="border border-gray-300 dark:border-gray-600 rounded p-1.5 text-center bg-white dark:bg-gray-800">{form.alternativa_a||"A"}</div><div className="border border-gray-300 dark:border-gray-600 rounded p-1.5 text-center bg-white dark:bg-gray-800">{form.alternativa_b||"B"}</div></div>
+                  <div className="grid grid-cols-2 gap-1 text-[10px]"><div className="border border-gray-300 dark:border-gray-600 rounded p-1.5 text-center bg-white dark:bg-gray-800">{form.alternativa_a||"A"}</div><div className="border border-gray-300 dark:border-gray-600 rounded p-1.5 text-center bg-white dark:bg-gray-800">{form.alternativa_b||"B"}</div></div>
                 ):(
-                  <div className="space-y-0.5 text-[8px]">{["a","b","c","d","e"].map(alt=><div key={alt} className="border border-gray-300 dark:border-gray-600 rounded p-1 bg-white dark:bg-gray-800">{form[("alternativa_"+alt) as keyof typeof form]||alt.toUpperCase()}</div>)}</div>
+                  <div className="space-y-0.5 text-[10px]">{["a","b","c","d","e"].map(alt=><div key={alt} className="border border-gray-300 dark:border-gray-600 rounded p-1 bg-white dark:bg-gray-800">{form[("alternativa_"+alt) as keyof typeof form]||alt.toUpperCase()}</div>)}</div>
                 )}
-                <div className="flex justify-between text-[7px] text-gray-400 px-1 pt-0.5"><span>← Anterior</span><span>Próxima →</span></div>
+                <div className="flex justify-between text-[11px] text-gray-400 px-1 pt-0.5"><span>← Anterior</span><span>Próxima →</span></div>
               </div>
             </div>
           </div>

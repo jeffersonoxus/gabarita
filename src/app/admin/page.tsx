@@ -63,12 +63,13 @@ function UsersTab({ onMsg }: { onMsg: (m: string) => void }) {
 
 function ConcursosTab({ onMsg }: { onMsg: (m: string) => void }) {
   const [data, setData] = useState<any[]>([]);
-  const [f, setF] = useState({ nome:"", descricao:"", banca:"", data_prova:"", slug:"", ativo:true, tem_especificas:true, status:"pronto", pontuacao_tipo:"tradicional" });
+  const defF = { nome:"", descricao:"", banca:"", data_prova:"", slug:"", ativo:true, tem_especificas:true, status:"pronto", pontuacao_tipo:"tradicional", instrucoes: { edital:"", selecao:"", estatisticas:"" } };
+  const [f, setF] = useState<any>(defF);
   const [editId, setEditId] = useState<string|null>(null);
   useEffect(() => { s().from("concursos").select("*").order("created_at",{ascending:false}).then(({data:d}) => { if(d) setData(d); }); }, []);
-  async function save() { const payload:any={...f,data_prova:f.data_prova||null,slug:f.slug||null};
-    if(editId) await s().from("concursos").update(payload).eq("id",editId); else await s().from("concursos").insert(payload); onMsg(editId?"Atualizado":"Criado"); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true,status:"pronto",pontuacao_tipo:"tradicional"}); setEditId(null); }
-  function edit(c:any) { setEditId(c.id); setF({nome:c.nome,descricao:c.descricao||"",banca:c.banca||"",data_prova:c.data_prova||"",slug:c.slug||"",ativo:c.ativo,tem_especificas:c.tem_especificas!==false,status:c.status||"pronto",pontuacao_tipo:c.pontuacao_tipo||"tradicional"}); }
+  async function save() { const payload:any={...f,data_prova:f.data_prova||null,slug:f.slug||null,instrucoes:f.instrucoes||null};
+    if(editId) await s().from("concursos").update(payload).eq("id",editId); else await s().from("concursos").insert(payload); onMsg(editId?"Atualizado":"Criado"); setF({...defF}); setEditId(null); }
+  function edit(c:any) { setEditId(c.id); setF({nome:c.nome,descricao:c.descricao||"",banca:c.banca||"",data_prova:c.data_prova||"",slug:c.slug||"",ativo:c.ativo,tem_especificas:c.tem_especificas!==false,status:c.status||"pronto",pontuacao_tipo:c.pontuacao_tipo||"tradicional",instrucoes:c.instrucoes||{edital:"",selecao:"",estatisticas:""}}); }
   return (
     <div className="space-y-4">
       <div className="bg-card border rounded-card p-6">
@@ -83,10 +84,27 @@ function ConcursosTab({ onMsg }: { onMsg: (m: string) => void }) {
           <select value={f.status} onChange={e => setF({...f, status:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background"><option value="pronto">Pronto</option><option value="manutenção">Em manutenção</option><option value="breve">Em breve</option></select>
           <select value={f.pontuacao_tipo} onChange={e => setF({...f, pontuacao_tipo:e.target.value})} className="border rounded px-3 py-2 text-sm bg-background"><option value="tradicional">Pontuação: Tradicional</option><option value="cebraspe">Pontuação: Cebraspe</option></select>
         </div>
-        <div className="flex gap-2 mt-3"><Button size="sm" onClick={save} disabled={!f.nome}>Salvar</Button>{editId && <Button size="sm" variant="ghost" onClick={() => { setEditId(null); setF({nome:"",descricao:"",banca:"",data_prova:"",slug:"",ativo:true,tem_especificas:true,status:"pronto",pontuacao_tipo:"tradicional"}); }}>Cancelar</Button>}</div>
+        <details className="mt-3 border rounded p-3 bg-muted/10">
+          <summary className="text-sm font-medium cursor-pointer text-muted-foreground hover:text-foreground">Instruções para o candidato</summary>
+          <div className="mt-3 space-y-2">
+            <label className="text-xs text-muted-foreground">1. Sobre o edital:</label>
+            <textarea rows={3} value={f.instrucoes?.edital||""} onChange={e => setF({...f,instrucoes:{...f.instrucoes,edital:e.target.value}})}
+              placeholder="Ex: Este simulado abrange o conteudo do edital SEDUC-AL 2026, conforme lei nº 12.345/2025..."
+              className="w-full border rounded px-3 py-2 text-sm bg-background resize-none" />
+            <label className="text-xs text-muted-foreground">2. Como selecionar as perguntas:</label>
+            <textarea rows={3} value={f.instrucoes?.selecao||""} onChange={e => setF({...f,instrucoes:{...f.instrucoes,selecao:e.target.value}})}
+              placeholder="Ex: Escolha as disciplinas que deseja estudar e a quantidade de questoes. O sistema distribui as questoes proporcionalmente..."
+              className="w-full border rounded px-3 py-2 text-sm bg-background resize-none" />
+            <label className="text-xs text-muted-foreground">3. Como verificar o desempenho:</label>
+            <textarea rows={3} value={f.instrucoes?.estatisticas||""} onChange={e => setF({...f,instrucoes:{...f.instrucoes,estatisticas:e.target.value}})}
+              placeholder="Ex: Apos finalizar o simulado, va ate a pagina de estatisticas para ver seu desempenho por disciplina..."
+              className="w-full border rounded px-3 py-2 text-sm bg-background resize-none" />
+          </div>
+        </details>
+        <div className="flex gap-2 mt-3"><Button size="sm" onClick={save} disabled={!f.nome}>Salvar</Button>{editId && <Button size="sm" variant="ghost" onClick={() => { setEditId(null); setF({...defF}); }}>Cancelar</Button>}</div>
       </div>
-      <div className="bg-card border rounded-card overflow-x-auto"><table className="w-full text-sm"><thead className="bg-muted/50 border-b"><tr><th className="text-left p-3">Nome</th><th className="text-left p-3">Slug</th><th className="text-left p-3">Banca</th><th className="text-left p-3">Ativo</th><th className="text-left p-3">Acoes</th></tr></thead>
-        <tbody>{data.map((c:any) => (<tr key={c.id} className="border-b hover:bg-muted/30"><td className="p-3 text-xs font-medium">{c.nome}</td><td className="p-3 text-xs font-mono">{c.slug||"-"}</td><td className="p-3 text-xs">{c.banca||"-"}</td><td className="p-3"><span className={`px-2 py-0.5 rounded text-xs ${c.ativo?"bg-emerald-100 text-emerald-700":"bg-muted text-muted-foreground"}`}>{c.ativo?"Sim":"Nao"}</span></td><td className="p-3"><div className="flex gap-1"><Button size="sm" variant="outline" className="h-7 text-xs" onClick={() => edit(c)}>Editar</Button></div></td></tr>))}</tbody></table></div>
+      <div className="bg-card border rounded-card overflow-x-auto"><table className="w-full text-sm"><thead className="bg-muted/50 border-b"><tr><th className="text-left p-3">Nome</th><th className="text-left p-3">Slug</th><th className="text-left p-3">Banca</th><th className="text-left p-3">Instrucoes</th><th className="text-left p-3">Acoes</th></tr></thead>
+        <tbody>{data.map((c:any) => (<tr key={c.id} className="border-b hover:bg-muted/30"><td className="p-3 text-xs font-medium">{c.nome}</td><td className="p-3 text-xs font-mono">{c.slug||"-"}</td><td className="p-3 text-xs">{c.banca||"-"}</td><td className="p-3 text-xs">{c.instrucoes?.edital ? "Sim" : "Nao"}</td><td className="p-3"><div className="flex gap-1"><Button size="sm" variant="outline" className="h-7 text-xs" onClick={() => edit(c)}>Editar</Button></div></td></tr>))}</tbody></table></div>
     </div>
   );
 }

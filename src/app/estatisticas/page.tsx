@@ -6,7 +6,7 @@ import { AppShell } from "@/components/app-shell";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Progress } from "@/components/ui/progress";
-import { Trophy, Target, AlertTriangle, TrendingUp, Calendar, Clock, Trash2 } from "lucide-react";
+import { Trophy, Target, AlertTriangle, TrendingUp, Calendar, Clock, Trash2, Lightbulb, Sparkles } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 
@@ -23,6 +23,8 @@ export default function EstatisticasPage() {
   const [resetTarget, setResetTarget] = useState("");
   const [countdown, setCountdown] = useState(0);
   const [resetting, setResetting] = useState(false);
+  const [insights, setInsights] = useState<any[]>([]);
+  const [ult10, setUlt10] = useState<{t: number; a: number}>({t: 0, a: 0});
 
   useEffect(() => { loadData(); }, []);
 
@@ -74,12 +76,15 @@ export default function EstatisticasPage() {
     const porDia: Record<string, number> = {};
     const porSemana: Record<string, number> = {};
     let totalG = 0, acertosG = 0;
+    const ult10Resp: boolean[] = [];
 
     for (const r of resps) {
       const q = (r as any).questoes; if (!q) continue;
-      totalG++; if (r.correta) acertosG++;
-      if (q.disciplina_id) { if (!dStats[q.disciplina_id]) dStats[q.disciplina_id] = { t: 0, a: 0, tipo: discMap[q.disciplina_id]?.tipo || "especifica", nome: discMap[q.disciplina_id]?.nome || "" }; dStats[q.disciplina_id].t++; if (r.correta) dStats[q.disciplina_id].a++; }
-      if (q.conteudo_id) { if (!cStats[q.conteudo_id]) cStats[q.conteudo_id] = { t: 0, a: 0, nome: contMap[q.conteudo_id] || "", dNome: discMap[q.disciplina_id]?.nome || "" }; cStats[q.conteudo_id].t++; if (r.correta) cStats[q.conteudo_id].a++; }
+      totalG++; const correto = !!r.correta; if (correto) acertosG++;
+      ult10Resp.push(correto);
+      if (ult10Resp.length > 10) ult10Resp.shift();
+      if (q.disciplina_id) { if (!dStats[q.disciplina_id]) dStats[q.disciplina_id] = { t: 0, a: 0, tipo: discMap[q.disciplina_id]?.tipo || "especifica", nome: discMap[q.disciplina_id]?.nome || "" }; dStats[q.disciplina_id].t++; if (correto) dStats[q.disciplina_id].a++; }
+      if (q.conteudo_id) { if (!cStats[q.conteudo_id]) cStats[q.conteudo_id] = { t: 0, a: 0, nome: contMap[q.conteudo_id] || "", dNome: discMap[q.disciplina_id]?.nome || "" }; cStats[q.conteudo_id].t++; if (correto) cStats[q.conteudo_id].a++; }
     }
 
     filteredSims.forEach((s: any) => {
@@ -89,13 +94,104 @@ export default function EstatisticasPage() {
       porSemana[ws.toLocaleDateString("pt-BR")] = (porSemana[ws.toLocaleDateString("pt-BR")] || 0) + s.total_questoes;
     });
 
-    setStats({
+    const ult10Total = ult10Resp.length;
+    const ult10Acertos = ult10Resp.filter(Boolean).length;
+    setUlt10({ t: ult10Total, a: ult10Acertos });
+
+    const s = {
       geral: { total: totalG, acertos: acertosG, pct: totalG > 0 ? Math.round((acertosG / totalG) * 100) : 0 },
       disciplinas: Object.entries(dStats).map(([id, v]) => ({ id, ...v, pct: Math.round((v.a / v.t) * 100) })).sort((a, b) => b.t - a.t),
       conteudos: Object.entries(cStats).map(([id, v]) => ({ id, ...v, pct: Math.round((v.a / v.t) * 100) })).sort((a, b) => b.t - a.t),
       dia: Object.values(porDia).pop() || 0,
       semana: Object.values(porSemana).pop() || 0,
-    });
+      concursoNome: "",
+    };
+    if (cid) {
+      const { data: conc } = await sup.from("concursos").select("nome").eq("id", cid).maybeSingle();
+      if (conc) s.concursoNome = conc.nome;
+    }
+    setStats(s);
+    gerarInsights(s, ult10Total, ult10Acertos);
+  }
+
+  function gerarInsights(s: any, ult10Total: number, ult10Acertos: number) {
+    const lista: any[] = [];
+
+    const geralPct = s.geral.pct;
+    const ult10Pct = ult10Total > 0 ? Math.round((ult10Acertos / ult10Total) * 100) : 0;
+
+    if (ult10Total >= 5 && ult10Pct < geralPct - 10) {
+      lista.push({
+        area: "Queda de rendimento",
+        tipo: "tendência",
+        pct: ult10Pct,
+        analise: `Nas ${ult10Total} últimas questões, você acertou ${ult10Pct}%, abaixo da sua média geral de ${geralPct}%.`,
+        dica: "Reveja os erros das últimas provas antes de continuar.",
+      });
+    }
+
+    const fracas = s.disciplinas.filter((d: any) => d.t >= 3 && d.pct < 60).sort((a: any, b: any) => a.pct - b.pct);
+    for (const d of fracas.slice(0, 4)) {
+      const precisava = Math.ceil(d.t * 0.7) - d.a;
+      const sugestoes: Record<string, string> = {
+        "Portugu": "Revise concordância verbal e nominal, crase e colocação pronominal. Faça 10 exercícios por dia focados em cada tópico.",
+        "Matem": "Foque em raciocínio lógico e resolução de problemas. Treine com questões de provas anteriores da mesma banca.",
+        "Inform": "Estude legislação específica (Lei de Acesso à Informação, Marco Civil). Pratique atalhos e funcionalidades do pacote Office.",
+        "Direito Constitucional": "Faça mapas mentais dos artigos mais cobrados (5 ao 250). Foque em direitos fundamentais e organização do Estado.",
+        "Direito Administrativo": "Decore os princípios da administração pública (LIMPE) e foque em licitações e servidores públicos.",
+        "RLM": "Treine tabelas-verdade, equivalências lógicas e diagramas de Venn. São os tópicos mais recorrentes.",
+      };
+      const chave = Object.keys(sugestoes).find(k => d.nome.includes(k));
+      lista.push({
+        area: d.nome,
+        tipo: "disciplina",
+        pct: d.pct,
+        analise: `Você acertou apenas ${d.a} de ${d.t} questões (${d.pct}%).`,
+        dica: chave ? sugestoes[chave] : "Revise a teoria, faça resumos e pratique questões específicas deste tópico até atingir 80% de aproveitamento.",
+      });
+    }
+
+    const fracosCont = s.conteudos.filter((c: any) => c.t >= 2 && c.pct < 60).sort((a: any, b: any) => a.pct - b.pct);
+    for (const c of fracosCont.slice(0, 3)) {
+      lista.push({
+        area: c.nome,
+        tipo: "conteúdo",
+        pct: c.pct,
+        analise: `Em "${c.nome}" (${c.dNome}) você acertou ${c.a} de ${c.t} questões (${c.pct}%). Este é um ponto crítico.`,
+        dica: `Pegue 3 questões que você errou e verifique o(s) erro(s). Depois, faça 5 novas questões sobre "${c.nome}" para fixar.`,
+      });
+    }
+
+    if (lista.length === 0) {
+      if (geralPct >= 80) {
+        lista.push({
+          area: "Parabéns!",
+          tipo: "geral",
+          pct: geralPct,
+          analise: "Você está com um aproveitamento excelente! Continue assim e mantenha a regularidade nos estudos.",
+          dica: "Faça simulados completos para treinar resistência e gerenciamento de tempo.",
+        });
+      } else if (geralPct >= 60) {
+        const precisa = Math.ceil(100 * 0.7) - geralPct;
+        lista.push({
+          area: "Bom progresso",
+          tipo: "geral",
+          pct: geralPct,
+          analise: `Seu aproveitamento de ${geralPct}% é bom, mas para garantir a aprovação você precisa chegar a 70%.`,
+          dica: `Identifique as ${s.disciplinas.filter((d: any) => d.pct < 70).length} disciplinas abaixo de 70% e foque nelas.`,
+        });
+      } else {
+        lista.push({
+          area: "Vamos começar!",
+          tipo: "geral",
+          pct: geralPct,
+          analise: `Seu aproveitamento geral é de ${geralPct}%. O importante é começar — a melhora vem com a prática consistente.`,
+          dica: "Estude por tópicos: escolha 1 disciplina por dia, revise a teoria e faça 10 questões. Repita até chegar a 70%.",
+        });
+      }
+    }
+
+    setInsights(lista);
   }
 
   function startCountdown() {
@@ -220,6 +316,31 @@ export default function EstatisticasPage() {
             </Card>
           </TabsContent>
         </Tabs>
+
+        {/* Insights */}
+        <details className="border rounded-xl">
+          <summary className="px-5 py-4 cursor-pointer text-sm font-medium text-muted-foreground hover:text-foreground transition-colors list-none flex items-center gap-2 [&::-webkit-details-marker]:hidden">
+            <span className="text-xs text-muted-foreground">{insights.length} insight{insights.length !== 1 ? "s" : ""}</span>
+            <span className="flex-1 text-justify">Análise de desempenho</span>
+            <span className="text-xs text-muted-foreground">{ult10.t > 0 && `últimas ${ult10.a}/${ult10.t}`}</span>
+          </summary>
+          <div className="border-t px-5 py-4 space-y-4">
+            {insights.length === 0 && (
+              <p className="text-sm text-muted-foreground text-justify">Nenhuma área crítica identificada.</p>
+            )}
+            {insights.map((ins: any, i: number) => (
+              <div key={i} className="border-b last:border-0 pb-4 last:pb-0 space-y-1.5">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-sm font-medium">{ins.area}</span>
+                  <span className="text-sm tabular-nums">{ins.pct}%</span>
+                  <span className="text-xs text-muted-foreground">{ins.tipo}</span>
+                </div>
+                <p className="text-sm text-muted-foreground text-justify">{ins.analise}</p>
+                <p className="text-sm text-justify">{ins.dica}</p>
+              </div>
+            ))}
+          </div>
+        </details>
       </div>
       {/* Reset Dialog */}
       <Dialog open={resetOpen} onOpenChange={setResetOpen}>

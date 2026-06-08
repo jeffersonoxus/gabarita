@@ -1,0 +1,20 @@
+{
+  "concurso": "InoversaSul",
+  "ano": 2025,
+  "banca": "CESPE/CEBRASPE",
+  "orgao": "Fundacao InoversaSul",
+  "cargo": "Professor de Lingua Portuguesa",
+  "nivel": "Superior",
+  "total_questoes": 100,
+  "modalidade": "certo_errado",
+  "url_qconcursos": "https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2025-inoversasul-professor-de-lingua-portuguesa-anos-finais",
+  "disciplina": "Lingua Portuguesa",
+  "assuntos": [
+    "Interpretacao de Textos",
+    "Gramatica",
+    "Sintaxe",
+    "Morfologia",
+    "Literatura",
+    "Pedagogia"
+  ]
+}

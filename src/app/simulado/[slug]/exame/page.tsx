@@ -18,7 +18,7 @@ import Link from "next/link";
 const surl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const skey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
-interface Questao { id: string; enunciado: string; alternativa_a: string; alternativa_b: string; alternativa_c: string; alternativa_d: string; alternativa_e: string; gabarito: string; tipo: string; texto_apoio?: string; imagem_url?: string; disciplina_id?: string; conteudo_id?: string; }
+interface Questao { id: string; enunciado: string; alternativa_a: string; alternativa_b: string; alternativa_c: string; alternativa_d: string; alternativa_e: string; gabarito: string; tipo: string; texto_apoio_id?: string; texto_apoio?: string; imagem_url?: string; disciplina_id?: string; conteudo_id?: string; }
 interface Resp { questao_id: string; resposta: string; }
 
 export default function ExamPageWrapper() { return <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-sm text-muted-foreground">Carregando...</div>}><ExamPage /></Suspense>; }
@@ -46,6 +46,7 @@ function ExamPage() {
   const [pontuacaoTipo, setPontuacaoTipo] = useState("tradicional");
   const [discMap, setDiscMap] = useState<Record<string,string>>({});
   const [contMap, setContMap] = useState<Record<string,string>>({});
+  const [textoApoioMap, setTextoApoioMap] = useState<Record<string,string>>({});
   const [comentarios, setComentarios] = useState<any[]>([]);
   const [novoTexto, setNovoTexto] = useState("");
   const [votos, setVotos] = useState<Record<string, number>>({});
@@ -69,7 +70,7 @@ function ExamPage() {
       const concursoId = con.id;
       setCid(concursoId); setConcursoNome(con.nome); setPontuacaoTipo(con.pontuacao_tipo || "tradicional");
 
-      let q = sup.from("questoes").select("id, concurso_id, disciplina_id, conteudo_id, enunciado, alternativa_a, alternativa_b, alternativa_c, alternativa_d, alternativa_e, gabarito, tipo, texto_apoio, imagem_url, created_at").eq("concurso_id", concursoId);
+      let q = sup.from("questoes").select("id, concurso_id, disciplina_id, conteudo_id, enunciado, alternativa_a, alternativa_b, alternativa_c, alternativa_d, alternativa_e, gabarito, tipo, texto_apoio_id, imagem_url, created_at").eq("concurso_id", concursoId);
       if (disc?.length) q = q.in("disciplina_id", disc.split(","));
       if (cont?.length) q = q.in("conteudo_id", cont.split(","));
       const { data, error } = await q;
@@ -104,6 +105,8 @@ function ExamPage() {
         const contIds = [...new Set(sh.map((q: any) => q.conteudo_id).filter(Boolean))];
         if (discIds.length) { const { data: dd } = await sup.from("disciplinas").select("id,nome").in("id", discIds); if (dd) { const m: Record<string, string> = {}; dd.forEach((d: any) => { m[d.id] = d.nome; }); setDiscMap(m); } }
         if (contIds.length) { const { data: cc } = await sup.from("conteudos").select("id,nome").in("id", contIds); if (cc) { const m: Record<string, string> = {}; cc.forEach((d: any) => { m[d.id] = d.nome; }); setContMap(m); } }
+        const taIds = [...new Set(sh.map((q: any) => q.texto_apoio_id).filter(Boolean))];
+        if (taIds.length) { const { data: tt } = await sup.from("textos_apoio").select("id,texto").in("id", taIds); if (tt) { const m: Record<string, string> = {}; tt.forEach((t: any) => { m[t.id] = t.texto; }); setTextoApoioMap(m); } }
       }
       setLoading(false);
     })();
@@ -197,7 +200,7 @@ function ExamPage() {
           <div className="flex items-center gap-3">
             <span className="text-xs text-muted-foreground font-mono tabular-nums">{idx+1}/{qs.length}</span>
             <span className={`flex items-center gap-1 text-xs font-mono tabular-nums ${timer<60?"text-destructive font-bold":"text-muted-foreground"}`}><Clock className="w-3 h-3" />{fmt(timer)}</span>
-            <Button variant="destructive" size="sm" className="h-7 text-xs" onClick={() => { if (confirm("Finalizar simulado?")) finalizar(); }}><Flag className="w-3 h-3 mr-1" />Finalizar</Button>
+            <Button variant="destructive" size="sm" className="h-7 text-xs" onClick={finalizar}><Flag className="w-3 h-3 mr-1" />Finalizar</Button>
           </div>
         </div>
       </header>
@@ -219,9 +222,9 @@ function ExamPage() {
               <div className="flex items-center justify-between mb-3">
                 <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">Questao {idx + 1}</span>
                 <span className="text-[10px] text-muted-foreground truncate ml-2 hidden sm:inline">{concursoNome}</span>
-                {(q.texto_apoio || q.imagem_url) && (
+                {(textoApoioMap[q.texto_apoio_id || ""] || q.imagem_url) && (
                   <div className="flex gap-1">
-                    {q.texto_apoio && <Button variant="outline" size="sm" onClick={() => setShowApoio(true)} className="h-7 text-xs gap-1 border-amber-500/50 text-amber-600 hover:bg-amber-50 dark:hover:bg-amber-950 transition-all group">
+                    {textoApoioMap[q.texto_apoio_id || ""] && <Button variant="outline" size="sm" onClick={() => setShowApoio(true)} className="h-7 text-xs gap-1 border-amber-500/50 text-amber-600 hover:bg-amber-50 dark:hover:bg-amber-950 transition-all group">
                       <Eye className="w-3 h-3 group-hover:scale-110 transition-transform" />Ver o texto
                     </Button>}
                     {q.imagem_url && <Button variant="outline" size="sm" onClick={() => setShowImagem(true)} className="h-7 text-xs gap-1 border-sky-500/50 text-sky-600 hover:bg-sky-50 dark:hover:bg-sky-950 transition-all group">
@@ -301,18 +304,18 @@ function ExamPage() {
           </div>
           <div className="flex justify-between pt-2">
             <Button variant="outline" size="sm" onClick={() => setIdx(i => Math.max(0, i-1))} disabled={idx===0}><ChevronLeft className="w-4 h-4 mr-1" /><span className="text-sm">Anterior</span></Button>
-            <Button size="sm" onClick={() => idx===qs.length-1 ? (confirm("Finalizar?")?finalizar():null) : setIdx(i => i+1)}>
+            <Button size="sm" onClick={() => idx===qs.length-1 ? finalizar() : setIdx(i => i+1)}>
               {idx===qs.length-1 ? <><Flag className="w-4 h-4 mr-1" /><span className="text-sm">Finalizar</span></> : <><span className="text-sm">Próxima</span><ChevronRight className="w-4 h-4 ml-1" /></>}
             </Button>
           </div>
         </div>
       </main>
 
-      {showApoio && q && q.texto_apoio && (
+      {showApoio && q && textoApoioMap[q.texto_apoio_id || ""] && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50" onClick={() => setShowApoio(false)}>
           <div className="bg-card border rounded-card p-6 max-w-lg w-full mx-4 max-h-[85vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between mb-3"><h3 className="font-bold text-sm">Texto de apoio — Questão {idx + 1}</h3><Button variant="ghost" size="sm" onClick={() => setShowApoio(false)}>✕</Button></div>
-            <div className="text-base text-muted-foreground whitespace-pre-wrap border-l-2 border-muted pl-3 italic leading-relaxed text-justify">{q.texto_apoio}</div>
+            <div className="text-base text-muted-foreground whitespace-pre-wrap border-l-2 border-muted pl-3 italic leading-relaxed text-justify">{textoApoioMap[q.texto_apoio_id || ""]}</div>
           </div>
         </div>
       )}

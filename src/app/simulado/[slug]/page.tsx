@@ -30,6 +30,8 @@ export default function SimuladoFilterPage() {
   const [loading, setLoading] = useState(true);
   const [expandedDisc, setExpandedDisc] = useState<Set<string>>(new Set());
   const [questCounts, setQuestCounts] = useState<Record<string, number>>({});
+  const [instrucoes, setInstrucoes] = useState<any>(null);
+  const [showInstrucoes, setShowInstrucoes] = useState(false);
 
   useEffect(() => {
     const sup = createBrowserClient(surl, skey);
@@ -39,9 +41,9 @@ export default function SimuladoFilterPage() {
   async function load(sup: any, slug: string) {
     let con = null;
     // Try slug first
-    let res = await sup.from("concursos").select("id, nome, tem_especificas").eq("slug", slug).maybeSingle();
+    let res = await sup.from("concursos").select("id, nome, tem_especificas, instrucoes").eq("slug", slug).maybeSingle();
     if (!res.data) {
-      res = await sup.from("concursos").select("id, nome, tem_especificas").eq("id", slug).maybeSingle();
+      res = await sup.from("concursos").select("id, nome, tem_especificas, instrucoes").eq("id", slug).maybeSingle();
     }
     con = res.data;
     if (!con) { setLoading(false); return; }
@@ -49,6 +51,13 @@ export default function SimuladoFilterPage() {
     setConcursoId(con.id);
     setNome(con.nome);
     setTemEspecificas(con.tem_especificas !== false);
+
+    // Show instructions modal every time
+    const inst = con.instrucoes;
+    if (inst?.edital || inst?.selecao || inst?.estatisticas) {
+      setInstrucoes(inst);
+      setShowInstrucoes(true);
+    }
 
     const { data: d } = await sup.from("disciplinas").select("*").eq("concurso_id", con.id).order("tipo").order("nome");
     if (d) {
@@ -155,8 +164,46 @@ export default function SimuladoFilterPage() {
     </div>
   );
 
+  function dismissInst() {
+    setShowInstrucoes(false);
+    if (concursoId) localStorage.setItem(`instrucoes_${concursoId}`, "1");
+  }
+
   return (
-    <AppShell>
+    <>
+      {/* Instructions modal */}
+      {showInstrucoes && instrucoes && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+          <div className="bg-background rounded-xl shadow-2xl max-w-lg w-full max-h-[85vh] overflow-y-auto">
+            <div className="p-6 space-y-4">
+              <h2 className="text-lg font-bold">{nome}</h2>
+              {instrucoes.edital && (
+                <div>
+                  <h3 className="text-sm font-semibold text-muted-foreground mb-1">📋 Sobre o edital</h3>
+                  <p className="text-sm leading-relaxed whitespace-pre-wrap">{instrucoes.edital}</p>
+                </div>
+              )}
+              {instrucoes.selecao && (
+                <div>
+                  <h3 className="text-sm font-semibold text-muted-foreground mb-1">🎯 Como selecionar as perguntas</h3>
+                  <p className="text-sm leading-relaxed whitespace-pre-wrap">{instrucoes.selecao}</p>
+                </div>
+              )}
+              {instrucoes.estatisticas && (
+                <div>
+                  <h3 className="text-sm font-semibold text-muted-foreground mb-1">📊 Como verificar seu desempenho</h3>
+                  <p className="text-sm leading-relaxed whitespace-pre-wrap">{instrucoes.estatisticas}</p>
+                </div>
+              )}
+              <div className="flex gap-2 pt-2">
+                <Button onClick={dismissInst} size="lg" className="flex-1">Entendi, vamos começar!</Button>
+                <Button variant="ghost" size="sm" onClick={() => { localStorage.setItem(`instrucoes_${concursoId}`, "1"); setShowInstrucoes(false); }} className="text-xs text-muted-foreground">Nao mostrar novamente</Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+      <AppShell>
       <div id="simulado-scroll" className="max-w-2xl mx-auto" style={{ scrollBehavior: "auto" }}>
         <h1 className="text-xl font-bold mb-6">{nome}</h1>
         <DiscSection title="Conhecimentos Basicos" icon={BookOpen} data={basicas} color="text-blue-500" />
@@ -174,5 +221,6 @@ export default function SimuladoFilterPage() {
         </Card>
       </div>
     </AppShell>
+    </>
   );
 }

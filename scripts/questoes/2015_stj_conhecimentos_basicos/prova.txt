@@ -1,0 +1,266 @@
+||186STJ_CB5_01N755187||                                                                                                 CESPE | CEBRASPE – STJ – Aplicação: 2015
+
+•       Cada um dos itens das provas objetivas está vinculado ao comando que imediatamente o antecede. De acordo com o comando a que
+        cada um deles esteja vinculado, marque, na Folha de Respostas, para cada item: o campo designado com o código C, caso julgue
+        o item CERTO; ou o campo designado com o código E, caso julgue o item ERRADO. A ausência de marcação ou a marcação de
+        ambos os campos não serão apenadas, ou seja, não receberão pontuação negativa. Para as devidas marcações, use a Folha de
+        Respostas, único documento válido para a correção das suas provas objetivas.
+•       Nos itens que avaliam conhecimentos de informática, a menos que seja explicitamente informado o contrário, considere que todos os
+        programas mencionados estão em configuração-padrão, em português, e que não há restrições de proteção, de funcionamento e de uso em
+        relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.
+•       Nos itens constituídos pela estrutura Situação hipotética: ... seguida de Assertiva: ..., os dados apresentados como situação hipotética
+        devem ser considerados como premissa(s) para o julgamento da assertiva proposta.
+•       Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de provas poderão
+        ser utilizados para anotações, rascunhos etc.
+
+                                                       CONHECIMENTOS BÁSICOS
+    1              O problema da justiça refere-se à correspondência, ou                          Julgue os itens subsequentes, relativos às estruturas linguísticas do
+        não, entre a norma e os valores supremos ou finais que                                    texto Teoría general del derecho.
+                                                                                                  4       Na linha 15, caso se substituísse o vocábulo “concreta” por
+        inspiram determinado ordenamento jurídico. Não importa
+                                                                                                          concreto, não haveria prejuízo para a correção gramatical e
+    4   comentar se existe um ideal de bem comum, idêntico para                                           para os sentidos originais do texto, já que esse novo termo
+                                                                                                          concordaria com a expressão “ordenamento jurídico”.
+        todos os tempos e para todos os lugares. Todo ordenamento
+                                                                                                  5       Sem prejuízo para a correção gramatical e para a coerência
+        jurídico persegue certos fins e esses representam os valores                                      do texto, o primeiro período poderia ser assim reescrito:
+                                                                                                          A questão da justiça concerne a correspondência ou não entre
+    7   a cuja realização o legislador, mais ou menos conscientemente
+                                                                                                          a norma e valores absolutos, ou finais, inspiradores de dado
+        e adequadamente, dirige sua própria atividade. Quando se                                          ordenamento jurídico.
+                                                                                                  6       Na concatenação das ideias do texto, ocorre uma sequenciação
+        considera que há valores absolutos, objetivamente evidentes,
+                                                                                                          textual conjugada entre a oração iniciada com “Quando” (R.8)
+10      a pergunta acerca de se uma norma é justa ou injusta equivale                                     e a oração começada por “No caso de” (R. 11 e 12).
+        a perguntar se esta é apta ou não a realizar aqueles valores. No                          7       Na estrutura textual, o vocábulo “esta” (R.11) e a expressão
+                                                                                                          “aqueles valores” (R.11) fazem referência, respectivamente, ao
+        caso de não se acreditar em valores absolutos, o problema da                                      termo “norma” (R.10) e à expressão “valores absolutos” (R.9).
+13      justiça ou da injustiça de uma norma tem um sentido: equivale
+                                                                                                      1             O termo justiça expressa o que se faz conforme o
+        a perguntar se essa norma é apta ou não a realizar os valores                                     direito ou segundo as regras prescritas em lei. Desse modo, o
+        históricos que inspiram esse ordenamento jurídico, concreta e                                     termo justiça como conformidade da conduta a uma norma é
+                                                                                                      4   empregado para julgar o comportamento da pessoa humana
+16      historicamente determinado.                                                                       diante de uma norma, seja esta moral, seja de direito natural ou
+                                                                                                          de direito positivo. Já o termo justiça como eficiência de uma
+                                    Norberto Bobbio. Teoría general del derecho. Bogotá/CO:           7   norma (ou de um sistema de normas), no sentido de se
+                                    Temis S.A., 1999, p. 20-2 (tradução livre, com adaptações).           possibilitar as relações entre os homens, é empregado para
+                                                                                                          julgar a própria norma que regula o comportamento humano.
+                                                                                                                   Carlos Henrique Bezerra Leite et al. A validade e a eficácia das normas jurídicas.
+De acordo com as ideias do texto Teoría general del derecho,                                                       (Coord. Renan Lotufo). Barueri/SP: Manole, 2005, p. 7 (com adaptações).
+
+                                                                                                  Considerando as ideias e as estruturas linguísticas do texto
+1       o problema da justiça é estudado a partir da análise entre o                              A validade e a eficácia das normas jurídicas, julgue os itens a
+                                                                                                  seguir.
+        mundo ideal e o mundo real, entre o dever-ser, que representa
+                                                                                                  8       Sem prejuízo para a correção gramatical e para os sentidos
+        a norma justa, e o não dever-ser, que corresponde à norma                                         originais do texto, a estrutura “Desse modo (...) diante de uma
+                                                                                                          norma” (R. 2 a 5) poderia ser assim reescrita: Assim sendo,
+        injusta.
+                                                                                                          emprega-se o termo justiça para julgar o comportamento do ser
+                                                                                                          humano em consonância à norma de conduta.
+2       a questão de se definir se uma norma jurídica é justa ou injusta
+                                                                                                  9       Em “seja esta moral, seja de direito natural” (R.5), é obrigatório
+        é um problema deontológico do direito, ou seja, remete a um                                       o emprego da vírgula para indicar a relação de alternância
+        juízo de valor.                                                                                   entre os elementos de orações de mesmo nível sintático.
+                                                                                                  10      Conclui-se do texto que existem dois significados principais do
+3       estudar o problema da justiça ou da injustiça de uma norma                                        termo justiça, que se complementam, mas que, diretamente,
+                                                                                                          não se equivalem.
+        jurídica pressupõe o exame de sua aptidão para o ideal do bem
+                                                                                                  11      No primeiro período do texto, a partícula “se” é empregada
+        comum.                                                                                            para realçar o que está sendo afirmado nesse período.
+||186STJ_CB5_01N755187||                                                                                           CESPE | CEBRASPE – STJ – Aplicação: 2015
+
+ 1             Consta do preâmbulo da Constituição Federal que a
+     justiça é um dos valores supremos da sociedade, tal qual a
+     harmonia social e a liberdade. Nos demais artigos da Carta                                        PORTARIA STJ/GDG N.º 205, DE 6 DE MARÇO DE 2015.
+ 4   Magna, esse termo costuma vir associado à ideia de justiça
+     social. Assim, o primeiro inciso do artigo terceiro da
+     Constituição estabelece que a construção de uma sociedade que                                                                     Prorroga o prazo estabelecido
+ 7   seja justa é um objetivo fundamental da República Federativa                                                                      na Portaria STJ GDG n.º 1.247,
+     do Brasil. Ao circunscrever a justiça no espaço da sociedade,                                                                     de 9 de dezembro de 2014.
+
+     o texto constitucional estabelece, em síntese, que a promoção
+10   da justiça na sociedade é um fim do Estado brasileiro.
+                             Sérgio Luiz Junkes. A justiça social como norma constitucional.
+                             Resenha eleitoral – Nova série, v. 12, n.o 1, jan.-jun./2005.          O DIRETOR-GERAL DA SECRETARIA DO SUPERIOR TRIBUNAL
+                             Internet: <www.tre-sc.jus.br> (com adaptações).
+                                                                                                    DE JUSTIÇA, usando da atribuição conferida pelo item 17.2, X, b,
+!FimDoTexto!                                                                                        do Manual de Organização do Superior Tribunal de Justiça,
+
+Em relação às ideias e às estruturas linguísticas do texto A justiça
+social como norma constitucional, julgue os seguintes itens.
+                                                                                                    RESOLVE:
+12    À semelhança do que ocorre com a expressão “em síntese”
+      (R.9), o trecho “que seja justa” (R. 6 e 7) constitui uma
+      expressão explicativa, razão por que também poderia ser                                       Art. 1.º Prorroga, até 6 de abril de 2015, o prazo estabelecido no
+      isolado por um par de vírgulas, sem que isso acarretasse                                      art. 3.º da Portaria STJ GDG n.º 1.247, de 9 de dezembro de 2014.
+      prejuízo para a correção gramatical e para os sentidos do texto.                              Art. 2.º Esta portaria entra em vigor nesta data de sua publicação.
+13    Compreende-se do texto, em síntese, que a justiça social
+      equipara-se, como valor da sociedade, à harmonia social e à
+      liberdade.                                                                                                          José Joaquim Xavier
+
+14    Deduz-se do texto, sob o ponto de vista semântico, que a
+      promoção da justiça social constitui meta da República
+      Federativa do Brasil.                                                                    Acerca de aspectos gerais das correspondências oficiais
+15    Na linha 2, sem prejuízo para a correção gramatical, a                                   e com fundamento no Manual de Redação da Presidência
+      expressão “tal qual” poderia ser flexionada no plural, para                              da República, julgue os próximos itens, relativos ao documento
+      concordar com “valores supremos”.                                                        oficial hipotético anteriormente apresentado — PORTARIA
+                                                                                               STJ/GDG N.º 205.
+        COMUNICADO GDG N.º 2, DE 30 DE JANEIRO DE 2015
+                                                                                               19    Caso o artigo primeiro do documento em apreço constituísse
+                                                                                                     um caput seguido de um único parágrafo, este deveria ser
+                                                                                                     identificado por extenso e seu texto deveria iniciar-se com letra
+     O DIRETOR-GERAL DA SECRETARIA DO SUPERIOR TRIBUNAL                                              maiúscula e encerrar-se com ponto final.
+     DE JUSTIÇA, em cumprimento ao que determina o art. 1.º da
+     Resolução CNJ n.º 22, de 5 de junho de 2010, divulga a frota de                           20    Em uma portaria, denomina-se epígrafe o trecho do texto que
+     veículos do Tribunal, conforme a planilha anexa.
+                                                                                                     sintetiza seu conteúdo, de modo a permitir o conhecimento
+                                                                                                     imediato da matéria, como na hipótese em questão: “Prorroga
+                          José Joaquim Xavier
+                                                                                                     o prazo (...) dezembro de 2014”.
+
+                                                                                               Julgue os itens seguintes, relativos ao sistema operacional
+No tocante a aspectos gerais das correspondências oficiais                                     Windows 7.0 e ao Microsoft Excel 2013.
+e com fundamento no Manual de Redação da Presidência
+da República, julgue os próximos itens, relativos ao                                           21    O recurso Validação de Dados, do Excel 2013, permite que se
+fragmento de comunicação oficial hipotética anteriormente                                            configure uma célula de tal modo que nela só possam ser
+apresentado — COMUNICADO GDG N.º 2.
+                                                                                                     inseridos números com exatamente doze caracteres. Esse
+16    A comunicação oficial hipotética em questão não atende à                                       recurso pode ser acessado mediante a seguinte sequência de
+      concisão, uma das qualidades essenciais da redação oficial.                                    acessos: guia Dados; grupo Ferramentas de Dados; caixa de
+17    O vocábulo “anexa” foi empregado de acordo com o padrão                                        diálogo Validação de Dados.
+      culto formal da língua portuguesa.
+                                                                                               22    No Windows 7, uma das opções de configuração que pode ser
+18    O vocativo adequado, na elaboração de expediente oficial
+                                                                                                     definida para a Lixeira é fazer que um arquivo apagado por um
+      dirigido ao emitente da comunicação em apreço, seria
+      “Digníssimo Senhor”, seguido do nome do cargo                                                  usuário seja imediatamente excluído do sistema, eliminando-se,
+      correspondente.                                                                                dessa forma, o envio desse arquivo à Lixeira.
+||186STJ_CB5_01N755187||                                                                 CESPE | CEBRASPE – STJ – Aplicação: 2015
+
+Com relação a conceitos básicos de redes de computadores e ao          Julgue os itens seguintes de acordo com o Regimento Interno do
+programa de navegação Mozilla Firefox, julgue os próximos itens.       STJ (RI/STJ).
+
+23   Os complementos são aplicativos que permitem ao usuário           33   Os habeas corpus e o agravo regimental são postos em mesa
+                                                                            para julgamento pelas turmas, independentemente de
+     personalizar o Firefox com estilos ou recursos extras. As
+                                                                            publicação em pauta.
+     extensões são um tipo de complemento encontradas na última
+                                                                       34   Ainda que ocorra durante as férias no STJ, a publicação de
+     versão desse navegador e possibilitam, entre outros recursos,
+                                                                            decisão liminar em mandado de segurança produzirá os efeitos
+     a integração do Firefox com alguns sítios da Internet.                 de intimação.
+24   A topologia física de uma rede representa a forma como os         35   É da Segunda Seção do STJ a competência para processar e
+     computadores estão nela interligados, levando em consideração          julgar feitos que versem sobre registros públicos, ainda quando
+     os tipos de computadores envolvidos. Quanto a essa topologia,          o Estado participar da demanda, competência essa que, embora
+     as redes são classificadas em homogêneas e heterogêneas.               seja relativa, será prorrogada se a causa impeditiva da
+                                                                            prorrogação não for suscitada a tempo e modo pelas partes.
+Com relação a conceitos de organização e de gerenciamento de
+                                                                       Acerca das substituições eventuais no âmbito do STJ, julgue os
+arquivos e programas e a procedimentos de segurança da
+                                                                       itens subsequentes à luz do RI/STJ.
+informação, julgue os itens seguintes.
+                                                                       36   Em caso de medidas urgentes, o relator, se estiver impedido,
+25   Atualmente, um dos procedimentos de segurança mais                     será substituído pelo revisor, quando houver.
+     adotados pelos sítios é chamado de captcha. As captchas mais      37   Na ausência do presidente de turma, presidirá a sessão o
+     conhecidas são as imagens distorcidas de um código                     vice-presidente da respectiva turma.
+     alfanumérico. Esse mecanismo é considerado bastante seguro,       38   Ausentes o presidente e o vice-presidente do tribunal, presidirá
+     mas não impede totalmente que alguns programas                         a sessão do plenário o ministro mais idoso.
+     automatizados preencham formulários na Web como se fossem
+                                                                       No que concerne ao Plano de Logística Sustentável do Poder
+     uma pessoa realizando, por exemplo, um cadastro em um sítio       Judiciário (PLS-PJ), julgue o item a seguir.
+     de compras.
+                                                                       39   O PLS-PJ é um instrumento vinculado ao planejamento
+26   No Windows 7, a execução do recurso Limpeza de Disco, desde            estratégico do Poder Judiciário, com objetivos, metas e prazos
+     que configurado, além de acarretar o apagamento dos arquivos           que permitem o monitoramento e a avaliação das práticas de
+     temporários e arquivos considerados desnecessários pelo                sustentabilidade.
+     sistema, também apagará os arquivos contidos na Lixeira.
+                                                                       Com relação ao desenvolvimento sustentável no âmbito das
+Julgue os itens seguintes, acerca dos direitos e garantias             licitações e contratações da administração pública, julgue os itens
+fundamentais da República Federativa do Brasil.                        que se seguem.
+                                                                       40   A Comissão Interministerial de Sustentabilidade na
+27   A dimensão substancial da liberdade de expressão guarda
+                                                                            Administração Pública, que é composta por um grupo de apoio
+     relação íntima com o pluralismo político na medida em que              técnico que presta serviço público remunerado à administração
+     abarca, antes, a formação da própria opinião como pressuposto          pública federal, tem dois representantes do TCU.
+     para sua posterior manifestação.                                  41   Cabe à administração pública federal, visando promover o
+28   A superveniência de nova Constituição não afetará o direito            desenvolvimento nacional sustentável, observar, nas
+     adquirido na ordem constitucional anterior.                            contratações realizadas, o menor impacto sobre recursos
+                                                                            naturais e utilizar inovações que reduzam a pressão sobre esses
+29   Ações afirmativas são mecanismos que visam viabilizar uma              recursos.
+     isonomia material em detrimento de uma isonomia formal por
+                                                                       A respeito da Política Nacional sobre Mudanças do Clima (PNMC);
+     meio do incremento de oportunidades para determinados
+                                                                       da Política Nacional de Resíduos Sólidos, instituída pela
+     segmentos.                                                        Lei n.º 12.305/2010; e da Agenda Ambiental da Administração
+Julgue os itens subsecutivos, acerca da República Federativa do        Pública (A3P), julgue os seguintes itens.
+Brasil.                                                                42   A A3P é um programa que congrega princípios de
+                                                                            sustentabilidade e tem natureza cogente, pois obriga os órgãos
+30   A Constituição é instituto multifuncional que engloba entre            e entidades públicas a promover o uso racional dos recursos
+     seus objetivos a limitação do poder e a conformação e                  naturais e a gestão adequada dos resíduos gerados e a adotar
+     legitimação da ordem política.                                         outras práticas de mitigação dos impactos antrópicos sobre o
+                                                                            meio ambiente.
+31   As Constituições dirigentes privilegiam as liberdades
+     individuais, impondo ao Estado um dever de abstenção e um         43   Constituem instrumentos da PNMC, entre outros, os
+     papel secundário na concretização dos valores fundamentais.            mecanismos financeiros e econômicos, no âmbito nacional,
+                                                                            referentes à mitigação e à adaptação à mudança do clima.
+32   Segundo o pensamento ideológico político-liberal surgido a
+                                                                       44   O plano de gerenciamento de resíduos sólidos tem natureza
+     partir do século XIX, toda Constituição deve consagrar direitos        estritamente diagnóstica, ao caracterizar o empreendimento, os
+     fundamentais e a separação de poderes.                                 resíduos gerados e seus respectivos passivos ambientais.
+||186STJ_CB5_01N755187||                                                             CESPE | CEBRASPE – STJ – Aplicação: 2015
+
+         Mariana é uma estudante que tem grande apreço pela           Espaço livre
+matemática, apesar de achar essa uma área muito difícil. Sempre
+que tem tempo suficiente para estudar, Mariana é aprovada nas
+disciplinas de matemática que cursa na faculdade. Neste semestre,
+Mariana está cursando a disciplina chamada Introdução à
+Matemática Aplicada. No entanto, ela não tem tempo suficiente
+para estudar e não será aprovada nessa disciplina.
+
+A partir das informações apresentadas nessa situação hipotética,
+julgue os itens a seguir, acerca das estruturas lógicas.
+
+45   Considerando-se como p a proposição “Mariana acha a
+     matemática uma área muito difícil” de valor lógico verdadeiro
+     e como q a proposição “Mariana tem grande apreço pela
+     matemática” de valor lógico falso, então o valor lógico de
+     p ÷ ¬q é falso.
+46   Considerando-se as seguintes proposições: p: “Se Mariana
+     aprende o conteúdo de Cálculo 1, então ela aprende o conteúdo
+     de Química Geral”; q: “Se Mariana aprende o conteúdo de
+     Química Geral, então ela é aprovada em Química Geral”;
+     c: “Mariana foi aprovada em Química Geral”, é correto afirmar
+     que o argumento formado pelas premissas p e q e pela
+     conclusão c é um argumento válido.
+47   Designando por p e q as proposições “Mariana tem tempo
+     suficiente para estudar” e “Mariana será aprovada nessa
+     disciplina”, respectivamente, então a proposição “Mariana não
+     tem tempo suficiente para estudar e não será aprovada nesta
+     disciplina” é equivalente a ¬p v ¬q.
+
+         Determinada faculdade oferta, em todo semestre, três
+disciplinas optativas para alunos do quinto semestre: Inovação e
+Tecnologia (INT); Matemática Aplicada (MAP); Economia do
+Mercado Empresarial (EME). Neste semestre, dos 150 alunos que
+possuíam os requisitos necessários para cursar essas disciplinas,
+foram registradas matrículas de alunos nas seguintes quantidades:
+     C   70 em INT;
+     C   45 em MAP;
+     C   60 em EME;
+     C   25 em INT e MAP;
+     C   35 em INT e EME;
+     C   30 em MAP e EME;
+     C   15 nas três disciplinas.
+
+Com base nessas informações, julgue os itens que se seguem.
+
+48   Os dados disponíveis são insuficientes para se determinar
+     a quantidade de alunos que não efetuaram matrícula em
+     nenhuma das três disciplinas.
+49   A quantidade de alunos que se matricularam apenas na
+     disciplina MAP é inferior a 10.
+50   Ao se escolher um aluno ao acaso, a probabilidade de ele estar
+     matriculado em apenas duas das três disciplinas será maior que
+     a probabilidade de ele estar matriculado apenas em INT.
+

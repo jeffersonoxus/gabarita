@@ -1,0 +1,17 @@
+{
+  "concurso": "TCE-RN",
+  "ano": 2015,
+  "banca": "CESPE",
+  "orgao": "Tribunal de Contas do RN",
+  "cargo": "Cargo 1 - Nivel Superior",
+  "nivel": "Superior",
+  "total_questoes": 50,
+  "modalidade": "certo_errado",
+  "url_qconcursos": "https://www.qconcursos.com/questoes-de-concursos/provas/cespe-2015-tce-rn-conhecimentos-basicos-para-o-cargo-1",
+  "disciplina": "Conhecimentos Basicos",
+  "assuntos": [
+    "Portugues",
+    "Direito Constitucional",
+    "Administracao"
+  ]
+}

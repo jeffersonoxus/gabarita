@@ -1,0 +1,17 @@
+{
+  "concurso": "Prefeitura de Camacari-BA",
+  "ano": 2024,
+  "banca": "CESPE/CEBRASPE",
+  "orgao": "Prefeitura de Camacari",
+  "cargo": "Professor - Lingua Portuguesa",
+  "nivel": "Superior",
+  "total_questoes": 50,
+  "modalidade": "multipla_escolha",
+  "url_qconcursos": "https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2024-prefeitura-de-camacari-ba-professor-disciplina-lingua-portuguesa",
+  "disciplina": "Lingua Portuguesa",
+  "assuntos": [
+    "Interpretacao de Textos",
+    "Gramatica",
+    "Literatura"
+  ]
+}

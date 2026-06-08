@@ -1,0 +1,514 @@
+                                                                                                    CEBRASPE – FUNDAÇÃO INOVERSASUL – Edital: 2024
+•   Cada um dos itens da prova objetiva está vinculado ao comando que imediatamente o antecede. De acordo com o comando a que
+    cada um deles esteja vinculado, marque, na Folha de Respostas, para cada item: o campo designado com o código C, caso julgue
+    o item CERTO; ou o campo designado com o código E, caso julgue o item ERRADO. A ausência de marcação ou a marcação de
+    ambos os campos não serão apenadas, ou seja, não receberão pontuação negativa. Para as devidas marcações, use a Folha de
+    Respostas, único documento válido para a correção da sua prova objetiva.
+•   Em seu caderno de provas, caso haja item(ns) que avalie(m) conhecimentos de informática e(ou) tecnologia da informação,
+    a menos que seja explicitamente informado o contrário, considere que todos os programas mencionados estão em
+    configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos,
+    diretórios, recursos e equipamentos mencionados.
+•   Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de prova poderão
+    ser utilizados para rascunho.
+
+                                                        -- PROVAS OBJETIVAS --
+                                               -- CONHECIMENTOS GERAIS --
+       Seja qual for o caminho que nos faça regressar                                                 No Brasil, pode dizer-se que só excepcionalmente tivemos
+ao princípio, sempre chegaremos à mesma conclusão: que                                         um sistema administrativo e um corpo de funcionários puramente
+o pacto social estabelece entre os cidadãos uma tal igualdade que                              dedicados a interesses objetivos e fundados nesses interesses.
+                                                                                               Ao contrário, é possível acompanhar, ao longo de nossa história,
+todos ficam obrigados às mesmas condições e todos devem gozar
+                                                                                               o predomínio constante das vontades particulares que encontram
+dos mesmos direitos. E assim, pela natureza do pacto, todo ato de
+                                                                                               seu ambiente próprio em círculos fechados e pouco acessíveis a
+soberania, isto é, todo autêntico ato de uma vontade geral, obriga                             uma ordenação impessoal. Dentre esses círculos, foi sem dúvida
+ou favorece igualmente todos os cidadãos; de tal modo que                                      o da família aquele que se exprimiu com mais força e
+o soberano apenas conhece a nação e não distingue ninguém                                      desenvoltura em nossa sociedade. E um dos efeitos decisivos da
+entre aqueles que a compõem. O que é isto, senão um ato de                                     supremacia incontestável, absorvente, do núcleo familiar —
+soberania? Não é um acordo entre o superior e o inferior, mas                                  a esfera, por excelência, dos chamados “contatos primários”,
+                                                                                               dos laços de sangue e de coração — está em que as relações que
+um pacto entre o todo e cada um dos seus membros: pacto
+                                                                                               se criam na vida doméstica sempre forneceram o modelo
+legítimo, pois tem por base o contrato social; equitativo, por ser
+                                                                                               obrigatório de qualquer composição social entre nós. Isso ocorre
+comum a todos; útil, porque só pode ter como finalidade o bem                                  mesmo onde as instituições democráticas, fundadas em princípios
+geral; e sólido, uma vez que tem por garantia a força pública e                                neutros e abstratos, pretendem assentar a sociedade em normas
+o poder supremo.                                                                               antiparticularistas.
+
+                                                                     Jean-Jacques Rousseau.                                              Sérgio Buarque de Holanda. Raízes do Brasil.
+                                                                                                                                        São Paulo: Companhia das Letras, 1995, p. 146.
+                                   O contrato social. Tradução de Mário Franco de Sousa.
+                         Oeiras, Portugal: Editorial Presença, 2010, p. 46 (com adaptações).
+                                                                                               Em relação às propriedades linguísticas e semânticas do texto
+Julgue os itens a seguir, referentes a aspectos linguísticos e
+                                                                                               precedente, julgue os itens seguintes.
+aos sentidos do texto apresentado.
+                                                                                               5   O terceiro período do texto poderia ser reescrito, sem
+1   Conclui-se da leitura do último período do texto que,                                          prejuízo dos seus sentidos e da correção gramatical,
+    consoante às ideias apresentadas, a palavra “pacto” tem                                        da seguinte forma: O círculo familiar foi o único de nossa
+    o mesmo significado de “acordo”.                                                               sociedade a se exprimir com vigor e vivacidade.
+                                                                                               6   No último período do texto, o vocábulo “onde” indica
+2   O primeiro período do texto expressa a ideia de que,
+                                                                                                   o lugar ou contexto em que também ocorre “o modelo
+    independentemente do caminho seguido desde o princípio,
+                                                                                                   obrigatório”       a que   se   refere      o     autor       no      período
+    a conclusão será sempre a mesma sobre a igualdade                                              imediatamente anterior.
+    estabelecida pelo pacto social.                                                            7   No primeiro período do texto, o deslocamento do termo
+3   O período subsequente à pergunta “O que é isto, senão                                          “excepcionalmente” para imediatamente antes do verbo
+    um ato de soberania?” constitui-se de uma definição sobre                                      “pode” não alteraria os sentidos do texto nem prejudicaria
+    o pacto social seguida da enumeração de suas qualidades.                                       sua correção gramatical, desde que fosse empregada
+                                                                                                   uma vírgula logo após aquele termo.
+4   No segundo período, o emprego dos elementos coesivos
+                                                                                               8   Sem prejuízo da correção gramatical, das relações de coesão
+    “E assim”, “isto é”, “de tal modo que” forma uma sequência
+                                                                                                   e dos sentidos do texto, a forma verbal “encontram”
+    textual que se conclui com a noção de que, para o soberano,                                    (segundo período) poderia ser flexionada na terceira pessoa
+    todos são iguais no conjunto da nação.                                                         do singular — encontra.
+                                                                                           CEBRASPE – FUNDAÇÃO INOVERSASUL – Edital: 2024
+       A principal pesquisa internacional sobre educação, feita                               O híbrido tem por finalidade nomear algo ou alguém cuja
+pela Organização para a Cooperação e Desenvolvimento                                  formação é múltipla, derivada de fontes heterogêneas. Tal termo
+Econômico (OCDE), mostrou que, no período de 2012 a 2022,                             passa a ser empregado nos estudos da cultura a partir dos
+houve um aumento acentuado no nível de ansiedade em relação                           deslocamentos e das migrações acentuadas do século XX.
+à matemática entre os alunos da grande maioria dos 81 países                          Na literatura, com mais propriedade nos estudos pós-coloniais, é
+avaliados, especialmente no Brasil.                                                   abordado por Homi Bhabha, que, por sua vez, o trouxe
+       Na média dos países da OCDE e parceiros, 65% dos                               da concepção de Bakhtin de “hibridismo linguístico”. O híbrido
+estudantes têm ansiedade em relação às suas notas em                                  constitui a identidade do duplo, dinâmica, flexível, plurivocal e
+matemática e cerca de 40% dos estudantes se sentem nervosos,                          multimodal em contraposição à concepção hierárquica
+tensos ou desamparados ao resolverem problemas matemáticos.                           da identidade pura, única, autêntica, univocal, monolítica e
+No Brasil, esses índices são ainda mais altos: 79,5% e 62,3%,                         uniforme que, além de infecunda, é anticomunitária. Como termo
+respectivamente.                                                                      amplamente usado por vários críticos e estudiosos, gera polêmica
+       Na maioria dos países houve um aumento nesses índices                          e controvérsias, atingindo patamares de significação positiva ou
+                                                                                      negativa de acordo com a nuança que lhe seja empregada.
+de ansiedade em relação à matemática em comparação com 2012.
+                                                                                      Stelamaris Coser afirma que, ao se reverter “o movimento
+Coreia do Sul, Singapura e Tailândia foram os únicos países onde
+                                                                                      do centro para a periferia que caracterizou a era colonial e fez das
+os índices de ansiedade caíram entre 2012 e 2022.
+                                                                                      colônias ‘o local dos sincretismos e hibridismos’, os grandes
+       Segundo a OCDE, esses resultados são preocupantes.
+                                                                                      ‘centros globais’ são agora internacionalizados e hibridizados
+“Isso pode impactar não apenas desempenho, mas sua prontidão
+                                                                                      neste novo momento histórico pós-(neo)colonial”.
+para o aprendizado ao longo da vida”, diz o relatório.
+                                                                                              Nesse caso, não se trata de enaltecer ideologicamente
+       A cada edição, o PISA escolhe um tema para fazer
+                                                                                      os encontros culturais, tampouco de anular os conflitos e choques
+um aprofundamento — em 2022, o estudo se dedicou a entender
+                                                                                      que resultam das diferenças, mas, acima de tudo, de perceber
+como os alunos lidam com estratégias de aprendizado e quais
+                                                                                      o hibridismo que forma a realidade interamericana e a força
+suas posturas em relação à vida.                                                      criativa que dele resulta. Ainda segundo Coser, “uma inevitável
+                                                                      Letícia Mori.
+                                 A epidemia de ansiedade com matemática no Brasil
+                                                                                      transformação cultural é resultante da entrada, circulação e
+                                        e no mundo revelada por estudo da OCDE.       crescente poder dessa multiplicidade de vozes, visões e estilos
+                                              Internet: <bbc.com> (com adaptações).
+                                                                                      que renovam e modificam a face da nação”. Igualmente, para
+Julgue os itens que se seguem, relativos às ideias e a aspectos                       Stuart Hall, a ocorrência do hibridismo (cultural, linguístico e
+linguísticos do texto precedente.                                                     literário) permite que o “novo” entre no mundo inscrito pelas
+9    O texto configura-se como texto jornalístico no qual a autora                    forças hegemônicas e as modifique, passando a ser uma condição
+     argumenta a favor da implementação de políticas públicas                         necessária à modernidade das comunidades construídas entre
+     que melhorem o desempenho dos alunos brasileiros em                              os impasses de perdas e ganhos sócio-históricos.
+     matemática.                                                                                                                                            Leoné Astride Barzotto.
+                                                                                                           Deslocamento e memória em “La mano em la tierra”, de Josefina Plá.
+10   Conclui-se do texto que a pesquisa mencionada demonstrou                                                                 In: Elena Palmero González e Stelamaris Coser (orgs.).
+                                                                                                           Entre traços e rasuras: intervenções da memória na escrita das Américas.
+     que os professores não ensinam bem os conteúdos de                                                             Rio de Janeiro: 7Letras; FAPERJ, 2013, p. 52 (com adaptações).
+
+     matemática.                                                                      Em relação às ideias e propriedades linguísticas do texto
+11   Entende-se, pelos sentidos do texto, que o vocábulo ‘sua’                        precedente, julgue os itens seguintes.
+     (segundo período do quarto parágrafo) remete a estudantes.                       13   No quarto período do primeiro parágrafo, a autora julga
+12   No Brasil, o número de estudantes ansiosos com relação                                “infecunda” e “anticomunitária” a identidade cujas
+     à matemática é 79,5% maior que a média dos países da                                  características são contrapostas à dita “identidade do duplo”.
+     OCDE e parceiros, segundo as informações do texto.                               14   Por sua natureza adverbial, o termo “Igualmente” (último
+                                                                                           período do texto) poderia ser deslocado para imediatamente
+Espaço livre
+                                                                                           depois de “Stuart Hall” ou para depois da forma verbal
+                                                                                           “permite”, sem prejuízo do sentido original do texto, desde
+                                                                                           que feitos os devidos ajustes de letra inicial maiúscula e
+                                                                                           minúscula no período e suprimida a vírgula que segue
+                                                                                           o referido advérbio.
+                                                                                      15   No terceiro período do primeiro parágrafo, o segmento “que,
+                                                                                           por sua vez, o trouxe da concepção de Bakhtin de
+                                                                                           ‘hibridismo linguístico’” tem sentido explicativo, o que
+                                                                                           justifica o emprego da vírgula imediatamente após o nome
+                                                                                           “Homi Bhabha”.
+                                                                                      16   As citações a outros autores no texto demonstram que sua
+                                                                                           autora tem conhecimento de reflexões já feitas sobre
+                                                                                           o assunto tratado.
+                                                                                                     CEBRASPE – FUNDAÇÃO INOVERSASUL – Edital: 2024
+       Na base da estratificação social, como a camada mais                                            Retardei o passo. A tarde estava brilhante, mas o calor era
+explorada, sem qualquer representação ou direito, ficava a grande                               o do inferno, os transeuntes a desfilarem pela fornalha com uma
+massa escrava de trabalhadores das minas, das lavouras e dos                                    expressão de condenados, os rostos lustrosos, o olhar pesado. Um
+                                                                                                homem de terno branco esbarrou em mim. Caiu-lhe a pasta.
+transportes. Todo o aparato ostensivo de repressão vigiava, em
+                                                                                                Resmungou enquanto se inclinava para apanhá-la. A culpa fora
+cada vila, a esses miseráveis, para prevenir as fugas, a vadiagem                               minha e por isso pensei em voltar-me para pedir-lhe desculpas,
+e, sobretudo, as rebeliões. A insurreição surge, porém, na classe                               mas prossegui preguiçosamente pela rua afora. Para que
+alta, de que se destaca uma elite letrada, que se propõe formular                               desculpas? Fazia calor e era cansativo ser amável num calor
+um projeto alternativo ao colonial de reordenação da sociedade.                                 assim. A vontade queria o ócio. O corpo queria nudez. Voltei a
+                                                                                                cara para o céu ardente. Havia poucas nuvens, mas a tempestade
+Trata-se do mais ousado dos projetos libertários da história
+                                                                                                já conspirava no ar. Melhor escolher um outro dia, não? Afinal,
+colonial brasileira, uma vez que previa estruturar uma república
+                                                                                                tio Samuel não me esperava mesmo, talvez fosse até aborrecê-lo
+de molde norte-americano, que aboliria a escravidão, decretaria a                               com a minha presença, os loucos estranham às vezes a invasão
+liberdade de comércio e promoveria a industrialização. A eclosão                                nos seus mundos.
+da mal chamada Inconfidência Mineira deveria ter lugar                                                                         Lygia Fagundes Telles. Verão no Aquário. Rio de Janeiro:
+                                                                                                                            Livraria José Olympio Editora, 1978, p. 100 (com adaptações).
+em 1789. Presos por denúncia, todos os inconfidentes foram
+desterrados para a África, onde morreram, exceto Tiradentes, a                                  Considerando os sentidos e aspectos linguísticos do texto
+                                                                                                apresentado, julgue os itens subsecutivos.
+figura principal da conspiração, enforcado após três anos de
+                                                                                                22   Estariam mantidas a correção gramatical e a coerência das
+cárcere e, depois, esquartejado e exposto nos lugares onde antes
+                                                                                                     ideias veiculadas no texto caso a vírgula empregada após a
+conspirara, para escarmento da população.
+                                                                                                     palavra “presença” (último período) fosse substituída por
+                          Darcy Ribeiro. O povo brasileiro. A formação e o sentido do Brasil.        travessão.
+                                       São Paulo: Global, 2013, p. 278-279 (com adaptações).
+                                                                                                23   No sexto período, a forma verbal “fora” poderia ser
+Julgue os próximos itens, em relação às ideias e a aspectos                                          substituída, sem prejuízo do sentido e da correção gramatical
+linguísticos do texto precedente.                                                                    do texto, por tinha sido.
+17   Em “A eclosão da mal chamada Inconfidência Mineira                                         24   O texto, que se classifica como narrativo, relata episódio em
+     deveria ter lugar em 1789” (quinto período), o vocábulo                                         que a personagem segue pelas ruas da cidade, sob forte calor,
+                                                                                                     cuja intensidade afeta o comportamento das pessoas e da
+     “mal” está empregado como adjetivo.
+                                                                                                     personagem, particularmente na decisão sobre a visita que
+18   Estariam mantidas a correção gramatical e a coerência das                                       faria ao tio.
+     ideias do texto, respeitando-se a ortografia oficial em vigor,                             25   Na oração “Fazia calor” (oitavo período), a forma verbal
+     caso o segmento “exceto Tiradentes, a figura principal da                                       “Fazia” está flexionada na terceira pessoa do singular porque
+     conspiração, enforcado após três anos de cárcere” (último                                       concorda com o termo “calor”.
+     período do texto) fosse assim reescrito: com exceção de                                    Com base nas disposições da Constituição Federal de 1988
+     Tiradentes, a principal figura da conspiração, enforcado                                   pertinentes à educação, julgue os próximos itens.
+     após três anos de encarceramento.                                                          26   Os municípios devem atuar apenas na educação infantil,
+19   Depreende-se    da    leitura        do      texto       que       a     chamada                enquanto os estados e o DF devem priorizar a atuação no
+                                                                                                     ensino médio.
+     Inconfidência Mineira teve como objetivo confrontar o
+                                                                                                27   As universidades gozam de autonomia didático-científica,
+     modelo colonial escravocrata, pela instauração do regime
+                                                                                                     administrativa e de gestão financeira e patrimonial.
+     político republicano, em que seria abolida a escravidão,
+                                                                                                28   É vedado aos estabelecimentos de ensino público superior
+     instituído o livre comércio e fomentada a industrialização.                                     contratar professores e técnicos que não sejam brasileiros
+20   Levando-se em consideração a articulação das ideias do                                          natos ou naturalizados.
+     texto, é correto afirmar que o vocábulo “porém” (terceiro                                  29   A participação da iniciativa privada no sistema de ensino
+     período) está empregado com o mesmo sentido de portanto.                                        depende de autorização e de avaliação de qualidade pelo
+                                                                                                     poder público.
+21   No quarto período do texto, a flexão da forma verbal
+                                                                                                30   Além de garantir educação básica obrigatória e gratuita às
+     “Trata-se” na terceira pessoa do singular justifica-se por sua
+                                                                                                     pessoas desde os quatro anos até os dezessete anos de idade,
+     concordância com o segmento posposto “do mais ousado dos                                        a Constituição Federal de 1988 assegura a oferta de educação
+     projetos libertários da história colonial brasileira”, que é o                                  básica gratuita a todos os que a ela não tiveram acesso na
+     sujeito da oração.                                                                              idade própria.
+                                                                         CEBRASPE – FUNDAÇÃO INOVERSASUL – Edital: 2024
+
+Julgue os itens subsequentes, considerando as normas constitucionais relativas ao Fundo de Manutenção e Desenvolvimento da
+Educação Básica e de Valorização dos Profissionais da Educação (FUNDEB).
+31   É vedada a utilização de recursos da contribuição social do salário-educação como fonte de receita da complementação da União
+     ao FUNDEB.
+32   É instituído um FUNDEB no âmbito de cada estado e do DF.
+33   Uma das diferenças entre o valor anual total por aluno (VAAT) e o valor anual por aluno (VAAF) está na previsão constitucional
+     de que o VAAT se constitua apenas de recursos oriundos da repartição de impostos federais e estaduais, enquanto a base de
+     cálculo do VAAF inclua outras fontes de receitas.
+
+De acordo com a Lei de Diretrizes e Bases da Educação Nacional (LDB), julgue os itens a seguir.
+34   Os alunos da educação profissional técnica de nível médio não podem estar matriculados em mais de uma instituição de ensino
+     pública, de forma concomitante.
+35   São finalidades da educação o pleno desenvolvimento do educando, seu preparo para o exercício da cidadania e sua qualificação
+     para o trabalho.
+36   Qualquer cidadão pode acionar o poder público para exigir o direito de acesso à educação básica obrigatória.
+37   Apenas as instituições de ensino privadas ou comunitárias podem ser qualificadas como confessionais.
+38   É dever do poder público divulgar a lista de espera por vagas nos estabelecimentos de educação básica de sua rede, porém tal
+     obrigação legal não inclui a necessidade de a lista ser organizada por ordem de colocação nem por unidade escolar.
+39   É competência da União, dos estados e do DF instituir normas gerais sobre cursos de graduação e pós-graduação.
+40   É vedado cumular o cargo de diretor de estabelecimento de ensino com o de membro do conselho escolar do mesmo
+     estabelecimento.
+
+Espaço livre
+                                                                                                             CEBRASPE – FUNDAÇÃO INOVERSASUL – Edital: 2024
+
+                                                  -- CONHECIMENTOS ESPECÍFICOS --
+Texto 19A1                                                                                               No que se refere à pontuação e ortografia no texto 19A1, bem
+                                                                                                         como a aspectos fonológicos de vocábulos nele empregados,
+        Em uma teoria da compreensão de texto, o primeiro                                                julgue os itens que se seguem.
+aspecto importante é a noção de língua que se adota. Alguns                                              41 Identificam-se no vocábulo “lexicais” oito letras e oito
+manuais escolares concebem a língua simplesmente como um                                                     fonemas.
+código ou um sistema de sinais autônomo, totalmente                                                      42 A supressão da vírgula após “texto” (primeiro período do
+transparente, sem história, e fora da realidade social dos falantes.                                          primeiro parágrafo) prejudicaria a correção gramatical do
+                                                                                                              texto, visto que, naquele período, o emprego da vírgula é
+Mas a língua é muito mais do que um sistema de estruturas                                                     obrigatório para separar o adjunto adverbial antecipado.
+fonológicas, sintáticas e lexicais. A rigor, a língua não é sequer                                       43 No quarto período do primeiro parágrafo, o emprego do
+uma estrutura; ela é estruturada simultaneamente em vários                                                   ponto e vírgula ressalta a ideia de oposição estabelecida entre
+planos, seja o fonológico, sintático, semântico e cognitivo no                                               a primeira e a segunda orações do período.
+processo de enunciação. A língua é um fenômeno cultural,                                                 44 No segundo período do quarto parágrafo, a substituição dos
+histórico, social e cognitivo que varia ao longo do tempo e de                                               parênteses por travessões prejudicaria a correção gramatical
+                                                                                                             do texto.
+acordo com os falantes: ela se manifesta no uso e é sensível
+                                                                                                         45 Em cada um dos seguintes vocábulos, o número de letras
+ao uso.
+                                                                                                             coincide com o de fonemas: “manuais”; “falantes”;
+        Portanto, a língua é uma atividade constitutiva com a qual                                           “cognitivo”.
+podemos construir sentidos; é uma forma cognitiva com a qual                                             46 O vocábulo “histórico” tem nove letras e oito fonemas.
+podemos expressar nossos sentimentos, ideias, ações e
+                                                                                                         Julgue os itens a seguir, em relação à separação silábica, à
+representar o mundo; é uma forma de ação pela qual podemos
+                                                                                                         translineação e à acentuação tônica e gráfica de vocábulos
+interagir com nossos semelhantes. Em consequência, a língua se                                           empregados no texto 19A1.
+manifesta nos processos discursivos, no nível da enunciação,                                             47 Os vocábulos “lado”, “produto”, “natalina” e “objetivo”
+concretizando-se nos usos textuais mais diversos. É importante                                                possuem a mesma classificação quanto à posição do acento
+não confundir a língua com o discurso.                                                                        tônico.
+        Nessa perspectiva, a língua é mais do que um simples                                             48 Os vocábulos “semântico”, “sintático” e “linguísticas” são
+instrumento de comunicação; mais do que um código ou uma                                                      acentuados graficamente de acordo com a regra de
+                                                                                                              acentuação gráfica das palavras proparoxítonas.
+estrutura. Enquanto atividade, ela é indeterminada sob o ponto de
+                                                                                                         49 Aos vocábulos “língua”, “manuais” e “mais”, aplica-se a
+vista semântico e sintático. Por isso, as significações e os                                                  regra de separação silábica segundo a qual não se separam
+sentidos textuais e discursivos não podem estar aprisionados no                                               letras que representam ditongos.
+interior dos textos pelas estruturas linguísticas. A língua é opaca,                                     50 Na translineação de vocábulos compostos, a exemplo de
+não é totalmente transparente, podendo ser ambígua, polissêmica,                                              “bem-sucedido”, é obrigatória a repetição do hífen na linha
+de modo que os textos podem ter mais de um sentido, e o                                                       seguinte, diferentemente do que ocorre em palavras como
+                                                                                                              “concretizando-se”, caso em que essa repetição é facultativa.
+equívoco nas atividades discursivas é um fato comum.
+                                                                                                         Espaço livre
+        Na realidade, um texto bem-sucedido é aquele que
+consegue dizer o suficiente para ser bem-entendido, supondo
+apenas aquilo que é possível esperar como sabido pelo ouvinte ou
+leitor. É interessante notar que, se o autor ou falante de um texto
+diz uma parte e supõe outra parte como de responsabilidade do
+leitor ou ouvinte, então a atividade de produção de sentidos (ou
+de compreensão de texto) é sempre uma atividade de coautoria.
+Isto quer dizer que os sentidos são parcialmente produzidos pelo
+texto e parcialmente completados pelo leitor.
+        Ao lado da noção de língua, é necessário ter uma noção de
+texto. A escola trata o texto como um produto acabado e que
+funciona como uma cesta natalina, de onde a gente tira coisas. O
+texto não é um produto nem um simples artefato pronto; ele é um
+processo. Assim, não sendo um produto acabado, objetivo, como
+uma espécie de depósito de informações, mas sendo um processo,
+o texto se acha em permanente elaboração e reelaboração ao
+longo de sua história e ao longo das diversas recepções pelos
+diversos leitores. Em suma, texto é uma proposta de sentido e ele
+se acha aberto a várias alternativas de compreensão.
+      Luiz Antônio Marcuschi. Exercícios de compreensão ou copiação nos manuais de ensino de língua?
+                                 Em Aberto, Brasília, ano 16, n.º 69, jan.-mar./1996 (com adaptações).
+                                                                                         FimDoTexto
+                                                                                                              CEBRASPE – FUNDAÇÃO INOVERSASUL – Edital: 2024
+Julgue os seguintes itens, relativos a processos de formação de                                          Julgue os itens subsequentes, referentes a construções linguísticas
+palavras empregadas no texto 19A1.                                                                       do texto apresentado.
+51 As palavras “simplesmente” e “significações” são formadas                                             60   A oração “como reagir diante de situações de variação
+    pelo mesmo processo de derivação.                                                                         dialetal” (último período) classifica-se como subordinada
+52 As palavras “cultural” e “histórico” são formadas por                                                      adverbial comparativa.
+    processo de derivação.
+                                                                                                         61   No primeiro período do texto, a oração “que um dos legados
+53 As palavras “indeterminada” e “aprisionados” são ambas
+                                                                                                              (...) variedades de línguas” desempenha a função sintática de
+    formadas pelo processo de composição, respectivamente, por
+    aglutinação e por justaposição.                                                                           sujeito.
+                                                                                                         62   Estaria mantida a correção gramatical do texto caso se
+Julgue os próximos itens, relativos a aspectos gramaticais do                                                 empregasse a ênclise do pronome “se” no segundo e no
+texto 19A1.                                                                                                   terceiro períodos, haja vista a falta de critério impositivo da
+54 No último período do segundo parágrafo, a oração “não                                                      próclise pronominal nesses períodos.
+     confundir a língua com o discurso” classifica-se como
+     subordinada substantiva objetiva direta reduzida de                                                 63   Em “Essa visão não preconceituosa derivou naturalmente da
+     infinitivo.                                                                                              perspectiva da língua como estrutura” (terceiro período), a
+55 No último período do texto, os vocábulos “uma” e “a” fazem                                                 substituição da forma contraída “da” por na seria
+     parte da mesma classe gramatical de palavras.                                                            gramaticalmente correta porque o verbo derivar, na acepção
+                                                                                                              em que está empregado no texto, rege complemento
+        Quando falamos em pedagogia da variação linguística,                                                  introduzido pela preposição de ou em.
+não estamos propondo uma pedagogia da língua materna
+composta de módulos autônomos, mas tão somente estimulando                                               64   O trecho “que existia até então” (terceiro período) constitui
+uma reflexão focada nas grandes questões que envolvem a                                                       uma oração subordinada adjetiva sem sujeito.
+variação linguística no ensino de português sem perder de vista                                          65   No último período, a flexão da forma verbal “norteie” na
+uma perspectiva integradora das várias dimensões desse ensino.                                                terceira pessoa do plural — norteiem — prejudicaria a
+        Dada a complexidade do tema, entendemos que é preciso                                                 correção gramatical do texto.
+ampliar o conjunto dos que debatem essas questões. Há uma
+complexa trama de representações, atitudes e valores que                                                 66   Em “uma formação que o torne isento de preconceitos”
+recobrem tanto a diversidade cultural do país quanto sua                                                      (último período), o termo “isento” exerce a função sintática de
+diversidade linguística. Aparentemente, temos avançado mais no                                                predicativo do objeto expresso pela forma pronominal “o”.
+trato positivo da diversidade cultural do que no da diversidade
+linguística. Pelo menos, dispomos já de políticas de valorização                                                 É bem verdade que um número considerável de brasileiros
+da diversidade cultural, mas que, paradoxalmente, não incluem a                                          utiliza outros idiomas como sua língua primeira. Há os usuários
+diversidade linguística. É preciso buscar entender as razões                                             da LIBRAS, a língua brasileira de sinais, que é um idioma pleno
+para isso.                                                                                               e totalmente diferente do português; há os falantes das línguas
+                 Ana Maria Stahl Zilles e Carlos Alberto Faraco. Pedagogia da variação linguística:      originárias do Brasil que não foram extintas durante esses séculos
+          língua, diversidade e ensino. São Paulo: Parábola Editorial, 2015, p. 9-10 (com adaptações).
+                                                                                                         de colonização (no censo de 2010, pouco menos de 140 mil
+Considerando o texto anterior e aspectos da linguagem nele                                               dessas pessoas disseram não usar o português em família); há
+empregada, julgue os itens seguintes.                                                                    falantes das diversas línguas de colonização que aportaram aqui
+56 Na construção do texto, são adotados tanto o nível formal da                                          especialmente no final do século XIX e no começo do XX (o
+   linguagem quanto a norma padrão da língua portuguesa.                                                 talian dos migrantes italianos, o hunsrückisch ou o
+57 Predomina no texto a função metalinguística da linguagem.                                             pommeranisch dos alemães, entre várias outras, como o árabe, o
+58 Identifica-se uma hipérbole no primeiro período do segundo                                            japonês, o polonês); e há também falantes de línguas que
+   parágrafo.                                                                                            chegaram com migrações mais recentes, como a dos sírios,
+59 O primeiro parágrafo do texto é caracterizado pelo emprego                                            haitianos e venezuelanos. Parte dessa diversidade, inclusive, é
+   de palavras com sentido denotativo.                                                                   hoje reconhecida por atos legais que, nos últimos anos,
+                                                                                                         concederam a certos idiomas originários (o baníwa e o tukano,
+        É ponto pacífico que um dos legados da linguística de
+                                                                                                         por exemplo) e a algumas línguas de herança (como o
+grande utilidade no contexto escolar é a visão não preconceituosa
+sobre línguas e variedades de línguas. Esse foi um legado da                                             pommeranisch) o estatuto de línguas oficiais de seus municípios.
+linguística estrutural que se consolidou com os desenvolvimentos                                                         Caetano W. Galindo. Latim em pó: um passeio pela formação do nosso português.
+                                                                                                                                               São Paulo: Companhia das Letras, 2023 (com adaptações).
+subsequentes da linguística, sobretudo a sociolinguística
+variacionista. Essa visão não preconceituosa derivou
+naturalmente da perspectiva da língua como estrutura, daí que o                                          Considerando a significação de palavras e construções
+caráter não normativo da linguística se opôs frontalmente à                                              empregadas no texto precedente, julgue os itens a seguir.
+atitude de preconceito linguístico que existia até então. Exemplos                                       67 No último período, o emprego da palavra “atos” gera
+de preconceito linguístico são o conceito de língua primitiva                                               ambiguidade, uma vez que ela pode significar o mesmo que
+(i.e., a ideia de que a povos de cultura dita “primitiva”                                                   documentos ou o mesmo que ações.
+correspondem línguas igualmente “primitivas”), a valoração de
+certas variedades de língua ou registros de língua em detrimento                                         68 São antônimos os vocábulos “final” e “começo” (segundo
+de outras variedades e registros, e assim por diante. Acho que                                              período).
+ninguém hoje contestaria que o estudante que vai ser professor de                                        69 No texto, os vocábulos “idioma” e “língua” são empregados
+ensino básico deve receber uma formação que o torne isento de                                               como sinônimos, assim como as formas verbais “aportaram”
+preconceitos ou, pelo menos, o sensibilize contra preconceitos                                              e “chegaram”.
+linguísticos e o norteie para saber como reagir diante de situações
+de variação dialetal.                                                                                    70 Existe uma relação de paronímia entre as expressões
+                                                                                                            “LIBRAS” e “língua brasileira de sinais” (segundo período
+                                                      Lucia Lobato. Linguística e ensino de línguas.
+                                             Brasília: Editora da UnB, 2015, p. 15 (com adaptações).        do texto).
+                                                                                              CEBRASPE – FUNDAÇÃO INOVERSASUL – Edital: 2024
+        Cléber de Souza, empresário e ex-garçom, acordou mais                            Quantas vezes você revisa seus textos antes de sentir que eles
+cedo que de costume. Cumpriu sua rotina matinal, se vestiu e                             estão prontos? Você mostra seus trabalhos para outras
+partiu para uma das raras lojas que ainda revelam fotografias em                         pessoas antes de publicá-los?
+Jaraguá do Sul (SC), onde mora. Pagou por uma única foto,                                Adriana Lisboa: Reviso os textos inúmeras vezes, praticamente
+tirada 21 anos atrás. Nela, aparece de camisa branca e gravata-
+                                                                                         até as vésperas de serem publicados. Acho que um autor nunca
+borboleta ao lado de um sorridente senhor de barbas brancas, que
+                                                                                         bate o martelo. Mesmo depois de publicado um livro, há algo que
+vestia uma camisa rosa estampada com coqueiros. Era Francis
+Ford Coppola. O cineasta americano visitou Curitiba em                                   pensamos que poderíamos (ou deveríamos) ter feito diferente. A
+2003, ano da foto. Em uma estada de três semanas, passou cinco                           edição definitiva não existe; ela é só a decisão de parar em algum
+vezes no restaurante italiano onde Souza trabalhava. Foi tietado                         momento do processo.
+pelos funcionários e até criou uma pizza personalizada, feita em                                                              Internet: <comoeuescrevo.com> (com adaptações).
+massa grossa com muçarela, molho de tomate fresco, azeite e
+manjericão. O sabor é servido até hoje, com seu nome.                                    No que se refere às ideias veiculadas no texto anterior e à prática
+        Coppola circulava pela capital do Paraná, naquele ano, em                        de produção de textos nos anos finais do ensino fundamental,
+busca de inspirações para o filme que vinha tentando produzir
+                                                                                         julgue os itens que se seguem.
+desde a década de 1980: Megalópolis. A película acaba de ser
+lançada e por isso o diretor resolveu retornar à cidade, que o                           78   O processo de pesquisa para a escrita em atividade escolar
+atraiu anos atrás graças a seus dotes urbanísticos. Desta vez,                                pode envolver práticas de produção por frequentação, as
+permaneceu por apenas um dia. Souza, ansioso por reencontrar o                                quais são caracterizadas pelo domínio prévio que o estudante
+antigo freguês na estreita janela de 24 horas, pegou a fotografia e                           tem acerca de gêneros que ele já leu.
+percorreu, na tarde de 31 de outubro de 2024, os 160 quilômetros
+                                                                                         79   O ensino da atitude leitora tem como suporte o
+que conectam Jaraguá do Sul a Curitiba.
+                                                                                              comportamento do professor e outras referências do
+                                  Plínio Lopes. O poderoso busão. In: Revista Piauí.
+                                  Internet: <piaui.folha.uol.com.br> (com adaptações).        estudante.
+                                                                                         80   O procedimento de revisão de textos descrito por Adriana
+Julgue os itens a seguir, com relação aos sentidos e aspectos
+linguísticos do texto apresentado.                                                            Lisboa é um comportamento escritor que deve ser observado
+71 Em relação ao tempo de narrativa do texto, a história é
+                                                                                              pelo professor em sua prática de ensino e estimulado nos
+    contada sob a perspectiva de um narrador que se encontra                                  estudantes.
+    nos anos 80 do século XX.                                                            81   Na resposta às primeiras perguntas, Adriana Lisboa descreve
+72 Infere-se do texto que as filmagens de Megalópolis                                         um método considerado adequado para o ensino da escrita
+    aconteceram em Curitiba.                                                                  em sala de aula, uma vez que se baseia na pragmática do
+73 Um dos recursos utilizados para a manutenção da progressão                                 enfrentamento da página em branco e prescinde de
+    textual é a coesão referencial, que, no texto em apreço, é                                planejamento.
+    caracterizada pela substituição dos nomes completos dos
+                                                                                         82   Ao afirmar que “A edição definitiva não existe”, a escritora
+    dois personagens principais por diversos referentes.
+                                                                                              constrói, por oposição, um reforço ao argumento apresentado
+74 O encadeamento de acontecimentos expressos por verbos no
+    pretérito perfeito, como ocorre no primeiro parágrafo, é um                               anteriormente na segunda resposta.
+    dos elementos que caracterizam o texto como narrativo.
+                                                                                         quanto falta pra gente se ver hoje
+75 A narração é composta de sequências mescladas com outras
+                                                                                         quanto falta pra gente se ver logo
+    tipologias textuais, como a descritiva.
+                                                                                         quanto falta pra gente se ver todo dia
+76 O último período do primeiro parágrafo poderia ser reescrito,
+                                                                                         quanto falta pra gente se ver pra sempre
+    sem prejuízo do sentido e da clareza do texto, da seguinte
+    forma: A criação é servida até hoje, com o nome de                                   quanto falta pra gente se ver dia sim dia não
+    Coppola.                                                                             quanto falta pra gente se ver às vezes
+77 Em “seus dotes urbanísticos” (segundo período do segundo                              quanto falta pra gente se ver cada vez menos
+    parágrafo), a forma pronominal “seus” tem como referente a                           quanto falta pra gente não querer se ver
+    cidade de Curitiba.                                                                  quanto falta pra gente não querer se ver nunca mais
+                                                                                         quanto falta pra gente se ver e fingir que não se viu
+                 Como escreve Adriana Lisboa
+                                                                                         quanto falta pra gente se ver e não se reconhecer
+Como é o seu processo de escrita? Uma vez que você                                       quanto falta pra gente se ver e nem lembrar que um dia se conheceu.
+compilou notas suficientes, é difícil começar? Como você se
+                                                                                                                         Bruna Beber. Rua da padaria. São Paulo: Record, 2013.
+move da pesquisa para a escrita?
+Adriana Lisboa: Não faço compilação de notas antes de começar
+                                                                                         A respeito de aspectos estilísticos do poema apresentado, julgue
+a escrever, mas sim durante o processo. Só consigo pensar bem
+sobre um livro enquanto estou escrevendo esse livro; do                                  os itens a seguir.
+contrário, ele se torna uma abstração. Não sei que problemas vou                         83   Apesar de não apresentarem esquema de rimas, os versos
+encontrar até arregaçar as mangas e efetivamente começar a                                    têm métrica regular, medida pelas repetições.
+trabalhar. A pesquisa vai se apresentando da mesma exata
+                                                                                         84   No poema, a anáfora marca o ritmo dos versos e assume um
+maneira: de acordo com as exigências que o texto vai fazendo.
+Claro, estou me referindo essencialmente à escrita de ficção e de                             sentido diferente em cada ocorrência.
+poesia, mas o processo é semelhante mesmo quando escrevo                                 85   Os doze versos do poema sugerem o percurso de um
+ensaio. Preciso do pontapé inicial.                                                           relacionamento até o seu fim.
+                                                                             CEBRASPE – FUNDAÇÃO INOVERSASUL – Edital: 2024
+Acerca do disposto na Base Nacional Comum Curricular                    97  Práticas de multiletramento estão radicadas na ideia de que
+(BNCC) do ensino fundamental para o componente de língua                    há textos compostos por diferentes linguagens, como visuais,
+                                                                            sonoras e verbais, e implicam o reconhecimento da
+portuguesa, julgue os próximos itens.
+                                                                            diversidade cultural e da existência de múltiplas dimensões
+86   A necessidade de adequação do estilo de linguagem à                    de leitura e produção de textos.
+     situação comunicativa e ao interlocutor durante interações         98 Metodologias ativas de aprendizagem em língua portuguesa
+     sociais está relacionada a uma das competências específicas            visam à promoção do protagonismo estudantil, sendo o
+     de língua portuguesa para o ensino fundamental listadas                docente concebido, nessa perspectiva, como mediador no
+     na BNCC.                                                               processo de ensino-aprendizagem.
+                                                                        99 Estratégias metacognitivas no ensino de português
+87   Haja vista a pluralidade de práticas de linguagem
+                                                                            pressupõem a capacidade do educando de monitorar seus
+     contemporâneas e o surgimento de novas ferramentas de                  próprios processos cognitivos e incluem, por exemplo,
+     edição e produção de conteúdo na Web, a BNCC preconiza a               práticas que estimulem a reflexão sobre o processo de
+     primazia de letramentos digitais no ensino de língua                   aprendizagem.
+     portuguesa.                                                        100 A aula expositiva e a sala de aula invertida são metodologias
+88   A BNCC recomenda o aumento gradual da demanda                          tradicionais de ensino de língua portuguesa, e nelas o
+     cognitiva das atividades de leitura ao longo do ensino                 professor é considerado detentor do conhecimento, e a ênfase
+                                                                            do aprendizado está no domínio da norma-padrão.
+     fundamental, motivo pelo qual determina que, em turmas de
+     6.º e 7.º anos, é mais adequado abordar gêneros textuais           Espaço livre
+     como memes e gifs — de mais fácil compreensão — que
+     textos legais e normativos — mais complexos e mais
+     adequados a turmas de 8.º e 9.º anos.
+89   Apesar de ser enfatizada em campo específico, a prática de
+     pesquisa perpassa todos os campos de atuação delimitados
+     na BNCC para o ensino fundamental.
+90   Na BNCC, o estudo da variação linguística e do sistema da
+     língua é considerado uma atividade de natureza teórica e
+     metalinguística, estando desvencilhada, portanto, do
+     aprendizado da norma-padrão.
+91   Estaria em conformidade com os pressupostos da BNCC um
+     plano de aula sobre conjugação verbal que se iniciasse com o
+     estudo de verbos regulares no português, como apreciar,
+     para somente depois abordar verbos irregulares, como saber.
+92   Nos anos finais do ensino fundamental, as práticas de
+     linguagem devem centrar-se na preparação do educando para
+     o mercado de trabalho, com vistas à sua capacitação para
+     atendimento a demandas corporativas.
+93   No campo de atuação da vida pública, o aluno deve ser
+     levado a reconhecer o texto como lugar de negociação de
+     sentidos, valores e ideologias, a fim de identificar diferentes
+     pontos de vista e silenciar discursos que veiculem
+     concepções conservadoras de linguagem.
+
+Considerando as estratégias didáticas para o ensino de leitura,
+as metodologias de ensino da língua portuguesa e os conceitos de
+semiótica, multiletramento e multimodalidade, julgue os itens
+que se seguem.
+94 Entre    as estratégias que favorecem o ensino da
+     compreensão de textos, inclui-se o uso de infográfico,
+     gênero multimodal que favorece o desenvolvimento do
+     letramento multissemiótico.
+95   No ensino de leitura, o conhecimento prévio do leitor —
+     tanto linguístico como de mundo — é indispensável à
+     compreensão de um texto.
+96   Uma estratégia capaz de auxiliar o leitor a compreender um
+     texto é a definição de objetivos claros para a leitura, os quais
+     são determinados, em parte, pelas características do gênero
+     do texto a ser lido.
+

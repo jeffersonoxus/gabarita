@@ -1,0 +1,273 @@
+||MJ13_CBNS01_01N570620||                                                                                                                            CESPE/UnB – MJ/2013
+
+•       De acordo com o comando a que cada um dos itens a seguir se refira, marque, na folha de respostas, para cada item: o campo
+        designado com o código C, caso julgue o item CERTO; ou o campo designado com o código E, caso julgue o item ERRADO.
+        A ausência de marcação ou a marcação de ambos os campos não serão apenadas, ou seja, não receberão pontuação negativa. Para as
+        devidas marcações, use a folha de respostas, único documento válido para a correção das suas provas objetivas.
+•       Nos itens que avaliam noções de informática, a menos que seja explicitamente informado o contrário, considere que todos os
+        programas mencionados estão em configuração-padrão, em português, e que não há restrições de proteção, de funcionamento e de
+        uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.
+
+                                                                CONHECIMENTOS BÁSICOS
+Texto para os itens de 1 a 11                                                                            2    Segundo o filósofo Rancière, para que haja democracia, a
+
+    1             Marilena Chaui, filósofa brasileira, afirma que, para                                       política não se deve caracterizar como um regime “policial”.
+        a classe dominante brasileira (os “liberais”), democracia é o                                    3    Os integrantes da sociedade que não são “levados em conta”
+        regime da lei e da ordem. Para a filósofa, no entanto, a
+                                                                                                              (R.31) devem ser representados pelos movimentos sociais
+    4   democracia é “o único regime político no qual os conflitos são
+        considerados o princípio mesmo de seu funcionamento”:                                                 existentes para que tenham suas necessidades atendidas e, de
+        impedir a expressão dos conflitos sociais seria destruir a                                            fato, sejam tratados com igualdade, segundo o filósofo francês.
+    7   democracia. O filósofo francês Jacques Rancière critica a ideia
+                                                                                                         4    O texto defende a ideia de que a sociedade brasileira
+        de democracia que tem estruturado nossa vida social — regida
+        por uma ordem policial, segundo ele —, devido ao fato de ela                                          conforma-se com o sistema político vigente e, por essa razão,
+10      se distanciar do que seria sua razão de ser: a instituição da                                         não reivindica mudanças.
+        política. Estamos acomodados por acreditar que a política é
+                                                                                                         Julgue os itens que se seguem, acerca das estruturas linguísticas do
+        isso que está aí: variadas formas de acordo social a partir das
+13      disputas entre interesses, resolvidas por um conjunto de ações                                   texto.
+        e normas institucionais. Essa ideia empobrecida do que seja a
+        política está, para o autor, mais próxima da ideia de polícia, já                                5    As formas verbais compostas ‘estão fazendo’ (R.22) e “irão
+16      que diz respeito ao controle e à vigilância dos comportamentos                                        construir” (R.30) poderiam ser substituídas, respectivamente,
+        humanos e à sua distribuição nas diferentes porções do                                                pelas formas verbais simples fazem e construirão, uma vez
+        território, cumprindo funções consideradas mais ou menos
+                                                                                                              que são equivalentes em sentido.
+19      adequadas à ordem vigente. Estamos geralmente tão
+        hipnotizados pela “necessidade de um compromisso para se                                         6    A expressão ‘no qual’ (R.4) poderia ser substituída pelo
+        alcançar o bem comum” e pela opinião de que “as instituições                                          vocábulo onde, sem prejuízo para a correção e para as ideias
+22      sociais já estão fazendo todo o possível para isso”, que não
+                                                                                                              do texto.
+        conseguimos perceber nossa contribuição na legitimação dessa
+        política policial que administra alguns corpos e torna invisíveis                                7    A correção do texto seria mantida caso o pronome “se” (R.10),
+25      outros.                                                                                               em vez de anteceder, passasse a ocupar a posição
+                  O conceito de política trabalhado pelo autor traz como
+                                                                                                              imediatamente posterior ao verbo: devido ao fato de ela
+        princípio a igualdade. Uma igualdade que não está lá como
+28      sonho a ser alcançado um dia, mas que é uma potencialidade                                            distanciar-se.
+        que “só ganha realidade se é atualizada no aqui e agora”. E                                      8    No trecho “devido ao fato (...) da política” (R.9-11),
+        essa atualização se dá por ações que irão construir a
+                                                                                                              mantendo-se as ideias e a correção do texto, a expressão
+31      possibilidade de os “não contados” serem levados em conta,
+        serem considerados nesse princípio básico e radical de                                                nominal “a instituição da política” poderia ser transformada em
+        igualdade. Para além dos movimentos sociais, existem os                                               oração, desde que o sinal de dois-pontos que a antecede fosse
+34      ainda-sem-nome e ainda-sem-movimento. Diz o autor que a                                               substituído por vírgula, da seguinte forma: por ela se distanciar
+        política é a reivindicação da parte daqueles que não têm parte;                                       do que seria sua razão de ser, que é a instituição da política.
+        política se faz reivindicando “o que não é nosso” pelo sistema
+37      de direitos dominantes, criando, assim, um campo de                                              9    O emprego do sinal indicativo de crase na expressão “ respeito
+        contestação. Em uma sociedade em que os que não têm parte                                             ao controle e à vigilância dos comportamentos humanos”
+        são a maior parte, é preciso fazer política.                                                          (R.16-17) é facultativo.
+            Marco Antonio Sampaio Malagodi. Geografias do dissenso: sobre conflitos, justiça ambiental
+            e cartografia social no Brasil. In: Espaço e economia: Revista Brasileira de Geografia       10   A oração reduzida “cumprindo funções (...) ordem vigente”
+            Econômica. jan./2012. Internet: <http://espacoeconomia.revues.org/136> (com adaptações).
+                                                                                                              (R.18-19) poderia ser reescrita, sem alteração das ideias ou
+                                                                                                              prejuízo para a correção gramatical do texto, da seguinte
+Com base nas ideias do texto, julgue os itens de 1 a 4.
+                                                                                                              forma: de forma a cumprir funções, de certa forma,
+1       O emprego da locução “no entanto” (R.3) evidencia que a ideia                                         conformadas à sociedade vigente.
+        de Marilena Chauí acerca do conceito de democracia diverge
+        da ideia de democracia que a autora atribui à classe dominante                                   11   O sentido original do texto seria alterado caso se inserisse uma
+        brasileira.                                                                                           vírgula imediatamente após a palavra “policial” (R.24).
+
+                                                                                                                                                                          –1–
+||MJ13_CBNS01_01N570620||                                                                                                             CESPE/UnB – MJ/2013
+
+ 1              A Constituição Federal de 1988 prevê que o cidadão                         Com base no Manual de Redação da Presidência da República
+     que comprovar insuficiência de recursos tem direito a                                 (MRPR), julgue os itens seguintes, acerca do tipo de linguagem e
+                                                                                           das características das comunicações oficiais.
+     assistência jurídica integral e gratuita. Em outras palavras, o
+                                                                                           16   Somente as comunicações dirigidas aos chefes de poder
+ 4   brasileiro ou o estrangeiro que não tiverem condições de pagar
+                                                                                                receberão o vocativo “Excelentíssimo Senhor”. As
+     honorários de um advogado e os custos de um processo têm à                                 comunicações dirigidas às demais autoridades tratadas pelo
+     disposição a ajuda do Estado brasileiro, por meio da defensoria                            pronome “Vossa Excelência” terão como vocativo “Senhor”,
+ 7   pública.                                                                                   seguido do respectivo cargo.
+                                                                                           17   Caso os ministros da Justiça e da Educação queiram propor
+                Podem ter acesso ao serviço pessoas com renda
+                                                                                                medida ao presidente da República, eles deverão encaminhá-la
+     familiar inferior ao limite de isenção do imposto de renda.                                por meio de uma exposição de motivos interministerial, a qual
+10   No    entanto,    se    esse   patamar        for      ultrapassado,             o         deve ser assinada por ambos.
+     indivíduo        deve     c o mp r o v a r      que        tem         gasto s        18   Para tratar de assuntos oficiais internos aos órgãos da
+     extraordinários,       como    despesas         com        medicamentos                    administração pública, os documentos oficiais mais adequados
+                                                                                                são o aviso e o memorando, os quais apresentam estrutura
+13   e alimentação especial.
+                                                                                                praticamente idêntica.
+                A assistência gratuita inclui orientação e defesa                          19   Telegrama e correio eletrônico têm em comum a flexibilidade
+     jurídica, divulgação de informações sobre direitos e deveres,                              em sua forma estrutural, a celeridade da transmissão de
+16   prevenção da violência e patrocínio de causas perante o Poder                              informação e o baixo custo. Esses meios diferenciam-se,
+                                                                                                principalmente, pelo fato de que o correio eletrônico prescinde
+     Judiciário — desde o juiz de primeiro grau até as instâncias
+                                                                                                de certificação digital que ateste a identidade do remetente,
+     superiores, inclusive o Supremo Tribunal Federal (STF). Com                                conforme determina a lei.
+19   a assistência jurídica gratuita, o indivíduo conhece um pouco                         Julgue os próximos itens, acerca de redes de computadores, do
+     mais sobre seus direitos e deveres e tem acesso à justiça para                        programa de correio eletrônico Outlook Express e do Microsoft
+                                                                                           Office 2013.
+     exercer sua cidadania.
+                                         Internet: <www.brasil.gov.br> (com adaptações).
+                                                                                           20   Durante a edição de um texto no Microsoft Word 2013, caso
+                                                                                                haja necessidade de substituição de uma palavra por outra com
+                                                                                                o mesmo significado, pode-se fazer uso do dicionário de
+Julgue os itens a seguir, referentes à estrutura linguística e às ideias
+                                                                                                sinônimos, acessível no menu Editar.
+do texto acima.                                                                            21   Uma rede local (LAN) permite conectar um número reduzido
+                                                                                                de computadores entre si, uma vez que ela é usada para
+12   O trecho “A assistência gratuita (...) Poder Judiciário”                                   comunicação em uma área geograficamente pequena. A
+     (R.14-17) pode ser reescrito, mantendo-se a correção e as ideias                           recomendação técnica é de que esse número não ultrapasse
+                                                                                                cem computadores.
+     do texto, da seguinte forma: A assistência gratuita inclui:
+                                                                                           22   No Outlook Express, existem algumas pastas padrão, como,
+     orientação, defesa jurídica, divulgação de informações sobre
+                                                                                                por exemplo, a pasta Caixa de saída, que é destinada a
+     direitos e deveres, prevenção da violência e patrocínio de                                 armazenar os emails que foram criados e que ainda não foram
+     causas frente ao Poder Judiciário.                                                         enviados aos destinatários. É possível, por meio dessa pasta,
+                                                                                                agendar um horário para o envio dos emails.
+13   As duas ocorrências de sinal indicativo de crase no texto
+                                                                                           Julgue os itens seguintes, relativos a procedimentos de segurança da
+     (R.5 e 20) são obrigatórias.                                                          informação e à utilização do firewall.
+14   O governo brasileiro oferece o mesmo tipo de assistência a                            23   Uma das formas de um servidor público proteger as
+     brasileiros e estrangeiros que residam em território nacional e                            informações confidenciais de uma organização é impedir que
+                                                                                                pessoas não autorizadas acessem seu ambiente de trabalho e
+     comprovem insuficiência de recursos.
+                                                                                                utilizem seu computador.
+15   A supressão do acento gráfico da forma verbal “têm” (R.5) não                         24   Um firewall é um software que realiza análises do fluxo de
+     prejudicaria a correção gramatical do período, uma vez que o                               pacotes de dados, filtragens e registros dentro de uma estrutura
+                                                                                                de rede e executa comando de filtragem previamente
+     verbo pode apresentar concordância com a ideia singular de
+                                                                                                especificado com base nas necessidades de compartilhamento,
+     “brasileiro” (R.4) ou de “estrangeiro” (R.4) ou com a ideia                                acesso e proteção requeridas pela rede e pelas informações
+     plural de “o brasileiro ou o estrangeiro” (R.3-4).                                         nela disponíveis.
+
+                                                                                                                                                           –2–
+||MJ13_CBNS01_01N570620||                                                         CESPE/UnB – MJ/2013
+
+         Para a tramitação de processos protocolados, determinado      RASCUNHO
+tribunal adota a metodologia apresentada a seguir:
+C todos os processos referentes apenas à administração pública
+     são encaminhados à seção A;
+C todos os processos referentes apenas a entidades privadas são
+     encaminhados à seção B;
+C todos os processos que envolvem administração pública e
+     privada são encaminhados à seção C e, após análise, são
+     encaminhados à seção A ou B;
+C todos os processos que chegam à seção A, provenientes de C,
+     são, posteriormente, encaminhados para B, e todos os
+     processos que chegam à seção B, provenientes de C, são
+     posteriormente encaminhados para A.
+C todos os processos que chegam à seção A, que não sejam
+     provenientes diretamente da seção C, são analisados por
+     Francisco;
+C todos os processos que chegam à seção B, que não são
+     provenientes diretamente da seção C, são analisados por Rute
+     ou Mateus;
+C Francisco, Rute e Mateus analisam apenas processos que não
+     sejam provenientes diretamente da seção C.
+Com base nessas informações, julgue os itens subsequentes.
+25   Um processo que for enviado da seção C para a seção B será
+     necessariamente analisado por Francisco.
+26   Se, de sete processos que chegarem à seção B, apenas dois
+     deles forem encaminhados diretamente pela seção C, então a
+     quantidade de formas distintas de escolha do servidor
+     (Francisco, Mateus ou Rute) que analisará esses processos será
+     superior a 15.
+27   Considerando que, em determinado dia, foram protocolados
+     50 processos, dos quais, 28 faziam referência à administração
+     pública e 40, a entidades privadas, então, nesse dia, a
+     quantidade de processos que faziam referência exclusivamente
+     à administração pública foi superior a 12.
+28   Nenhum dos processos analisados por Francisco se refere
+     exclusivamente a entidades privadas.
+29   Caso dois processos sejam aleatoriamente selecionados de uma
+     lista que contenha 10 processos relativos exclusivamente à
+     administração pública, 10 relativos exclusivamente a entidades
+     privadas e 20 relativos aos dois setores, a probabilidade de
+     esses dois processos se referir exclusivamente ao setor público
+     será igual a    .
+
+
+No tocante à aplicabilidade e à eficácia dos direitos fundamentais,
+julgue os itens seguintes.
+30   Segundo jurisprudência firmada pelo STF mediante aprovação
+     de súmula vinculante acerca da matéria, somente será
+     admissível o uso de algemas quando houver necessidade de
+     transporte do preso para ser conduzido até delegacia, presídio
+     ou mesmo sala de audiências, justamente pelo fato de se expor
+     a perigo a autoridade policial, colocando em risco a sua
+     integridade física.
+31   O direito à tutela jurisdicional efetiva tem o condão de
+     direcionar a atuação do juiz, vinculando-o em seu modo de
+     proceder, já que é seu dever empregar a técnica processual
+     adequada ao caso concreto.
+
+                                                                                                 –3–
+||MJ13_CBNS01_01N570620||                                                                                         CESPE/UnB – MJ/2013
+
+Em relação às atribuições e às competências dos Poderes                40   Instaurado processo de ofício pela comissão de ética para
+Executivo, Legislativo e Judiciário, julgue os próximos itens.              apuração de prática de ato em desrespeito às normas éticas,
+                                                                            não haverá ilegalidade em ser mantida, para esse processo, a
+32   O Superior Tribunal de Justiça tem competência para processar          chancela de reservado, até que ele seja concluído.
+     e julgar originariamente mandado de segurança contra seus
+                                                                       41   O referido código de ética não considera servidora pública a
+     próprios atos.
+                                                                            pessoa que presta serviço de natureza eventual e sem
+33   O presidente do Conselho Nacional de Justiça será o presidente         remuneração a entidade da administração pública indireta.
+     do STF; e, nas suas ausências e impedimentos, o substituto será
+     o presidente do Superior Tribunal de Justiça.                     Com relação ao Plano Integrado de Enfrentamento ao Crack e
+                                                                       outras Drogas, julgue o item abaixo.
+34   Se, por iniciativa de um deputado federal, o Congresso
+     Nacional aprovar lei ordinária que insira dispositivo legal no    42   O fortalecimento das ações de enfrentamento ao uso de crack
+     texto da Lei n.º 8.112/1990, para criar gratificação destinada         e outras drogas ilícitas envolve a estruturação, a integração, a
+     a remunerar todos os servidores públicos que exerçam                   articulação e a ampliação das ações voltadas à prevenção do
+     atividade em região de fronteira, o presidente da República            uso e ao tratamento dos usuários, mas não contempla a
+     deverá sancionar a referida lei ordinária, tornando-a vigente a        ampliação das redes de atenção à saúde em benefício do
+     partir da sua publicação, já que ela se encontra em                    usuário, haja vista o dever do poder público de dar tratamento
+     conformidade com a Constituição Federal.                               igualitário a toda a comunidade.
+35   Diante de duas interpretações possíveis de lei ou ato normativo   Com relação ao direito administrativo, julgue os itens a seguir.
+     federal ou estadual, deve ser adotada a interpretação
+                                                                       43   Os princípios fundamentais orientadores de toda a atividade da
+     compatível com a Constituição Federal, sendo admitida
+     também a declaração de inconstitucionalidade daquela que se            administração pública encontram-se explicitamente no texto da
+     encontre em dissonância com o texto constitucional, por meio           Constituição Federal, como é o caso do princípio da
+     de ação direta de inconstitucionalidade perante o STF.                 supremacia do interesse público.
+                                                                       44   Nos termos da Lei n.º 8.666/1993, há apenas dois critérios para
+36   Constatada a violação do direito de pessoas carentes, em face
+     da publicação de lei federal voltada para a regulamentação da          julgamento das propostas dos interessados em participar de
+     previdência social que impeça o acesso dos cidadãos a                  certame licitatório: o menor preço, que seleciona a proposta
+                                                                            mais vantajosa para a administração; e a técnica e preço, que
+     informações de seu interesse particular perante órgãos do
+                                                                            é utilizada para serviços de natureza predominantemente
+     Instituto Nacional do Seguro Social, o defensor público geral
+                                                                            intelectual.
+     federal terá legitimidade para ajuizar ação direta de
+     inconstitucionalidade perante o STF. Contudo, tal providência     45   Embora institua normas para licitações e contratos da
+     não impedirá que cada cidadão possa individualmente impetrar           administração pública, as disposições da Lei n.º 8.666/1993
+     habeas data para resguardar o seu direito.                             aplicam-se, no que couber, aos convênios, acordos, ajustes e
+                                                                            outros instrumentos congêneres celebrados por órgãos e
+37   Se, diante das recentes manifestações populares, a presidenta
+                                                                            entidades da administração.
+     da República editar medida provisória, tornando vinculantes os
+     efeitos das decisões que, no caso concreto, sejam tomadas         46   Considerando-se que o poder administrativo disciplinar é
+     pelos juízes em primeira instância, com a impositiva                   discricionário, a administração tem a liberdade de escolha
+     necessidade da observância dos casos julgados pelo STF,                entre punir e não punir a suposta infração cometida por
+     denominados leading case, então, nessa situação hipotética,            servidor púbico.
+     dentro do prazo legal, o Congresso Nacional deverá ratificar a    47   O Poder Judiciário pode examinar atos da administração
+     referida medida por meio da conversão desta em lei ordinária,          pública de qualquer natureza, sejam gerais ou individuais,
+     e a presidenta sancionará o texto normativo, passando a nova           unilaterais ou bilaterais, vinculados ou discricionários, mas
+     lei a vigorar a partir de sua publicação.                              sempre sob os aspectos da legalidade e, também, da
+A respeito do acesso à informação por parte dos cidadãos e do               moralidade.
+Código de Ética Profissional do Servidor Público Civil do Poder        48   O Poder Executivo compõe, junto com o Poder Legislativo, o
+Executivo Federal, julgue os itens de 38 a 41.                              Poder Judiciário e o Ministério Público, a quadripartição de
+                                                                            poderes no Estado brasileiro.
+38   Caso determinado servidor do Ministério da Justiça tenha
+     dúvidas a respeito de qual opção escolher entre as disponíveis,   Com relação aos agentes públicos e à improbidade administrativa,
+     a lei estabelece que, com base no seu senso de justiça e          julgue os itens que se seguem conforme entendimento do Superior
+     acuidade, deverá optar pela que se apresente mais razoável.       Tribunal de Justiça.
+
+39   Considere que determinado cidadão tenha apresentado petição       49   Não é devido o pagamento de auxílio-transporte ao servidor
+     no Ministério da Justiça insurgindo-se contra o fato de não ter        público que utiliza veículo próprio no deslocamento para o
+     sido divulgado no sítio oficial do órgão na Internet programa          trabalho.
+     elaborado com vistas ao combate às drogas. Nesse caso, tem        50   Para a caracterização de ato de improbidade por ofensa a
+     razão o requerente, haja vista que a divulgação do programa no         princípios da administração pública, exige-se a demonstração
+     sítio é obrigatória.                                                   do dolo lato sensu ou genérico.
+
+                                                                                                                                       –4–
+

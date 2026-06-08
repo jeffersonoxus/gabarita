@@ -1,0 +1,18 @@
+{
+  "concurso": "SEDUC-SE",
+  "ano": 2026,
+  "banca": "CESPE/CEBRASPE",
+  "orgao": "Secretaria de Estado da Educacao de Sergipe",
+  "cargo": "Professor - Lingua Portuguesa",
+  "nivel": "Superior",
+  "total_questoes": 60,
+  "modalidade": "multipla_escolha",
+  "url_qconcursos": "https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2026-seduc-se-professor-de-educacao-basica-area-de-atuacao-grupo-i-ensino-fundamental-e-medio-disciplina-lingua-portuguesa",
+  "disciplina": "Lingua Portuguesa",
+  "assuntos": [
+    "Interpretacao de Textos",
+    "Gramatica",
+    "Literatura",
+    "Pedagogia"
+  ]
+}

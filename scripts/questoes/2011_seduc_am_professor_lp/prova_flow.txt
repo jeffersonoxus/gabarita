@@ -1,0 +1,1387 @@
+Cargo 17: Professor – Português
+
+||SEDUCAM11_CBCCNS_001_01N445340||
+
+•
+
+CESPE/UnB – SEDUC/AM
+
+De acordo com o comando a que cada um dos itens a seguir se refira, marque, na folha de respostas, para cada item: o campo
+designado com o código C, caso julgue o item CERTO; ou o campo designado com o código E, caso julgue o item ERRADO.
+A ausência de marcação ou a marcação de ambos os campos não serão apenadas, ou seja, não receberão pontuação negativa.
+Para as devidas marcações, use a folha de respostas, único documento válido para a correção das suas provas objetivas.
+Nos itens que avaliam conhecimentos de informática, a menos que seja explicitamente informado o contrário, considere que todos
+os programas mencionados estão em configuração padrão, em português. Considere também que não há restrições de proteção, de
+funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.
+
+•
+
+CONHECIMENTOS BÁSICOS
+1
+
+4
+
+7
+
+10
+
+13
+
+16
+
+19
+
+22
+
+25
+
+28
+
+31
+
+A dúvida nos mete medo. Interrogar, determinar com
+exatidão, situar-se; todos esses atos de liberdade, de decisão e
+de responsabilidade são terrivelmente angustiantes; trata-se de
+angústia análoga àquela de uma criança que rompe o cordão
+que a liga a seus pais, a seus mestres, aos grupos dos quais faz
+parte e vai perdendo assim a doce segurança da dependência,
+da obediência, do conformismo. Essa angústia é inevitável: ela
+leva o selo da existência; nela se exprime a vertigem perante a
+liberdade. Não se trata, nessas condições, de querer liquidar a
+angústia, mas de saber se o homem deve procurar evitá-la, fugir
+dela por qualquer saída, ou se, em vez disso, deve aceitá-la e
+aventurar-se a viver longe da terra firme.
+Ora, o que vale para a existência em geral vale
+também e muito particularmente para aqueles que estão ligados
+à educação, que é, na realidade, grande geradora de angústias.
+De um lado, toda relação pedagógica é fonte de tensão, de
+desequilíbrio para aqueles que a vivem, na medida em que ela
+os implica naquilo que são, os interroga, coloca em questão
+suas preferências, seus valores, seus atos, sua maneira de ser,
+seu projeto de existência. Por outro lado, essa tensão e essa
+interpelação vão além dos envolvidos como atores particulares
+e individuais, pois o que importa pedagogicamente é o projeto
+educativo-histórico de uma sociedade no interior da qual a
+pedagogia desempenha papel importante. A educação faz com
+que toda a nossa sociedade se interrogue a respeito de si
+mesma, se debata e se busque. Educar é reproduzir ou
+transformar: repetir servilmente aquilo que foi, optar pela
+segurança do conformismo, pela fidelidade à tradição ou, ao
+contrário, fazer frente à ordem estabelecida e correr o risco da
+aventura; é querer que o passado configure todo o futuro ou
+partir desse passado para construir outra coisa.
+Moacir Gadotti. Educação e poder: introdução à pedagogia do
+conflito. São Paulo: Cortez, 1998, p. 18 (com adaptações).
+
+Acerca do texto acima, julgue os itens de 1 a 8.
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Para o autor do texto, os conflitos gerados na relação
+pedagógica são restritos àqueles diretamente envolvidos
+nessa relação: professores, alunos e outros agentes do sistema
+educacional.
+A educação é apresentada no texto como mecanismo que leva
+necessariamente à mudança, em consequência dos
+questionamentos e das tensões que ocorrem em sala de aula.
+No trecho “A dúvida (...) angustiantes” (R.1-3), os verbos
+“Interrogar”, “determinar” e “situar-se”, empregados em sua
+forma nominal de infinitivo, exercem a função de sujeito da
+oração em que ocorrem; por isso, a forma verbal “são” está
+empregada no plural.
+Seriam mantidos a correção gramatical e o sentido original do
+texto se, na linha 3, o ponto e vírgula empregado logo após
+“angustiantes” fosse substituído por ponto e o termo “trata-se”
+fosse iniciado com letra maiúscula.
+No texto, a noção do familiar contrapõe-se à ideia do novo
+e do desconhecido e é referida por expressões como
+“dependência” (R.6), “conformismo” (R.7), “terra firme” (R.12),
+“reproduzir” (R.26), “repetir” (R.27) e “fidelidade à tradição”
+(R.28), entre outras.
+Infere-se do texto que a dúvida e a angústia a ela associada são
+traços inerentes à existência e ao desenvolvimento humanos.
+
+7
+
+8
+
+1
+
+4
+
+7
+
+10
+
+13
+
+16
+
+19
+
+22
+
+25
+
+28
+
+31
+
+34
+
+37
+
+O trecho “vertigem perante a liberdade” (R.8-9) retrata, no
+texto, a condição de incerteza e insegurança que tipicamente
+ocorre em situações em que muitas opções estão abertas àquele
+que deve decidir.
+Em “Não se trata” (R.9), a partícula “se” poderia ser
+corretamente empregada após o verbo, escrevendo-se Não
+trata-se.
+Uma aula é como comida. O professor é o cozinheiro.
+O aluno é quem vai comer. Se a criança se recusa a comer,
+pode haver duas explicações. Primeira: a criança está doente.
+A doença lhe tira a fome. Quando se obriga a criança a comer
+quando ela está sem fome, há sempre o perigo de que ela
+vomite o que comeu e acabe por odiar o ato de comer. É assim
+que muitas crianças acabam por odiar as escolas. O vômito está
+para o ato de comer como o esquecimento está para o ato de
+aprender. Esquecimento é uma recusa inteligente da
+inteligência. Segunda: a comida não é a comida que a criança
+deseja comer: nabo ralado, jiló cozido, salada de espinafre... O
+corpo é um sábio: não come tudo o que jogam para ele, mas
+opera com um delicado senso de discriminação. Algumas
+coisas ele deseja. Prova. Se são gostosas, ele come com prazer
+e quer repetir. Outras não lhe agradam, e ele recusa. Aí eu
+pergunto: “O que se deve fazer para que as crianças tenham
+vontade de tomar sorvete?”. Pergunta boba. Nunca vi criança
+que não estivesse com vontade de tomar sorvete. Mas eu não
+conheço nenhuma mágica que seja capaz de fazer que uma
+criança seja motivada a comer salada de jiló com nabo. Nabo
+e jiló não provocam sua fome.
+(...)
+As crianças têm, naturalmente, um interesse enorme
+pelo mundo. Os olhinhos delas ficam deslumbrados com tudo
+o que veem. Devoram tudo. Lembro-me da minha neta de
+um ano, agachada no gramado encharcado, encantada com uma
+minhoca que se mexia. Que coisa fascinante é uma minhoca
+aos olhos de uma criança que a vê pela primeira vez! Tudo é
+motivo de espanto. Nunca esteve no mundo. Tudo é novidade,
+surpresa, provocação à curiosidade. Quando visitei uma reserva
+florestal no Espírito Santo, a bióloga encarregada de educação
+ambiental me contou que era um prazer trabalhar com as
+crianças. Não era necessário nenhum artifício de motivação. As
+crianças queriam comer tudo o que viam. Tudo provocava a
+fome dos seus olhos: insetos, pássaros, ninhos, cogumelos,
+cascas de árvores, folhas, bichos, pedras. (...) Os olhos das
+crianças têm fome de coisas que estão perto. (...) São
+brinquedos para elas. Estão naturalmente motivadas por eles.
+Querem comê-los. Querem conhecê-los.
+Rubem Alves. Por uma educação romântica.
+Campinas: Papirus, 2002, p. 82-4 (com adaptações).
+
+A respeito das ideias veiculadas no texto acima e de suas estruturas
+linguísticas, julgue os itens de 9 a 15.
+9
+
+10
+
+A predominância, no texto, das formas verbais no presente do
+indicativo tem o efeito de dar aos fatos apresentados o caráter
+de fatos reais, habituais e naturais, o que reforça os argumentos
+do autor com relação aos processos de aprendizagem das
+crianças.
+O autor constrói seu texto com base na comparação entre o ato
+de comer e o de aprender ou conhecer, relação que explicita no
+trecho “Querem comê-los. Querem conhecê-los” (R.39).
+–1–
+
+||SEDUCAM11_CBCCNS_001_01N445340||
+
+CESPE/UnB – SEDUC/AM
+
+11
+
+O texto é predominantemente argumentativo; nele, o autor
+expõe suas ideias de forma a convencer o leitor e usa, para esse
+fim, imagens do mundo real e exemplos tirados de sua própria
+experiência.
+
+17
+
+É correto concluir da leitura da tirinha que a professora tem a
+tendência de acolher as críticas feitas por Calvin e de adotar
+práticas novas com base nessas críticas.
+
+12
+
+O emprego das vírgulas logo após “sem fome” (R.5) e
+“gostosas” (R.14) é facultativo; essas vírgulas poderiam,
+portanto, ser omitidas sem prejuízo para a correção gramatical
+do texto.
+
+18
+
+13
+
+Na linha 25, a forma verbal “Devoram” está no plural para
+concordar com seu sujeito: “As crianças” (R.23).
+
+14
+
+No período “Nunca esteve no mundo” (R.29), o sujeito oculto
+da forma verbal “esteve” refere-se a “uma minhoca” (R.26-27),
+e “Nunca” e “no mundo” exercem a função de adjunto
+adverbial.
+
+O texto da fala de Calvin no segundo quadrinho poderia ser
+corretamente reescrito em registro formal, para uso em outra
+situação comunicativa em que o aluno se dirigisse, por
+exemplo, por escrito à professora, da seguinte forma: Tendo
+em vista o fato de que a geração mais nova tem mais facilidade
+para absorver informações veiculadas pelos meios de
+comunicação visual, solicito à professora, Srta. Wormwood,
+que apresente o conteúdo em forma de videoclipe.
+
+19
+
+Nas duas falas da professora, o emprego da vírgula é
+obrigatório devido à presença do vocativo: “Calvin”, no
+primeiro quadrinho, e “classe”, no segundo.
+
+15
+
+Ao utilizar formas típicas da linguagem oral e coloquial,
+produzindo um texto com tom predominantemente informal, o
+autor aproxima-se do leitor.
+
+Considerando que, em determinada escola, a diretora deva escrever
+um documento ao ocupante do cargo de secretário de educação,
+solicitando-lhe prioridade na reforma da escola, julgue os itens
+seguintes com base nos princípios da correspondência oficial.
+20
+
+Ao final do documento, após apresentar seu pedido, a diretora
+deverá utilizar, como fecho, qualquer uma das seguintes
+expressões: Atenciosamente, Respeitosamente, Gentilmente,
+Com respeito e admiração.
+
+21
+
+Devem constar do documento a data de sua emissão, a
+referência ao assunto tratado e a identificação do emitente, no
+caso, a diretora.
+
+22
+
+No documento, deve ser empregado o pronome de tratamento
+Vossa Excelência, forma correta para correspondência dirigida
+a secretários de estado.
+
+Considerando que os fragmentos incluídos nos itens seguintes, na
+ordem em que estão apresentados, são partes sucessivas e adaptadas
+de texto referente ao Departamento de Políticas e Programas
+Educacionais (D P P E) da SEDUC/AM (Internet:
+<www.seduc.am.gov.br>), julgue-os quanto à correção gramatical.
+23
+
+O foco do DPPE é a produção de estudos e pesquisas em sua
+área de competência com os objetivo de assistir às escolas
+estaduais na elaboração e execução dos seus projetos e
+programas educacionais.
+
+24
+
+Como uma de suas atribuições, o DPPE deve participar,
+juntamente com outros departamentos da SEDUC/AM, na
+definição e elaboração de projetos e programas que dedique-se
+à melhoria da educação básica no estado do Amazonas, bem
+como na captação, dos recursos para o financiamento desses
+projetos e programas.
+
+25
+
+O DPPE têm como missão implementar, manter e avaliar as
+políticas pedagógicas para a educação básica. Deve
+proporcionar, suporte técnico e pedagógico à gestores,
+professores e técnicos na implantação de políticas, programas
+e objetivos educacionais em todas as modalidades de ensino.
+
+Bill Watterson. Felino selvagem psicopata homicida: um livro de Calvin e
+Haroldo por Bill Watterson. Vol. 2. Best News: Cambuci/SP, 1996, p. 9.
+
+Julgue os itens de 16 a 19 com referência à tirinha ilustrada acima,
+que mostra diálogo entre o personagem Calvin e a sua professora,
+Srta. Wormwood.
+16
+
+O texto aborda, de forma cômica, a distância entre a linguagem
+mais atraente ao aluno e a linguagem e os meios empregados
+na prática de sala de aula pela professora de Calvin.
+
+–2–
+
+||SEDUCAM11_CBCCNS_001_01N445340||
+
+CESPE/UnB – SEDUC/AM
+
+Acerca de conceitos e modos de utilização de aplicativos do
+
+Julgue os próximos itens, relativos a conceitos básicos e modos de
+
+ambiente Microsoft Office, julgue os itens a seguir.
+
+utilização de tecnologias, ferramentas, aplicativos e procedimentos
+
+26
+
+No Word 2007, para selecionar um documento inteiro, basta
+pressionar as teclas
+
+27
+
+§e a, simultaneamente.
+
+associados a Internet e intranet.
+37
+
+Salvar arquivo, uma cópia do arquivo será salva no
+
+No Word 2007, com recurso disponível no grupo Citações e
+
+computador em uso.
+
+Bibliografia, que é parte da guia Referências, é possível
+
+pesquisar um banco de dados de bibliotecas em busca de
+
+38
+
+No Excel 2007, ao se clicar o botão
+
+páginas que contenham os dois termos utilizados, em qualquer
+ordem.
+
+, na guia Início, no
+
+grupo Alinhamento, ocorre a quebra automática do texto da
+célula selecionada. Com esse procedimento, a largura da
+
+39
+
+A opção Do scanner ou câmera, para adicionar imagens a uma
+apresentação ou álbum de fotografias, presente no PowerPoint
+
+diálogo que permitirá a criação de um link para uma página na
+Web, cujo endereço será aquele que for digitado no campo
+Endereço da caixa de diálogo.
+40
+
+2003, não está disponível no PowerPoint 2007.
+
+contenham exatamente as mesmas informações do conteúdo
+
+tecla
+31
+
+32
+
+que esteja entre as aspas, mas em qualquer ordem do conteúdo
+do texto.
+
+O menu Iniciar do Windows XP pode ser ativado ao se
+pressionarem, simultaneamente, as teclas
+
+§e
+
+Ao se efetuar uma pesquisa na Internet, o uso de aspas (“ ”)
+delimitando o texto digitado restringe a busca às páginas que
+
+A respeito do sistema operacional Windows, julgue os itens
+subsequentes.
+30
+
+No Microsoft Word 2007, ao se selecionar um texto e clicar a
+opção Hiperlink da guia Inserir, será exibida uma caixa de
+
+coluna é ajustada, possibilitando que os dados na célula
+possam ser encaixados no espaço pretendido.
+29
+
+Nos sítios de busca, o uso do sinal de menos, representado por
+um hífen, entre dois termos de busca produz como resultado
+
+correspondências de um tópico específico na coleção dessa
+biblioteca.
+28
+
+Caso se faça download de arquivos na Internet com a opção
+
+Em uma instituição de ensino, o critério para aprovação
+
+, ou a
+
+, se presente no teclado.
+
+dos estudantes determina que a nota final deva ser igual ou superior
+a 6 e que a quantidade de faltas não exceda a 25% da quantidade
+
+No Windows, os ícones de atalho possuem como característica
+
+de dias de aulas.
+
+uma seta no canto inferior esquerdo, e a área de notificação
+apresenta ícones que permanecem ativos em segundo plano.
+
+Tendo como base as informações acima e as proposições P: “A nota
+
+Se o recurso Hibernar tiver sido ativado, quando o
+equipamento voltar a ser utilizado, a área de trabalho precisará
+ser reinicializada e todos os programas anteriormente ativos
+estarão fechados e deverão ser novamente inicializados.
+
+No que diz respeito a conceitos de organização, de segurança e de
+gerenciamento de informações, arquivos, pastas e programas, julgue
+
+final do estudante foi igual ou superior a 6.”; Q: “A quantidade de
+faltas do estudante não excedeu a 25% da quantidade de dias de
+aulas.”; e R: “O estudante foi aprovado.”, julgue os itens a seguir,
+a respeito de lógica sentencial.
+41
+
+Se P6R representa a proposição “Se P, então R”, então a
+proposição P6R é equivalente à proposição: “Se a nota final do
+
+os itens subsecutivos.
+
+estudante foi igual ou superior a 6, então o estudante foi
+
+33
+
+aprovado”.
+
+Um firewall pessoal é um software ou programa utilizado para
+proteger um computador contra acessos não autorizados
+provenientes da Internet.
+
+34
+
+Ao se utilizarem navegadores em um ambiente de rede que
+possua um proxy instalado, os acessos aos recursos utilizados
+não ficam registrados, caso o histórico de navegação seja
+apagado.
+
+35
+
+36
+
+Os arquivos armazenados em um computador possuem
+extensões que indicam o programa que os manipula.
+Um diretório é uma estrutura física que possibilita a
+organização de arquivos na memória principal do computador.
+
+42
+
+Se PwQ representa a proposição “P ou Q”, então o critério de
+aprovação da instituição de ensino está corretamente expresso
+pela proposição [PwQ]6R.
+
+43
+
+Se PvQ representa a proposição “P e Q”, se as proposições P
+e [PvQ]6R forem verdadeiras e se a proposição R for falsa,
+então a proposição Q também será falsa.
+
+44
+
+A proposição ¬P — negação de proposição P — está
+corretamente expressa por “A nota final do estudante foi igual
+ou inferior a 6”.
+–3–
+
+||SEDUCAM11_CBCCNS_001_01N445340||
+
+Para representação, perante as autoridades, das 12
+professoras e dos 8 professores de uma instituição, será formada
+uma comissão de 6 indivíduos distintos: 3 para a diretoria executiva
+(presidente, secretário e tesoureiro) e 3 conselheiros. Os membros
+dessa comissão serão escolhidos entre esses docentes.
+
+CESPE/UnB – SEDUC/AM
+RASCUNHO
+
+O estatuto da instituição estabelece que: é de um ano o
+mandato da diretoria executiva; para a direção executiva é vedada
+a reeleição de uma mesma chapa em eleições distintas (mesma
+chapa significa que ela é preservada integralmente, isto é, não há
+substituição de pessoas nem mesmo a inversão de pessoas e
+cargos); entre os conselheiros, sempre haverá um representante de
+cada sexo.
+Com base nessas informações, julgue os itens subsequentes.
+45
+
+46
+
+Se João, Marcos e Camila são docentes dessa instituição e
+foram eleitos para a diretoria executiva, então a quantidade de
+maneiras distintas de se escolherem os 3 conselheiros é
+superior a 500.
+Se João, Marcos e Camila são docentes dessa instituição,
+então, alternando-se nos cargos da diretoria, eles poderão
+permanecer por 6 anos na direção executiva da comissão.
+
+Um professor avalia o aprendizado de seus alunos,
+aplicando provas objetivas de dois tipos:
+•
+
+tipo 1: contém 10 afirmações para que o aluno julgue se cada
+uma das afirmações é VERDADEIRA ou FALSA;
+
+•
+
+tipo 2: contém 4 questões de múltipla escolha; cada questão
+possui 5 opções e o aluno deverá apontar qual dessas opções é
+a correta.
+
+Com referência à situação apresentada acima, julgue os itens que se
+seguem.
+47
+48
+
+A quantidade de possíveis gabaritos para uma prova do tipo 2
+é superior a 600.
+A quantidade de possíveis gabaritos para uma prova do tipo 1
+é inferior a 1.000.
+
+É sabido que se n é um número natural, então a quantidade de
+soluções inteiras e não negativas da equação x1 + x2 + . . . + xp = n
+é dada por
+
+( n + p − 1)!
+— uma solução da equação referida é um
+n !( p − 1)!
+
+conjunto de p números inteiros e não negativos, a1, a2, ..., ap, tais
+que a1 + a2 + ... + ap = n. Já a quantidade de soluções inteiras e não
+negativas dessa mesma equação, com a condição que a1 > 10, pode
+ser obtida fazendo-se a substituição x1 = y1 + 11. Nesse caso, a
+quantidade de soluções será igual a
+
+(n + p − 12)!
+.
+(n − 11)!( p − 1)!
+
+Em uma escola, as notas parciais dos estudantes podem
+assumir valores do conjunto {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10} e a nota
+final é a média aritmética de três notas parciais. Se um estudante
+obteve nota final igual a 6, então, indicando por N1, N2 e N3 as suas
+notas parciais, tem-se que N1 + N2 + N3 = 18.
+Acerca dessa situação e considerando as informações apresentadas,
+julgue os próximos itens.
+49
+50
+
+A equação x1 + x2 + x3 = 18 possuis mais de 200 soluções
+inteiras e não negativas.
+A quantidade de maneiras distintas de o estudante referido no
+texto obter notas N1, N2 e N3, que pertençam ao conjunto
+especificado no texto e cuja média aritmética seja
+igual a 6, pode ser calculada pela expressão
+
+(n + p − 1)!
+(n + p − 12)!
+–3×
+, em que n = 18 e p = 3.
+n !( p − 1)!
+(n − 11)!( p − 1)!
+
+–4–
+
+||SEDUCAM11_CBCCNS_001_01N445340||
+
+CESPE/UnB – SEDUC/AM
+
+CONHECIMENTOS COMPLEMENTARES
+Considerando as contribuições da sociologia, da filosofia e da
+psicologia para a educação, julgue os itens a seguir.
+51
+
+52
+
+53
+
+54
+
+55
+56
+
+57
+
+Carl Rogers propôs processos de ensino com base no
+estabelecimento de uma sequência rígida de etapas a ser
+seguida pelo professor no exercício de seu papel de facilitador
+da aprendizagem.
+Louis Althusser, herdeiro intelectual de Karl Marx, elaborou
+crítica radical aos sistemas de ensino, denunciando o seu
+caráter de classe e de aparelho ideológico do Estado.
+Uma das contribuições de Célestin Freinet para a educação diz
+respeito ao uso de grande quantidade de material didático, tais
+como cubos, sólidos, cartões, em atividades voltadas para o
+desenvolvimento dos sentidos do educando.
+Segundo Émile Durkheim, a educação constitui elemento
+integrador da sociedade, sendo pais e professores agentes
+sociais responsáveis pela inculcação de valores sociais nos
+educandos.
+A concepção de escola como instituição responsável pela
+transformação social fundamenta-se no pensamento positivista.
+De acordo com a tendência pedagógica liberal tradicional, os
+conteúdos de ensino devem corresponder a conhecimentos
+socialmente acumulados e a valores socialmente estabelecidos.
+Consoante a tendência pedagógica marxista, para que ocorra
+a formação integral do ser humano, os conteúdos educacionais
+devem propiciar a educação mental, física e tecnológica.
+
+Com base no que dispõe a Lei de Diretrizes e Bases da Educação
+Nacional (LDB), Lei n.º 9.394/1996, sobre financiamento e
+formação de profissionais para a educação básica, avaliação,
+currículo e planejamento educacional, julgue os seguintes itens.
+58
+
+A classificação do aluno em qualquer série ou etapa do ensino
+fundamental deve ser precedida da aplicação de testes de
+avaliação a respeito dos conteúdos programáticos da série ou
+etapa imediatamente anterior.
+59 A formação dos profissionais da educação, de modo a atender
+aos objetivos dos diferentes níveis e modalidades de ensino,
+deve garantir a associação entre teorias e práticas, sendo
+permitido o aproveitamento de experiências anteriores em
+instituições de ensino e em outras atividades.
+60 Na educação infantil, a avaliação é realizada por meio de
+provas e registros do desenvolvimento do educando.
+61 A gestão democrática, modelo de gestão adotado pela escola
+pública, fundamenta-se na participação dos profissionais da
+educação na elaboração do projeto pedagógico da escola e na
+participação de outros atores da comunidade escolar, tais
+como pais e alunos, em conselhos escolares ou equivalentes.
+62 Previsto na parte diversificada do currículo, o ensino de ao
+menos uma língua estrangeira moderna é facultativo no ensino
+fundamental.
+63 O oferecimento de profissionalização durante o ensino médio,
+previsto na legislação educacional, atende ao disposto no
+Estatuto da Criança e do Adolescente.
+64 Aos estabelecimentos de ensino fundamental que já utilizam a
+progressão regular por série proíbe-se a adoção, no ensino
+fundamental, do regime de progressão continuada.
+65 Cumpre a determinação legal vigente sobre o tempo de
+trabalho escolar a escola cujas atividades se desenvolvem por
+meio de aulas com 50 minutos de duração durante 200 dias
+letivos.
+A Constituição Federal de 1988 (CF) e a LDB compõem a base
+legal da educação no Brasil. Em relação a esses instrumentos legais
+e seus dispositivos, julgue os itens de 66 a 74.
+66
+
+A CF, em cujo texto estão reunidas as normas superiores do
+ordenamento jurídico do Estado Nacional, constitui
+fundamento da LDB e das demais leis do país e suas
+respectivas normatizações.
+
+67
+
+A LDB disciplina as orientações específicas para a educação
+brasileira, facultando aos estados, ao DF e aos municípios a
+livre regulação da educação em seus âmbitos de abrangência.
+68 Para viabilizar o processo de integração, a CF limita a
+possibilidade de as comunidades indígenas utilizarem suas
+línguas maternas e processos próprios de aprendizagem no
+ensino. Além disso, a lei educacional desobriga o estudo da
+história e cultura indígena nas escolas de ensino fundamental
+e médio.
+69 Nos termos da LDB e da normatização específica, a oferta de
+programas a distância no ensino fundamental restringe-se ao
+atendimento a situações emergenciais e a casos de
+complementação de aprendizagem.
+70 A oferta de educação infantil em creche e pré-escola às
+crianças com até cinco anos de idade é uma garantia
+constitucional, sendo assegurada, na LDB, vaga a toda criança
+a partir de quatro anos de idade na escola pública mais
+próxima de sua residência.
+71 O ensino fundamental é a única etapa da educação básica que
+tem caráter obrigatório e gratuito, garantido pelo poder
+público, na CF, a todas as crianças entre os sete e os
+quatorze anos de idade, bem como àqueles que não tiveram
+acesso a esse ensino na idade própria.
+72 A oferta do ensino médio a todos que o demandarem, inclusive
+na forma de cursos e exames supletivos, é atribuída legalmente
+aos estados e ao Distrito Federal, em caráter de prioridade.
+73 A educação de jovens e adultos se destina a pessoas que não
+tiveram acesso ou continuidade de estudos no ensino
+fundamental e médio na idade própria, assegurando-lhes
+oportunidades educacionais apropriadas na forma de cursos e
+exames.
+74 A educação especial é uma modalidade educacional que tem
+início na educação infantil e visa atender educandos com
+necessidades especiais, mediante a integração de todos, sem
+exceção, nas classes comuns do ensino regular.
+Julgue os itens subsequentes, relativos a planejamento e estatísticas
+educacionais.
+75 Entre as metas do Plano Nacional de Educação que vigorará
+nos próximos dez anos, em tramitação no Congresso Nacional,
+incluem-se a de universalizar o atendimento escolar a todos os
+jovens de quinze a dezessete anos de idade e a de elevar a taxa
+líquida de matrícula no ensino médio para 85% da população
+nessa faixa.
+76 O Plano Nacional de Educação 2001-2010 cumpriu um
+mandato constitucional e legal e apresentou, entre seus
+objetivos, a elevação da escolaridade da população e a
+melhoria da qualidade do ensino em todos os níveis.
+Considerando as políticas de avaliação educacional referentes à
+educação básica brasileira, julgue os próximos itens.
+77
+
+A Prova Brasil é o exame realizado anualmente pelo Ministério
+da Educação para avaliar o desempenho dos estudantes que
+estão concluindo ou que já concluíram seus estudos no ensino
+médio público.
+78 O Sistema Nacional de Avaliação da Educação Básica abrange
+estudantes das redes pública e privada do país, em áreas rural
+e urbana, matriculados no quinto e no nono ano (quarta e
+oitava séries) do ensino fundamental e no terceiro ano do
+ensino médio.
+Com respeito ao financiamento da educação, julgue o item seguinte,
+em conformidade com o disposto nos documentos legais.
+79
+
+Os recursos públicos destinados à educação pela União, pelos
+estados, pelo Distrito Federal e pelos municípios não incluem
+as receitas de impostos próprios desses entes federados.
+Julgue o item abaixo, referente à educação no contexto da
+modernidade.
+80 Na sociedade contemporânea, a inserção da escola no contexto
+da modernidade implica, entre outros desafios, o exercício
+habitual da democracia como prática, o desenvolvimento de
+conteúdos relacionados à realidade cotidiana dos alunos e o
+envolvimento da comunidade em suas atividades.
+–5–
+
+||SEDUCAM11_017_39N644730||
+
+CESPE/UnB – SEDUC/AM
+
+CONHECIMENTOS ESPECÍFICOS
+O processo de formação da literatura brasileira, como
+adaptação da palavra culta do Ocidente, que precisou assumir novos
+matizes, desenvolveu-se para descrever e transfigurar a realidade
+nova. Do seu lado, a sociedade nascente desenvolveu sentimentos
+diversos e novas maneiras de ver o mundo, que resultaram em uma
+variante original da literatura portuguesa.
+A história da literatura brasileira é, em grande parte, a
+história de uma imposição cultural que foi, aos poucos, gerando
+uma expressão literária diferente, embora em correlação estreita
+com os centros civilizadores da Europa.
+
+86
+
+87
+
+88
+
+89
+
+Antonio Candido. Iniciação à literatura brasileira. São
+Paulo: Humanitas, 1999, p. 13 (com adaptações).
+
+Com base no trecho acima, no qual Antonio Candido expõe a lógica
+histórico-literária segundo a qual se desenvolveu a literatura
+brasileira, e na dinâmica dos períodos literários brasileiros, julgue
+os itens a seguir.
+81
+
+82
+
+83
+
+84
+
+No Romantismo, o esforço em se realizar uma literatura
+brasileira diferente da produzida nos centros culturais europeus
+atingiu seu ápice, quando a ideia da cor local se tornou
+verdadeira obsessão dos autores e foi colocada em prática, por
+exemplo, nas manifestações da prosa indianista e regionalista.
+Segundo o texto, como se observa especialmente no primeiro
+parágrafo, a literatura é atemporal e universal; não sofre os
+impactos causados pelas transformações históricas, sociais e
+geográficas.
+Considerando-se o progressivo amadurecimento da literatura
+brasileira aludido no texto, é correto afirmar que o Barroco
+literário é, no Brasil, o primeiro estilo de época fruto de
+deliberada organização programática de autores com o intuito
+de fundar uma literatura nacional.
+Apesar das tendências universalistas do Arcadismo brasileiro,
+formulou-se, nesse período, de forma consistente, o que o
+autor, na penúltima linha do texto, chama de “expressão
+literária diferente”, especialmente se se consideram as obras de
+Claudio Manuel da Costa e Tomaz Antonio Gonzaga.
+
+Ao final do século XIX, com a intensificação da dinâmica
+do mundo moderno, a literatura conheceu novas formulações
+estéticas da realidade. De acordo com Alfredo Bosi, em História
+Concisa da Literatura Brasileira, houve um esforço por parte do
+escritor antirromântico de acercar-se impessoalmente dos objetos,
+das pessoas; e uma sede de objetividade que respondeu aos métodos
+científicos cada vez mais exatos nas últimas décadas daquele
+século.
+
+90
+
+1
+
+4
+
+7
+
+10
+
+13
+
+16
+
+19
+
+22
+
+25
+
+28
+
+31
+
+34
+
+37
+
+Considerando o texto acima, bem como elementos gerais dos estilos
+de época da literatura brasileira, julgue os itens de 85 a 90.
+85
+
+O escritor carioca Machado de Assis foi responsável pela
+reprodução perfeita na literatura brasileira da estética realista
+europeia, calcada no princípio da fidelidade ao real.
+
+Ao aludir aos métodos científicos aplicados à arte literária,
+Alfredo Bosi refere-se à estética naturalista, que trabalha
+ficcionalmente as relações entre a natureza humana e a
+iniquidade social.
+João Guimarães Rosa e Clarice Lispector são referência no que
+concerne à transição de modelos narrativos modernistas para
+novas fórmulas ficcionais no Brasil.
+Uma das técnicas básicas da literatura pós-modernista,
+encontrada em diversos textos brasileiros, é a do pastiche, a
+qual substitui a noção de paródia típica do Modernismo.
+O Parnasianismo, marcado pela impessoalidade e pela
+objetividade, inclui-se entre as estéticas que se opõem ao
+Romantismo. No Brasil, o Parnasianismo foi representado
+especialmente por Olavo Bilac.
+Na historiografia literária brasileira, costuma-se datar o início
+do Movimento Modernista no Brasil em 1924, quando o
+romance Macunaíma, de Mário de Andrade foi publicado.
+Quando Chomsky apareceu no cenário intelectual, a
+linguística – estudo da linguagem, da gramática das diferentes
+línguas e da história desses idiomas – tinha vivido poucos
+avanços significativos. Para falar a verdade, dois. O primeiro
+foi a criação da tradição clássica, originada no mundo grego,
+que perdurou até o final do século XIX. O segundo salto foi o
+estruturalismo, criado pelo suíço Ferdinand de Saussure
+(1857-1913).
+Na visão clássica, estudava-se uma língua só por meio
+dos textos escritos. Os linguistas rastreavam registros escritos,
+desde as línguas antigas (latim, grego, aramaico) até alcançar
+o presente. Esse tipo de abordagem exigia estudiosos que
+dominassem diversas línguas, fazendo descrições de cada caso.
+Havia pouca capacidade de generalização, ou seja, de transpor
+o conhecimento acumulado sobre uma língua para outra língua.
+Era uma abordagem enciclopédica, que considerava os
+registros escritos como o ponto alto de um idioma.
+Saussure inovou, comparando o aprendizado de uma
+língua a um jogo de xadrez: em uma partida em curso, qualquer
+pessoa pode tomar o lugar de um dos jogadores, porque as
+regras do jogo são poucas e bem conhecidas; por isso, não
+importa muito saber como o cavalo foi parar ali, ou como a
+torre foi perdida; o que vale é saber que, dada a situação das
+peças e conhecidas as regras, a partida pode seguir, agora
+manejada por alguém que chegou depois do início. Assim é o
+aprendizado da língua, disse ele: ninguém tem de,
+obrigatoriamente, saber a história da língua para falá-la e
+escrevê-la aqui e agora.
+Foi um golpe certeiro. O estruturalismo, como ficou
+conhecida essa modalidade de estudo da língua, foi tão bem
+recebido que se expandiu para outras áreas (a antropologia, por
+exemplo). Para os adeptos dessa visão, estudar uma língua é
+realçar as estruturas que a compõem e descrevê-las, sem ligar
+para a história que a trouxe do mundo primitivo até o presente.
+Estava aberto o caminho para uma abordagem científica da
+linguagem, porque não se tratava mais de caçar o certo e o
+errado, mas de tomar a língua como um objeto. Com isso, caía
+por terra a suposta superioridade de uma língua sobre outra.
+Internet: <http://super.abril.com.br> (com adaptações).
+
+Com relação às ideias e às estruturas do texto acima, julgue os itens
+de 91 a 95.
+91
+
+Na linha 3, a expressão “desses idiomas” retoma, por coesão,
+o referente “diferentes línguas” (R.2-3).
+–6–
+
+||SEDUCAM11_017_39N644730||
+92
+93
+
+94
+
+95
+
+1
+
+4
+
+7
+
+10
+
+13
+
+16
+
+Infere-se do texto que, antes do estruturalismo, acreditava-se
+que algumas línguas eram inferiores a outras.
+Depreende-se do texto que, do ponto de vista do
+estruturalismo, ter domínio da história de uma língua é
+condição suficiente para compreender o funcionamento dessa
+língua.
+Na linha 6, o termo “que” poderia ser substituído por “o qual”,
+visto que se trata de pronome relativo referente ao mundo
+grego.
+No terceiro parágrafo, menciona-se a metáfora do jogo de
+xadrez, que Saussure utilizou para demonstrar sua concepção
+de como ocorre o aprendizado de uma língua.
+A língua indígena mais conhecida dos brasileiros —
+conquanto esse conhecimento se limite, em regra, só a um de
+seus nomes, tupi — é justamente o tupinambá. Essa foi a língua
+predominante nos contatos entre portugueses e indígenas nos
+séculos XVI e XVII e tornou-se a língua da expansão
+bandeirante no sul e da ocupação da Amazônia norte. Seu uso
+pela população luso-brasileira, tanto no norte quanto no sul da
+Colônia, era tão geral, no século XVIII, que o governo
+português chegou a baixar decretos (cartas régias) proibindo
+esse uso. Uma das consequências da prolongada convivência
+do tupinambá com o português foi a incorporação a este último
+de considerável número de palavras daquele. É notável a
+quantidade de lugares com nomes de origem tupinambá, quase
+sem alteração de pronúncia, muitos deles dados pelos
+luso-brasileiros dos séculos passados a localidades onde nunca
+viveram índios tupinambás.
+
+CESPE/UnB – SEDUC/AM
+1
+
+falantes e as marcas específicas que eles vão deixando em sua
+produção linguística. Portugueses e brasileiros não falam do
+4
+
+96
+
+97
+
+jeito. Uma língua natural contém, portanto, diferentes dialetos,
+7
+
+98
+
+99
+
+100
+
+A conjunção “conquanto” (R.2) introduz uma oração em que se
+admite um fato contrário e subordinado ao fato afirmado na
+oração principal.
+
+geográfica é a mais perceptível. Quando começamos a
+10
+
+conversar com alguém, logo percebemos se ele é ou não
+originário de nossa região.
+Ataliba T. de Castilho. Nova gramática do português brasileiro.
+São Paulo: Contexto, 2010, p. 198 (com adaptações).
+
+Julgue os itens que se seguem, relativos a aspectos textuais,
+gramaticais e estilísticos do texto acima.
+101
+
+No período “Uma língua natural contém, portanto, diferentes
+dialetos, relacionados ao espaço geográfico que ela ocupa”
+(R.6-7), estabelecem-se, entre outras, as seguintes relações: de
+concordância entre “relacionados” e “dialetos”; de regência
+entre “ao espaço” e “relacionados”; de referência entre “ela”
+e “língua natural”.
+
+102
+
+Contribuem para a coerência textual os seguintes fatores
+identificados no texto: a continuidade de sentido das frases e
+o encadeamento lógico das ideias apresentadas.
+
+103
+
+O elemento de coesão textual “portanto” (R.6) estabelece, no
+contexto em que ocorre, relação de sentido temporal entre as
+ideias expressas nos períodos anteriores e no período em que
+ele se insere.
+
+104
+
+Considerando-se as características dos enunciados, o modo
+como estes se organizam e a obra em que se insere o texto, é
+correto caracterizá-lo como informativo e didático, com
+linguagem adequada à compreensão do público em geral.
+
+105
+
+Identifica-se, no texto, a seguinte forma de ordenação das
+ideias: apresentação, em primeiro lugar, dos dialetos
+
+Da leitura do texto infere-se que o termo “tupi” (R.3) é
+empregado, popularmente, como sinônimo de “tupinambá”
+(R.3).
+Da inclusão do termo “cartas régias” (R.9), entre parênteses,
+logo após “decretos” depreende-se que o governo português
+não só baixou decretos, mas também essas cartas para proibir
+o uso do tupinambá.
+
+relacionados ao espaço geográfico que ela ocupa.
+De todas as variedades do português, a variedade
+
+Infere-se do texto que o contato entre as línguas portuguesa e
+tupinambá resultou em forte influência de topônimos do
+português nessa língua indígena.
+Mantendo-se a correção gramatical e os sentidos do texto, a
+oração “onde nunca viveram índios tupinambás” (R.15-16)
+poderia ser reescrita da seguinte forma: onde os tupinambás
+nunca viveram.
+
+mesmo jeito. Brasileiros do Norte, do Nordeste, do Sudeste, do
+Centro-Oeste e do Sul tampouco falam exatamente do mesmo
+
+Aryon Dall'Igna Rodrigues. Línguas brasileiras: para o conhecimento
+das línguas indígenas. São Paulo: Loyola, 2002 (com adaptações).
+
+No que se refere à organização, aos sentidos e a aspectos
+gramaticais do texto acima, julgue os próximos itens.
+
+Há uma correlação entre a região de origem dos
+
+brasileiros, relacionados às diferentes regiões onde é falada a
+língua portuguesa; e depois, a demonstração de que
+portugueses e brasileiros falam de modo diferente.
+106
+
+O verbo auxiliar começar, em “começamos a conversar”
+(R.9-10), acrescenta ao significado do verbo principal a ideia de
+início de ação.
+–7–
+
+||SEDUCAM11_017_39N644730||
+
+CESPE/UnB – SEDUC/AM
+
+Texto para os itens de 107 a 116
+
+Com referência a palavras e expressões empregadas no texto, julgue
+os próximos itens.
+
+1
+
+4
+
+7
+
+10
+
+13
+
+16
+
+19
+
+22
+
+25
+
+28
+
+31
+
+34
+
+À medida que os meses passavam, foi tomando horror
+à expressão “funcionário público aposentado”, que lhe cheirava
+a atestado de óbito.
+Ia dar início a profundas modificações em sua pessoa.
+Começaria pelos trajes: roupa clara, moderna, não mais aqueles
+ternos escuros cobrindo a eventual austeridade. Seu físico de
+homem empinado e enxuto não parecia de todo desagradável.
+Entraria como sócio para algum clube; e, se encontrasse um
+professor discreto, talvez aprendesse a dançar.
+Essas providências seriam a sua toalete exterior para
+a nova fase da vida.
+Semanas depois, aliviado do colarinho duro, era visto
+pelas ruas em trajes mais leves, sorrindo forçado para os
+conhecidos.
+Tornou-se sócio de um clube da Lagoa. Sozinho,
+porém, nunca punha os pés lá, até que um dia se fez
+acompanhar pelo Lulu, bom atleta e péssimo funcionário, que
+o apresentara como “velho servidor do Estado” às principais
+beldades do bairro. Como dialogar com elas? Não conhecia
+futebol nem equitação, não sabia jogar baralho, não guardava
+nomes de artistas de cinema, ignorava os escândalos da
+sociedade.
+Tentou manter conversa, não conseguiu. Parecia-lhe
+que zombavam dele. Se algumas moças lhe dirigiam a palavra
+era como se lhe atirassem esmola. Acabou a noite só e triste,
+agarrado ao seu copo de uísque. Quase nunca provava essa
+bebida; achava-a até ruim. Como fazia parte do rito social, não
+custava virar o copo. Deixou o Lulu com as moças, e saiu
+fazendo uma careta. “Velho servidor do Estado...”
+O farol dos automóveis apagava nas águas da Lagoa
+o reflexo das últimas estrelas. Um casal abraçava-se debaixo de
+uma amendoeira. Sentiu-se mais só. A vida era para os outros.
+Antes tivesse algum processo a informar; estaria ocupado em
+alguma cousa. Não! Um começo de soluço contraiu-lhe a
+garganta. Chamou um táxi.
+Aníbal Machado. Viagem aos seios de Duília. In: Os cem melhores contos
+brasileiros do século. Rio de Janeiro: Objetiva, 2000, p. 111 (com adaptações).
+
+Julgue os itens de 107 a 116, referentes aos recursos linguísticos e
+estilísticos empregados no texto.
+
+112
+
+De acordo com a prescrição gramatical, o emprego de verbos
+flexionados na terceira pessoa do plural constitui forma de se
+indeterminar o sujeito da oração, à semelhança do que ocorre
+em “que zombavam dele” (R.22), oração cujo sujeito é
+indeterminado.
+
+113
+
+A correção gramatical e as ideias do quarto parágrafo do texto
+seriam mantidas caso o período fosse assim pontuado:
+Semanas depois aliviado do colarinho duro, era visto pelas
+ruas, em trajes mais leves sorrindo forçado para os
+desconhecidos.
+
+114
+
+O termo “velho” (R.18) constitui exemplo de adjetivo cujo
+sentido é alterado conforme a posição em relação ao
+substantivo que modifica no sintagma — velho servidor /
+servidor velho.
+
+115
+
+Sem desrespeito às normas de colocação pronominal, pode-se
+empregar o pronome “se”, em “um dia se fez acompanhar”
+(R.16-17), posposto à primeira forma verbal — um dia fez-se
+acompanhar — e, em “Um casal abraçava-se” (R.31),
+empregá-lo anteposto ao verbo — Um casal se abraçava.
+
+116
+
+No vocábulo “zombavam” (R.24), além do radical zomb-,
+identificam-se o morfema temático de primeira conjugação a
+e o morfema modo-temporal -vam.
+
+Período 1
+
+À medida que os meses passavam, foi tomando
+horror à expressão “funcionário público
+aposentado”, que lhe cheirava a atestado de
+óbito.
+
+Período 2
+
+Não conhecia futebol nem equitação, não sabia
+jogar baralho, não guardava nomes de artistas de
+cinema, ignorava os escândalos da sociedade.
+
+Período 3
+
+Parecia-lhe que zombavam dele.
+
+107
+
+O desenvolvimento da narrativa permite que se estabeleça
+correlação entre as frases de sentido negativo empregadas no
+período “Não conhecia futebol... escândalos da sociedade”
+(R.19-22) e o estado de ânimo em que se encontrava o
+personagem diante das moças no clube: inseguro, pouco
+confiante, amesquinhado.
+108 Na locução “foi tomando” (R.1), constituída por forma verbal
+auxiliar seguida de verbo no gerúndio, percebe-se a ideia de
+progressividade, de modo que se entende “foi tomando horror”
+como um processo que se estendeu no tempo, sem ter-se
+concluído em determinado momento.
+109
+
+A forma verbal “cheirava” (R.2), no contexto em que foi
+empregada, com a regência de verbo transitivo indireto seguido
+da preposição “a”, exprime o sentido de exalar mau cheiro.
+
+Caso se substituísse “aprendesse” (R.9) por aprendera,
+estariam preservadas a coerência e a correção gramatical do
+texto, ainda que tal substituição implicasse a alteração da
+perspectiva temporal dos fatos apresentados no período.
+111 O trecho ‘Velho servidor do Estado...’ (R.29) confere ao texto
+tom irônico, por meio do qual o narrador censura o fato de o
+personagem não ter tido sucesso em sua ida ao clube.
+
+Idem, ibidem.
+
+Com referência à sintaxe dos períodos acima enumerados, julgue os
+itens que se seguem.
+117
+
+O período 2 é constituído de orações subordinadas justapostas,
+isto é, ligadas umas às outras sem a presença de conjunção.
+
+118
+
+No período 1, as orações “À medida que os meses passavam”
+e “que lhe cheirava a atestado de óbito” são orações
+subordinadas que exercem, respectivamente, função adverbial
+e adjetiva.
+
+119
+
+No período 1, o termo “que”, na oração “que lhe cheirava a
+atestado de óbito”, classificado como pronome relativo, pode
+ser substituído por o qual, sem prejuízo à correção gramatical
+do período.
+
+120
+
+No período 3, o período é constituído de duas orações,
+exercendo a segunda oração — “que zombavam dele” — a
+função sintática de sujeito da primeira.
+
+110
+
+–8–
+
+||SEDUCAM11_017_39N644730||
+
+CESPE/UnB – SEDUC/AM
+
+PROVA DISCURSIVA
+•
+
+Nesta prova, faça o que se pede, usando o espaço para rascunho indicado no presente caderno. Em seguida, transcreva o texto para
+a FOLHA DE TEXTO DEFINITIVO DA PROVA DISCURSIVA, no local apropriado, pois não serão avaliados fragmentos
+de texto escritos em locais indevidos.
+
+•
+
+Qualquer fragmento de texto além da extensão máxima de trinta linhas será desconsiderado.
+
+•
+
+Na folha de texto definitivo, identifique-se apenas no cabeçalho da primeira página, pois não será avaliado texto que tenha qualquer
+assinatura ou marca identificadora fora do local apropriado.
+Texto I
+A leitura de um texto exige muito mais que o simples conhecimento linguístico compartilhado pelos
+interlocutores: o leitor é, necessariamente, levado a mobilizar uma série de estratégias tanto de ordem
+linguística como de ordem cognitivo-discursiva, com o fim de levantar hipóteses, validar ou não as hipóteses
+formuladas, preencher as lacunas que o texto apresenta, enfim, participar, de forma ativa, da construção
+do sentido. Nesse processo, autor e leitor devem ser vistos como "estrategistas" na interação pela
+linguagem.
+Ingedore V. Koch e Vanda M. Elias. Ler e compreender: os sentidos do texto. São Paulo: Contexto, 2006, p. 7 (com adaptações).
+
+Texto II
+Ao lermos um texto, é estabelecido um diálogo entre tudo o que sabemos e aquilo que o texto traz
+de novo. Durante a leitura, testamos hipóteses, refazemos algumas, confirmamos outras. Nessa contínua
+troca entre o que trazemos na cabeça, as hipóteses que fazemos e os dados que o texto fornece, vamos
+atribuindo um significado ao que lemos.
+Em outras palavras, ler não é adivinhar nem decifrar significados, e sim atribuir significados àquilo
+que se lê. Ler é ter uma hipótese inicial para a significação do texto. É por isso que diferentes leitores podem
+atribuir significados diversos para um mesmo texto que estejam lendo.
+Ofício de professor: aprender mais para ensinar melhor. 3. Leitura e escrita. São Paulo: Fundação Victor Civita, 2002, p. 43 (com adaptações).
+
+TEXTO III
+Quem escreve um texto literário não quer apenas dizer o mundo, mas recriá-lo nas palavras, de
+forma que, nele, importa não só o que se diz, mas também o modo como se diz.
+Platão e Fiorin. Lições de texto: leitura e redação. São Paulo: Ática, 1997, p. 361.
+
+Considerando que os fragmentos de texto acima têm caráter unicamente motivador, redija um texto dissertativo acerca do seguinte tema.
+ASPECTOS IMPLICADOS NA PRODUÇÃO, NA COMPREENSÃO E
+NA INTERPRETAÇÃO DE TEXTOS LITERÁRIOS
+
+Ao elaborar seu texto, discorra, necessariamente, sobre pelo menos um
+
+<
+<
+<
+
+aspecto textual/literário com relação ao autor;
+aspecto textual/literário com relação ao leitor;
+aspecto textual/literário com relação ao texto.
+
+–9–
+
+||SEDUCAM11_017_39N644730||
+
+CESPE/UnB – SEDUC/AM
+
+RASCUNHO
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+– 10 –
+
+

@@ -1,0 +1,18 @@
+{
+  "concurso": "SEDUC-AM",
+  "ano": 2011,
+  "banca": "CESPE",
+  "orgao": "Secretaria de Estado da Educacao do Amazonas",
+  "cargo": "Professor - Lingua Portuguesa",
+  "nivel": "Superior",
+  "total_questoes": 120,
+  "modalidade": "certo_errado",
+  "url_qconcursos": "https://www.qconcursos.com/questoes-de-concursos/provas/cespe-2011-seduc-am-professor-lingua-portuguesa",
+  "disciplina": "Lingua Portuguesa",
+  "assuntos": [
+    "Interpretacao de Textos",
+    "Sintaxe",
+    "Morfologia",
+    "Gramatica"
+  ]
+}

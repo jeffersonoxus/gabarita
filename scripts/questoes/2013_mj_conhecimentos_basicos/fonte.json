@@ -1,0 +1,17 @@
+{
+  "concurso": "MJ",
+  "ano": 2013,
+  "banca": "CESPE",
+  "orgao": "Ministerio da Justica",
+  "cargo": "Todos os Cargos",
+  "nivel": "Medio",
+  "total_questoes": 50,
+  "modalidade": "certo_errado",
+  "url_qconcursos": "https://www.qconcursos.com/questoes-de-concursos/provas/cespe-2013-mj-todos-os-cargos-conhecimentos-basicos",
+  "disciplina": "Conhecimentos Basicos (15 questoes de Portugues)",
+  "assuntos": [
+    "Portugues",
+    "Direito Constitucional",
+    "Direito Administrativo"
+  ]
+}
