@@ -167,3 +167,7 @@ html { font-size: 15px; }
     @apply font-sans;
   }
 }
+
+@utility pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 4rem);
+}
