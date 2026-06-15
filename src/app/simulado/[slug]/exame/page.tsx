@@ -18,7 +18,27 @@ import Link from "next/link";
 const surl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const skey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
-interface Questao { id: string; enunciado: string; alternativa_a: string; alternativa_b: string; alternativa_c: string; alternativa_d: string; alternativa_e: string; gabarito: string; tipo: string; texto_apoio_id?: string; texto_apoio?: string; imagem_url?: string; disciplina_id?: string; conteudo_id?: string; }
+interface Questao {
+  id: string;
+  enunciado: string;
+  alternativa_a: string;
+  alternativa_b: string;
+  alternativa_c: string;
+  alternativa_d: string;
+  alternativa_e: string;
+  gabarito: string;
+  tipo: string;
+  texto_apoio_id?: string;
+  texto_apoio?: string;
+  imagem_url?: string;
+  disciplina_id?: string;
+  conteudo_id?: string;
+  fonte_banca?: string;
+  fonte_ano?: string;
+  fonte_orgao?: string;
+  fonte_cargo?: string;
+  adaptada?: boolean;
+}
 interface Resp { questao_id: string; resposta: string; }
 
 export default function ExamPageWrapper() { return <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-sm text-muted-foreground">Carregando...</div>}><ExamPage /></Suspense>; }
@@ -70,7 +90,7 @@ function ExamPage() {
       const concursoId = con.id;
       setCid(concursoId); setConcursoNome(con.nome); setPontuacaoTipo(con.pontuacao_tipo || "tradicional");
 
-      let q = sup.from("questoes").select("id, concurso_id, disciplina_id, conteudo_id, enunciado, alternativa_a, alternativa_b, alternativa_c, alternativa_d, alternativa_e, gabarito, tipo, texto_apoio_id, imagem_url, created_at").eq("concurso_id", concursoId);
+      let q = sup.from("questoes").select("id, concurso_id, disciplina_id, conteudo_id, enunciado, alternativa_a, alternativa_b, alternativa_c, alternativa_d, alternativa_e, gabarito, tipo, texto_apoio_id, imagem_url, created_at, fonte_banca, fonte_ano, fonte_orgao, fonte_cargo, adaptada").eq("concurso_id", concursoId);
       if (disc?.length) q = q.in("disciplina_id", disc.split(","));
       if (cont?.length) q = q.in("conteudo_id", cont.split(","));
       const { data, error } = await q;
@@ -242,6 +262,11 @@ function ExamPage() {
                   </>
                 )}
               </div>
+              {q.adaptada ? (
+                <p className="text-[11px] text-muted-foreground/70 italic mb-2">Questão adaptada de {q.fonte_banca}{q.fonte_ano ? ` | ${q.fonte_ano}` : ''}{q.fonte_orgao ? ` | ${q.fonte_orgao}` : ''}{q.fonte_cargo ? ` | ${q.fonte_cargo}` : ''}</p>
+              ) : (
+                <p className="text-[11px] text-muted-foreground/70 italic mb-2">{q.fonte_banca}{q.fonte_ano ? ` | ${q.fonte_ano}` : ''}{q.fonte_orgao ? ` | ${q.fonte_orgao}` : ''}{q.fonte_cargo ? ` | ${q.fonte_cargo}` : ''}</p>
+              )}
               <h3 className="text-base leading-relaxed font-medium text-justify"><LatexRenderer text={q.enunciado} /></h3>
             </CardContent>
           </Card>
