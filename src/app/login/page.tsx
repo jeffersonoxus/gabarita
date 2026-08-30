@@ -1,15 +1,12 @@
 "use client";
 
-import { createBrowserClient } from "@supabase/ssr";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useTheme } from "@/components/ThemeProvider";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Moon, Sun } from "lucide-react";
-
-const surl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const skey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+import { getBrowserClient } from "@/lib/supabase-browser";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -17,14 +14,14 @@ export default function LoginPage() {
   const { theme, toggle } = useTheme();
 
   useEffect(() => {
-    const s = createBrowserClient(surl, skey);
-    s.auth.getSession().then(({ data }) => { if (data.session) router.replace("/hub"); });
+    const s = getBrowserClient();
+    s.auth.getSession().then((res: any) => { if (res.data?.session) router.replace("/hub"); });
   }, [router]);
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-gradient-to-b from-background to-muted/30">
-      <Button variant="ghost" size="icon" onClick={toggle} className="absolute top-4 right-4">
-        <Sun className="w-5 h-5 dark:hidden" /><Moon className="w-5 h-5 hidden dark:block" />
+      <Button variant="ghost" size="icon" onClick={toggle} className="absolute top-4 right-4" aria-label={theme === "dark" ? "Mudar para modo claro" : "Mudar para modo escuro"}>
+        <Sun className="w-5 h-5 dark:hidden" aria-hidden="true" /><Moon className="w-5 h-5 hidden dark:block" aria-hidden="true" />
       </Button>
 
       <Card className="w-full max-w-sm border-0 shadow-none bg-transparent">
@@ -44,7 +41,7 @@ export default function LoginPage() {
 function LoginButton({ loading, setLoading }: { loading: boolean; setLoading: (v: boolean) => void }) {
   const login = async () => {
     setLoading(true);
-    const s = createBrowserClient(surl, skey);
+    const s = getBrowserClient();
     await s.auth.signInWithOAuth({ provider: "google", options: { redirectTo: window.location.origin + "/auth/callback" } });
     setLoading(false);
   };

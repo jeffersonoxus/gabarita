@@ -1,6 +1,5 @@
 "use client";
 
-import { createBrowserClient } from "@supabase/ssr";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
 import { useEffect, useState, useRef, useCallback, Suspense } from "react";
 import { Button } from "@/components/ui/button";
@@ -10,13 +9,10 @@ import { toast } from "sonner";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { Clock, ChevronLeft, ChevronRight, Flag, MessageCircle, ArrowLeft, ThumbsUp, ThumbsDown, Eye } from "lucide-react";
 import Link from "next/link";
-
-const surl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const skey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+import { getBrowserClient } from "@/lib/supabase-browser";
 
 interface Questao {
   id: string;
@@ -29,7 +25,6 @@ interface Questao {
   gabarito: string;
   tipo: string;
   texto_apoio_id?: string;
-  texto_apoio?: string;
   imagem_url?: string;
   disciplina_id?: string;
   conteudo_id?: string;
@@ -46,7 +41,7 @@ export default function ExamPageWrapper() { return <Suspense fallback={<div clas
 function ExamPage() {
   const p = useParams(); const sp = useSearchParams(); const router = useRouter();
   const slugParam = p.slug as string;
-  const qtd = Number(sp.get("qtd")) || 10; const disc = sp.get("disc"); const cont = sp.get("cont"); const [cid, setCid] = useState("");
+  const qtd = Number(sp.get("qtd")) || 5; const disc = sp.get("disc"); const cont = sp.get("cont"); const [cid, setCid] = useState("");
 
   const [qs, setQs] = useState<Questao[]>([]);
   const [idx, setIdx] = useState(0);
@@ -66,7 +61,7 @@ function ExamPage() {
   const [pontuacaoTipo, setPontuacaoTipo] = useState("tradicional");
   const [discMap, setDiscMap] = useState<Record<string,string>>({});
   const [contMap, setContMap] = useState<Record<string,string>>({});
-  const [textoApoioMap, setTextoApoioMap] = useState<Record<string,string>>({});
+  const [textoApoioMap, setTextoApoioMap] = useState<Record<string,{titulo?:string;corpo:string;fonte?:string}>>({});
   const [comentarios, setComentarios] = useState<any[]>([]);
   const [novoTexto, setNovoTexto] = useState("");
   const [votos, setVotos] = useState<Record<string, number>>({});
@@ -79,7 +74,7 @@ function ExamPage() {
   const t0 = useRef(Date.now());
 
   useEffect(() => {
-    const sup = createBrowserClient(surl, skey);
+    const sup = getBrowserClient();
     (async () => {
       const { data: { user } } = await sup.auth.getUser();
       if (user) { setUserId(user.id); const { data: p } = await sup.from("profiles").select("nome, avatar_url, role").eq("id", user.id).maybeSingle(); if (p) setUserProfile(p); }
@@ -126,7 +121,7 @@ function ExamPage() {
         if (discIds.length) { const { data: dd } = await sup.from("disciplinas").select("id,nome").in("id", discIds); if (dd) { const m: Record<string, string> = {}; dd.forEach((d: any) => { m[d.id] = d.nome; }); setDiscMap(m); } }
         if (contIds.length) { const { data: cc } = await sup.from("conteudos").select("id,nome").in("id", contIds); if (cc) { const m: Record<string, string> = {}; cc.forEach((d: any) => { m[d.id] = d.nome; }); setContMap(m); } }
         const taIds = [...new Set(sh.map((q: any) => q.texto_apoio_id).filter(Boolean))];
-        if (taIds.length) { const { data: tt } = await sup.from("textos_apoio").select("id,texto").in("id", taIds); if (tt) { const m: Record<string, string> = {}; tt.forEach((t: any) => { m[t.id] = t.texto; }); setTextoApoioMap(m); } }
+        if (taIds.length) { const { data: tt } = await sup.from("textos_apoio").select("id,titulo,corpo,fonte").in("id", taIds); if (tt) { const m: Record<string, {titulo?:string;corpo:string;fonte?:string}> = {}; tt.forEach((t: any) => { m[t.id] = { titulo: t.titulo, corpo: t.corpo, fonte: t.fonte }; }); setTextoApoioMap(m); } }
       }
       setLoading(false);
     })();
@@ -134,7 +129,7 @@ function ExamPage() {
 
   useEffect(() => { if (loading || done) return; tr.current = setInterval(() => setTimer((t: number) => t <= 1 ? (clearInterval(tr.current), finalizar(), 0) : t - 1), 1000); return () => clearInterval(tr.current); }, [loading, done]);
 
-  useEffect(() => { if (!qs.length || done) return; createBrowserClient(surl, skey).from("comentarios").select("*").eq("questao_id", qs[idx]?.id).order("created_at", { ascending: true }).then(({ data }: any) => setComentarios(data || [])); }, [idx, qs]);
+  useEffect(() => { if (!qs.length || done) return; getBrowserClient().from("comentarios").select("*").eq("questao_id", qs[idx]?.id).order("created_at", { ascending: true }).then(({ data }: any) => setComentarios(data || [])); }, [idx, qs]);
 
   const finalizar = useCallback(async () => {
     if (done || tr.current) clearInterval(tr.current); if (done) return;
@@ -142,7 +137,7 @@ function ExamPage() {
     const fin = ans.map(r => ({ ...r, correta: r.resposta === qs.find(q => q.id === r.questao_id)?.gabarito }));
     const a = fin.filter(r => r.correta).length; const e = qs.length - a; const n = parseFloat(((a / qs.length) * 100).toFixed(1));
     setResultado({ acertos: a, erros: e, nota: n }); setDone(true);
-    const sup = createBrowserClient(surl, skey); const { data: { user } } = await sup.auth.getUser(); if (!user) return;
+    const sup = getBrowserClient(); const { data: { user } } = await sup.auth.getUser(); if (!user) return;
     const { data: sim } = await sup.from("simulados").insert({ user_id: user.id, concurso_id: cid, total_questoes: qs.length, acertos: a, erros: e, nota: n, tempo_gasto_segundos: t, finalizado: true }).select("id").single();
     if (sim) await sup.from("respostas").insert(fin.map(r => ({ simulado_id: sim.id, questao_id: r.questao_id, resposta: r.resposta, correta: r.correta })));
   }, [done, ans, qs, cid]);
@@ -150,7 +145,7 @@ function ExamPage() {
   const respond = (qid: string, alt: string) => setAns(prev => prev.map(r => r.questao_id === qid ? { ...r, resposta: alt } : r));
   const votar = async (cid: string, v: number) => {
     if (!userId) return;
-    const sup = createBrowserClient(surl, skey);
+    const sup = getBrowserClient();
     const existing = userVotos[cid];
     if (existing === v) { await sup.from("comentario_votos").delete().eq("comentario_id", cid).eq("user_id", userId); setVotos(prev => ({ ...prev, [cid]: (prev[cid]||0) - v })); setUserVotos(prev => { const n = {...prev}; delete n[cid]; return n; }); }
     else { await sup.from("comentario_votos").upsert({ comentario_id: cid, user_id: userId, voto: v }, { onConflict: "comentario_id,user_id" }); setVotos(prev => ({ ...prev, [cid]: (prev[cid]||0) + v - (existing||0) })); setUserVotos(prev => ({ ...prev, [cid]: v })); }
@@ -160,7 +155,7 @@ function ExamPage() {
 
   const enviarDenuncia = async () => {
     if (!userId || !reportCid || !reportMotivo.trim()) return;
-    const sup = createBrowserClient(surl, skey);
+    const sup = getBrowserClient();
     await sup.from("denuncias").insert({ comentario_id: reportCid, user_id: userId, motivo: reportMotivo });
     setReportOpen(false); setReportMotivo("");
     toast.success("Comentário denunciado. O admin foi notificado.");
@@ -168,12 +163,12 @@ function ExamPage() {
 
   const deletarComentario = async (cid: string) => {
     if (!confirm("Apagar este comentario?")) return;
-    const sup = createBrowserClient(surl, skey);
+    const sup = getBrowserClient();
     await sup.from("comentarios").delete().eq("id", cid);
     setComentarios(prev => prev.filter(c => c.id !== cid));
   };
 
-  const sendComment = async () => { if (!novoTexto.trim() || !userId) return; const sup = createBrowserClient(surl, skey); const { data } = await sup.from("comentarios").insert({ questao_id: qs[idx].id, user_id: userId, user_name: userProfile?.nome || "Usuário", user_avatar: userProfile?.avatar_url || null, texto: novoTexto }).select("id, questao_id, user_id, user_name, user_avatar, texto, created_at").single(); if (data) { data.user_id = userId; setComentarios(prev => [...prev, data]); } setNovoTexto(""); };
+  const sendComment = async () => { if (!novoTexto.trim() || !userId) return; const sup = getBrowserClient(); const { data } = await sup.from("comentarios").insert({ questao_id: qs[idx].id, user_id: userId, user_name: userProfile?.nome || "Usuário", user_avatar: userProfile?.avatar_url || null, texto: novoTexto }).select("id, questao_id, user_id, user_name, user_avatar, texto, created_at").single(); if (data) { data.user_id = userId; setComentarios(prev => [...prev, data]); } setNovoTexto(""); };
 
   if (loading) return <div className="min-h-screen flex items-center justify-center text-sm text-muted-foreground">Carregando questões...</div>;
   if (!qs.length) return <div className="min-h-screen flex items-center justify-center"><div className="text-center"><p className="text-muted-foreground mb-4">Sem questões.</p><Link href={`/simulado/${slugParam}`} className="text-sm text-primary">&larr; Voltar</Link></div></div>;
@@ -339,8 +334,9 @@ function ExamPage() {
       {showApoio && q && textoApoioMap[q.texto_apoio_id || ""] && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50" onClick={() => setShowApoio(false)}>
           <div className="bg-card border rounded-card p-6 max-w-lg w-full mx-4 max-h-[85vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
-            <div className="flex items-center justify-between mb-3"><h3 className="font-bold text-sm">Texto de apoio — Questão {idx + 1}</h3><Button variant="ghost" size="sm" onClick={() => setShowApoio(false)}>✕</Button></div>
-            <div className="text-base text-muted-foreground whitespace-pre-wrap border-l-2 border-muted pl-3 italic leading-relaxed text-justify">{textoApoioMap[q.texto_apoio_id || ""]}</div>
+            <div className="flex items-center justify-between mb-3"><h3 className="font-bold text-sm">{textoApoioMap[q.texto_apoio_id || ""].titulo || `Texto de apoio — Questão ${idx + 1}`}</h3><Button variant="ghost" size="sm" onClick={() => setShowApoio(false)}>✕</Button></div>
+            <div className="text-base text-muted-foreground whitespace-pre-wrap border-l-2 border-muted pl-3 italic leading-relaxed text-justify">{textoApoioMap[q.texto_apoio_id || ""].corpo}</div>
+            {textoApoioMap[q.texto_apoio_id || ""].fonte && <p className="text-xs text-muted-foreground/70 mt-2 not-italic">Fonte: {textoApoioMap[q.texto_apoio_id || ""].fonte}</p>}
           </div>
         </div>
       )}

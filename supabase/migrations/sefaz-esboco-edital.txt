@@ -1,0 +1,106 @@
+﻿
+DISCIPLINA
+QTDE QUESTÕES
+TÓPICOS GERAIS (CONFORME EDITAL)
+SUBTÓPICOS
+Matemática Financeira
+5
+1. Regra de três e proporcionalidades; 2. Juros simples e compostos; 3. Capitalização e desconto; 4. Taxas (nominal, efetiva, equivalente, real, aparente); 5. Rendas; 6. Sistemas de amortização (Price, SAC, SAM); 7. Cálculo financeiro; 8. Avaliação de projetos; 9. TIR
+Todos os 9 itens listados
+Direito Constitucional
+5
+1. CF/88; 2. Aplicabilidade das normas; 3. Direitos e garantias fundamentais; 4. Organização político-administrativa; 5. Administração pública; 6. Poder Executivo; 7. Poder Legislativo (estrutura, processo legislativo, CPIs); 8. Poder Judiciário; 9. Funções essenciais à justiça; 10. Controle de constitucionalidade (inclusive súmula vinculante); 11. Ordem econômica; 12. Finanças públicas
+Todos os 12 itens
+Direito Administrativo
+5
+1. Estado, governo e Adm. Pública; 2. Direito Adm. (conceito, fontes); 3. Ato administrativo (requisitos, atributos, extinção); 4. Agentes públicos (cargo, emprego, estabilidade, processo disciplinar); 5. Poderes da Adm.; 6. Regime jurídico-administrativo (princípios); 7. Responsabilidade civil do Estado; 8. Serviços públicos (concessão, permissão); 9. Organização administrativa (centralização, descentralização, autarquias, OS, OSCIP); 10. Controle da Adm. (improbidade - Lei 8.429); 11. Processo adm.; 12. Licitações e contratos (Lei 14.133/2021 e Decreto 11.462/2013)
+Todos os 12 itens
+Contabilidade Geral
+5
+1. Conceitos e finalidades; 2. Patrimônio (equação, situação líquida); 3. Atos e fatos adm.; 4. Contas (débito, crédito); 5. Plano de contas; 6. Escrituração (lançamentos, regime caixa/competência); 7. Operações diversas (juros, tributos, folha, depreciação); 8. Balancete; 9. Balanço Patrimonial; 10. DRE; 11. NBC
+Todos os 11 itens
+Direito Tributário
+10
+1. Sistema Tributário Nacional (princípios, limitações); 2. Conceito e princípios; 3. Tributos (espécies, impostos da União/Estados/Municípios, imunidades); 4. Repartição de receitas; 5. CTN (competência, normas, vigência, interpretação); 6. Obrigação tributária (fato gerador, sujeitos); 7. Responsabilidade tributária (sucessão, solidariedade); 8. Crédito tributário (lançamento, suspensão, extinção, decadência, repetição); 9. Garantias; 10. Administração tributária (fiscalização, sigilo, certidões); 11. Lei Complementar 118/2005; 12. Lei 8.137/1990 (crimes tributários)
+Todos os 12 itens
+Estatística e Probabilidade
+10
+1. Estatística descritiva; 2. Análise exploratória (gráficos, medidas de posição/dispersão/assimetria/curtose); 3. Probabilidade (axiomas, condicional, independência); 4. Amostragem (aleatória simples, estratificada, sistemática, conglomerados)
+Todos os 4 itens
+Contabilidade Pública
+10
+1. Conceito e campo; 2. Patrimônio público (ativo/passivo); 3. Variações patrimoniais (receita/despesa sob enfoque patrimonial); 4. Mensuração de ativos (imobilizado, intangível, depreciação); 5. Mensuração de passivos (provisões, contingentes); 6. Tratamento de impostos; 7. Sistema de custos; 8. PCASP; 9. DCASP (BP, Balanço Orçamentário, Financeiro, DVP, Fluxo de Caixa, Mutações do PL, Notas); 10. Transações no setor público; 11. NBC TSP; 12. MCASP 11ª ed.; 13. Regime contábil
+Todos os 13 itens
+Economia
+10
+1. Escassez, CPP, fatores de produção; 2. Microeconomia (oferta/demanda, elasticidades, custos, concorrência, monopólio, bens públicos); 3. Macroeconomia (contas nacionais, PIB, consumo/poupança, multiplicador, políticas de estabilização)
+Todos os 3 itens (grandes blocos)
+
+PROVA OBJETIVA P2 – CONHECIMENTOS ESPECÍFICOS (80 questões)
+DISCIPLINA
+QTDE QUESTÕES
+TÓPICOS GERAIS (CONFORME EDITAL)
+SUBTÓPICOS
+Finanças Públicas
+10
+1. Conceitos, funções do Estado, políticas alocativas/distributivas/estabilização; 2. Política econômica e fiscal (déficit, dívida, reformas); 3. Orçamento público (conceitos, princípios, ciclo); 4. Orçamento no Brasil (PPA, LDO, LOA, créditos); 5. Execução orçamentária (descentralização, controle); 6. Receita pública (estágios, dívida ativa); 7. Despesa pública (restos a pagar, suprimento de fundos); 8. LRF (LC 101/2000) e Lei 4.320/1964; 9. Fluxo de caixa (VPL, TIR); 10. Moeda e SFN (Bacen, meios de pagamento); 11. Setor externo (câmbio); 12. Mercado financeiro brasileiro
+Todos os 12 itens
+Legislação Tributária Estadual
+10
+1. Lei Estadual 5.900/1996 (ICMS); 2. Lei 6.555/2004 (IPVA); 3. Lei 5.077/1989 (ITCD); 4. Lei 6.771/2006 (Processo Adm. Tributário); 5. Lei 8.085/2018 (Programa Contribuinte Arretado)
+Todas as 5 leis (com suas alterações)
+Inteligência Artificial
+10
+1. Fundamentos de IA (relações com ML e Deep Learning); 2. Redes neurais; 3. Deep learning; 4. PLN (mineração de texto); 5. Visão computacional; 6. IA generativa (LLM e RAG)
+Todos os 6 itens
+Desenvolvimento de Sistemas
+10
+1. Modelagem de processos (BPMN, AS-IS/TO-BE); 2. Metodologias ágeis (XP, Scrum, Kanban); 3. CI/CD; 4. Arquitetura de software (3 camadas, DDD, SOA, microsserviços); 5. Integração (API REST); 6. Testes (unitário, integração, TDD); 7. Linguagens (Java, JavaScript); 8. Git; 9. Segurança (OWASP); 10. Conceitos avançados (event-driven, mensageria, CAP, OAuth2/JWT, API Gateway)
+Todos os 10 itens
+Infraestrutura de TIC e Segurança da Informação
+10
+1. Nuvem (IaaS, PaaS, SaaS, serverless, contêineres - Docker/K8s); 2. DevOps/DevSecOps; 3. ITIL v4 (incidentes, problemas, mudanças); 4. Forense (evidências, hash, cadeia de custódia, wipe); 5. Redes (firewall, WAF, proxy, DNS, MPLS, SD-WAN, segmentação); 6. Segurança (Zero Trust, gestão de riscos, vulnerabilidades, PKI, testes de invasão)
+Todos os 6 itens (com diversos subitens)
+Reforma Tributária
+15
+1. EC 132/2023; 2. LC 214/2025; 3. LC 227/2026; 4. Resolução CGIBS 6/2026 e 13/2026; 5. IBS, CBS e Imposto Seletivo; 6. Princípio do destino; 7. Incidência, não incidência, imunidades; 8. Não cumulatividade e créditos; 9. Extinção e ressarcimento; 10. Importação/exportação; 11. Cashback e Cesta Básica; 12. Regimes diferenciados; 13. Comitê Gestor do IBS; 14. Processo Adm. do IBS; 15. Distribuição do IBS; 16. Regras de transição; 17. Split payment; 18. Apuração assistida; 19. Sinter e CIB; 20. Tabela cCredPres; 21. Novas obrigações (DeRE, NF-ABI, NFAg, BP-e Aéreo, NF-e Gás)
+Todos os 21 itens
+Auditoria Fiscal
+15
+1. SPED; 2. MOC NF-e/NFC-e (v7.0); 3. Guia Prático EFD ICMS/IPI (v3.2.2); 4. CT-e e CT-e OS (v4.0); 5. MDF-e (v3.0b); 6. Tabelas CFOP, CST, CSOSN, cBenef; 7. Cruzamento NF-e x EFD; 8. Omissão de receitas, divergências, créditos indevidos
+Todos os 8 itens
+Ciência de Dados
+20
+1. Dado, informação, conhecimento; 2. Coleta e integração; 3. Bancos relacionais (metadados, chaves, relacionamentos); 4. Modelagem relacional/dimensional; 5. SQL; 6. CRISP-DM; 7. Visualização e EDA; 8. Mineração (classificação, associação, regressão, clusterização, anomalias); 9. Aprendizado de máquina (algoritmos, métricas); 10. Big Data; 11. BI
+Todos os 11 itens
+
+PROVA DISCURSIVA P3 (4 questões – valendo peso alto)
+DISCIPLINA
+QTDE QUESTÕES
+TEMA PROVÁVEL (com base no edital)
+Finanças Públicas / LRF
+1
+Fluxo de caixa, VPL/TIR, ou impacto fiscal da LRF (ex: despesa com pessoal, renúncia de receita)
+Reforma Tributária
+1
+IBS/CBS – princípio do destino, não cumulatividade, ou transição do ICMS
+Auditoria Fiscal
+1
+Cruzamento NF-e x EFD, identificação de omissão de receitas, ou análise de créditos indevidos
+Ciência de Dados / IA
+1
+Aplicação de mineração de dados na fiscalização, uso de LLM/RAG, ou modelo preditivo para arrecadação
+
+📊 RESUMO GERAL PARA VOCÊ (TOTAL DE QUESTÕES)
+ETAPA
+TOTAL DE QUESTÕES
+Prova P1 (Básicos)
+60
+Prova P2 (Específicos)
+80
+Prova P3 (Discursiva)
+4 questões dissertativas
+TOTAL GERAL
+140 questões objetivas + 4 discursivas
+
+
