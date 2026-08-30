@@ -94,12 +94,12 @@ export default function SimuladoFilterPage() {
           setConteudos(m);
         }
       }
-      const { data: counts } = await sup.from("questoes").select("disciplina_id, conteudo_id").eq("concurso_id", con.id).in("disciplina_id", discIds);
+      const { data: counts } = await sup.rpc("questoes_counts_por_topico", { p_concurso_id: con.id });
       if (counts) {
         const qc: Record<string, number> = {};
-        (counts as any[]).forEach((q: any) => {
-          qc[q.disciplina_id] = (qc[q.disciplina_id] || 0) + 1;
-          if (q.conteudo_id) qc[q.conteudo_id] = (qc[q.conteudo_id] || 0) + 1;
+        (counts as { disciplina_id: string; conteudo_id: string | null; total: number }[]).forEach((q) => {
+          qc[q.disciplina_id] = (qc[q.disciplina_id] || 0) + q.total;
+          if (q.conteudo_id) qc[q.conteudo_id] = (qc[q.conteudo_id] || 0) + q.total;
         });
         setQuestCounts(qc);
       }
@@ -167,9 +167,9 @@ export default function SimuladoFilterPage() {
   const DiscSection = ({ title, icon: Icon, data, color }: { title: string; icon: any; data: any[]; color: string }) => (
     <div className="mb-6">
       <div className="flex items-center gap-2 mb-3">
-        <Icon className={`w-4 h-4 ${color}`} aria-hidden="true" />
-        <h2 className="font-semibold text-sm">{title}</h2>
-        <Badge variant="secondary" className="text-[10px] h-4 px-1.5">{data.length}</Badge>
+        <Icon className={`w-6 h-6 ${color}`} aria-hidden="true" />
+        <h2 className="font-semibold text-md">{title}</h2>
+        <Badge variant="secondary" className="text-md h-4 px-1.5">{data.length}</Badge>
         <button
           onClick={() =>
             setSelectedDisc(prev => {
@@ -179,7 +179,7 @@ export default function SimuladoFilterPage() {
                 : [...new Set([...prev, ...ids])];
             })
           }
-          className="ml-auto text-xs text-muted-foreground hover:text-foreground transition-colors"
+          className="ml-auto text-md text-muted-foreground hover:text-foreground transition-colors"
           aria-label={data.every((d: any) => selectedDisc.includes(d.id)) ? `Limpar ${title}` : `Selecionar todas ${title}`}
         >
           {data.every((d: any) => selectedDisc.includes(d.id)) ? "Limpar" : "Todas"}
@@ -203,7 +203,7 @@ export default function SimuladoFilterPage() {
                 <button
                   onClick={() => toggleExpand(d.id)}
                   onMouseDown={(e) => e.preventDefault()}
-                  className="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-muted/50 transition-colors rounded-t-lg"
+                  className="w-full flex items-center gap-3 px-3 py-1 text-left hover:bg-muted/50 transition-colors rounded-t-lg"
                   aria-expanded={isOpen}
                   aria-label={`${d.nome}${sel ? " (selecionada)" : ""}`}
                 >
@@ -213,10 +213,10 @@ export default function SimuladoFilterPage() {
                     onClick={e => e.stopPropagation()}
                     aria-label={`Selecionar ${d.nome}`}
                   />
-                  <span className="text-sm flex-1">
+                  <span className="text-md flex-1">
                     {d.nome}
                     {questCounts[d.id] !== undefined && (
-                      <span className="text-[10px] text-muted-foreground ml-1 font-mono">({questCounts[d.id]})</span>
+                      <span className="text-[12px] text-blue-500 ml-1 font-mono">({questCounts[d.id]})</span>
                     )}
                   </span>
                   {dConts.length > 0 ? (
@@ -232,24 +232,24 @@ export default function SimuladoFilterPage() {
                 </button>
                 {isOpen && dConts.length > 0 && (
                   <div className="border-t px-4 py-3">
-                    <div className="max-h-52 overflow-y-auto space-y-3">
+                    <div className="max-h-64 overflow-y-auto space-y-3">
                       {itensOrdenados.map((it: any) =>
                         it.tipo === "unidade" ? (
                           <div key={`u-${it.unidade.id}`}>
-                            <p className="text-[11px] font-medium text-muted-foreground mb-1.5">{it.unidade.nome}</p>
+                            <p className="text-md font-medium text-muted-foreground mb-1.5">{it.unidade.nome}</p>
                             <div className="grid gap-2 pl-1">
                               {it.topicos.map((ct: any) => (
-                                <label key={ct.id} className="flex items-start gap-2.5 cursor-pointer py-1">
+                                <label key={ct.id} className="flex text-md items-start gap-2.5 cursor-pointer py-1">
                                   <Checkbox
                                     checked={selectedCont.includes(ct.id)}
                                     onCheckedChange={() => toggleCont(ct.id)}
                                     className="mt-0.5"
                                     aria-label={`Selecionar conteúdo ${ct.nome}`}
                                   />
-                                  <span className="text-xs text-muted-foreground leading-relaxed">
+                                  <span className="text-md text-muted-foreground leading-relaxed">
                                     {ct.nome}
                                     {questCounts[ct.id] !== undefined && (
-                                      <span className="text-[10px] font-medium ml-1 font-mono">({questCounts[ct.id]})</span>
+                                      <span className="text-md font-medium text-blue-500 ml-1 font-mono">({questCounts[ct.id]})</span>
                                     )}
                                   </span>
                                 </label>
@@ -265,10 +265,10 @@ export default function SimuladoFilterPage() {
                                 className="mt-0.5"
                                 aria-label={`Selecionar conteúdo ${it.topico.nome}`}
                               />
-                              <span className="text-xs text-muted-foreground leading-relaxed">
+                              <span className="text-md text-muted-foreground leading-relaxed">
                                 {it.topico.nome}
                                 {questCounts[it.topico.id] !== undefined && (
-                                  <span className="text-[10px] font-medium ml-1 font-mono">({questCounts[it.topico.id]})</span>
+                                  <span className="text-md font-medium ml-1 text-blue-500 font-mono">({questCounts[it.topico.id]})</span>
                                 )}
                               </span>
                             </label>
@@ -353,9 +353,8 @@ export default function SimuladoFilterPage() {
           <Card className="sticky bottom-4">
             <CardContent className="p-4">
               <div className="flex items-center justify-between mb-3">
-                <span className="text-xs text-muted-foreground">
+                <span className="text-sm text-muted-foreground">
                   {QTD_QUESTOES} questões por simulado
-                  <span className="block text-[10px] mt-0.5">Escolher outras quantidades (10, 20...) chega na versão paga.</span>
                 </span>
                 <span className="text-lg font-bold tabular-nums">{QTD_QUESTOES}</span>
               </div>

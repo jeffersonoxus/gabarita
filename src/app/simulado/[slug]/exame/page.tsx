@@ -85,34 +85,17 @@ function ExamPage() {
       const concursoId = con.id;
       setCid(concursoId); setConcursoNome(con.nome); setPontuacaoTipo(con.pontuacao_tipo || "tradicional");
 
-      let q = sup.from("questoes").select("id, concurso_id, disciplina_id, conteudo_id, enunciado, alternativa_a, alternativa_b, alternativa_c, alternativa_d, alternativa_e, gabarito, tipo, texto_apoio_id, imagem_url, created_at, fonte_banca, fonte_ano, fonte_orgao, fonte_cargo, adaptada").eq("concurso_id", concursoId);
-      if (disc?.length) q = q.in("disciplina_id", disc.split(","));
-      if (cont?.length) q = q.in("conteudo_id", cont.split(","));
-      const { data, error } = await q;
+      const { data, error } = await sup.rpc("sortear_questoes", {
+        p_concurso_id: concursoId,
+        p_disciplina_ids: disc?.length ? disc.split(",") : null,
+        p_conteudo_ids: cont?.length ? cont.split(",") : null,
+        p_qtd: qtd,
+      });
       if (error || !data || data.length === 0) { setQs([]); setLoading(false); return; }
 
-      // Group by content, shuffle, round-robin
-      const groups = new Map<string, any[]>();
-      data.forEach((q: any) => {
-        const key = q.conteudo_id || q.disciplina_id || "geral";
-        if (!groups.has(key)) groups.set(key, []);
-        groups.get(key)!.push(q);
-      });
-      for (const g of groups.values()) {
-        for (let i = g.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [g[i], g[j]] = [g[j], g[i]]; }
-      }
-      const keys = Array.from(groups.keys());
-      const selected: any[] = []; let round = 0;
-      while (selected.length < qtd) {
-        let added = false;
-        for (const key of keys) {
-          if (selected.length >= qtd) break;
-          const g = groups.get(key)!;
-          if (round < g.length) { selected.push(g[round]); added = true; }
-        }
-        if (!added) break; round++;
-      }
-      const sh = selected.length > 0 ? [...selected].sort(() => Math.random() - 0.5) : [...data].sort(() => Math.random() - 0.5).slice(0, qtd);
+      // A função já devolve as questões sorteadas e balanceadas por tópico;
+      // só embaralha a ordem final de exibição.
+      const sh = [...data].sort(() => Math.random() - 0.5);
       setQs(sh); setAns(sh.map((q: Questao) => ({ questao_id: q.id, resposta: "" }))); setTimer(sh.length * 180);
 
       if (sh.length) {
